@@ -320635,4 +320635,9 @@ Nederland NL
 Spanje E
 Italië I
 [thomas@localhost labo3]$ cat landenkentekens2echo "Italië I" >>I
-> Spanje ES
+> Spanje ES"
+Italië I
+Spanje ES
+[thomas@localhost labo3]$ echo "Italië I
+Spanje ES"
+
