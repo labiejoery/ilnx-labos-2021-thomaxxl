@@ -9,4 +9,28 @@ Last login: Wed Oct 14 09:18:16 2020 from 192.168.193.1
  Documenten          file1              linux.tar.bz2              test.txt
  documents.tar.bz2   file2              Muziek                    "Video's"
 [thomas@localhost ~]$ find / -type d > all.txt 2>&1
-[thomas@localhost ~]$ 
+[thomas@localhost ~]$ less all.txt 7
+/
+/boot
+/boot/extlinux
+/boot/loader
+/boot/loader/entries
+find: /boot/loader/entries: Toegang geweigerd
+/boot/efi
+find: /boot/efi: Toegang geweigerd
+/boot/lost+found
+find: /boot/lost+found: Toegang geweigerd
+/boot/grub2
+find: /boot/grub2: Toegang geweigerd
+/proc
+/proc/fs
+/proc/fs/ext4
+/proc/fs/ext4/dm-0
+/proc/fs/ext4/sda1
+/proc/fs/jbd2
+/proc/fs/jbd2/dm-0-8
+/proc/fs/jbd2/sda1-8
+/proc/fs/nfsd
+/proc/bus
+/proc/bus/pci
+all.txt
