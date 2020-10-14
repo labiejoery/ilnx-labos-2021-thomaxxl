@@ -558,4 +558,4 @@ The key's randomart image is:
 | .==o. . E       |
 |  +=o            |
 +----[SHA256]-----+
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ ll /tmp/test
