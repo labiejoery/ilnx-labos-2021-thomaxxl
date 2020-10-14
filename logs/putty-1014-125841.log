@@ -2358,4 +2358,4 @@ webpush         1001/tcp                # HTTP Web Push
 vdmmesh-disc    18668/udp               # Manufacturing Execution Systems Mesh Comm
 vdmmesh         18668/tcp               # Manufacturing Execution Systems Mesh Comm
 edi_service     34567/udp               # dhanalakshmi.org EDI Service
-[thomas@localhost tmp]$ grep -E "s+h" /etc/servicescat 
+[thomas@localhost tmp]$ grep -E "s+h" /etc/servicescat gr
