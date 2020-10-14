@@ -886,4 +886,4 @@ DESCRIPTION
        --help display this help and exit
 
        --version
- Manual page fmt(1) line 1 (press h for help or q to quit)
+ Manual page fmt(1) line 1 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man fmtcut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 
