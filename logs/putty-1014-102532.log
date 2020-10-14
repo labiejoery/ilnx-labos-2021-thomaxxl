@@ -121031,4 +121031,4 @@ vdmmesh-disc    18668/udp               # Manufacturing Execution Systems Mesh C
 vdmmesh         18668/tcp               # Manufacturing Execution Systems Mesh Comm
 edi_service     34567/udp               # dhanalakshmi.org EDI Service
 spremotetablet  46998/tcp               # Capture handwritten signatures
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.*h"*h".*h"cat /etc/services | grep -E "s.*h"*h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.*h"*h".*h"cat /etc/services | grep -E "s.*h"*h".h"
