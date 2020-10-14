@@ -319852,4 +319852,4 @@ tacacs49/tcp# Login Host Protocol (TACACS)30,10%dd
 tacacs49/udp# Login Host Protocol (TACACS)30,10%dd  
 re-mail-ck      50/tcp# Remote Mail Checking Protocol30,10%dd  
 re-mail-ck      50/udp# Remote Mail Checking Protocol30,10%dd  
-domain53/tcp# name-domain server30,10%d
+domain53/tcp# name-domain server30,10%dpE99: huidige buffer is niet in diff-modus30,10%~@k   1~@k   0
