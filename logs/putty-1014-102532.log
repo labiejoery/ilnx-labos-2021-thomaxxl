@@ -121073,4 +121073,4 @@ ssh-mgmt        17235/udp               # SSH Tectia Manager
 #
 # Each line describes one service, and is of the form:
 #
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -20 /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -20 /etc/services tail
