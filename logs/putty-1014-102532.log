@@ -376,3 +376,8 @@ Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ git commit -a m m "test"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
