@@ -320622,4 +320622,6 @@ Frankrijk F
 Zwitserland CH
 Duitsland D
 Nederland NL
-[thomas@localhost labo3]$ echo "Sp>> 
+[thomas@localhost labo3]$ echo "Sp>> Spanje E
+Spanje E
+[thomas@localhost labo3]$ echo Spanje E
