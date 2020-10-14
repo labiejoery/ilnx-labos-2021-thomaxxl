@@ -557,4 +557,4 @@ sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
 vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
 tcpdump:x:72:72::/:/sbin/nologin
 thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 
