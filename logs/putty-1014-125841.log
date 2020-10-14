@@ -2412,4 +2412,5 @@ tcpdump:x:72:72::/:/sbin/nologin
 [thomas@localhost tmp]$ grep n$ /etc/passwdh
 root:x:0:0:root:/root:/bin/bash
 thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ grep h$ /etc/passwdbash
+[thomas@localhost tmp]$ grep bashh$ /etc/passwd
