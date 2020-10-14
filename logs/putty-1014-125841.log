@@ -17,4 +17,4 @@ origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (push)
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/thomas/.ssh/id_rsa): ^C
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /home/thomas/.ssh/id_rsa
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /home/thomas/.ssh/id_rsa.pub 
