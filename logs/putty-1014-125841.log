@@ -2610,4 +2610,4 @@ tcpdump:x:72:
 thomas:x:1000:
 [thomas@localhost tmp]$ 
 [thomas@localhost tmp]$ 
-[thomas@localhost tmp]$ paste /etc/passwd /etc/groupcat -n /etc/passwdnl
+[thomas@localhost tmp]$ paste /etc/passwd /etc/groupcat -n /etc/passwdnl /etc/passwds /etc/passwde /etc/passwd
