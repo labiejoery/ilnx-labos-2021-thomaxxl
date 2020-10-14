@@ -307906,4 +307906,10 @@ lijn C
 lijn C
 lijn A
 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt | uniq
+lijn A
+lijn B
+lijn C
+lijn A
+
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
