@@ -472809,3 +472809,14 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
 # Updated from RFC 1700, ``Assigned Numbers'' (October 1994).  Not all ports
 # are included, only the more common ones.
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+# /etc/services:
+# $Id: services,v 1.49 2017/08/18 12:43:23 ovasik Exp $
+#
+# Network services, Internet style
+# IANA services version: last updated 2016-07-08
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, most entries here have two entries
+# even if the protocol doesn't support UDP operations.
+# Updated from RFC 1700, ``Assigned Numbers'' (October 1994).  Not all ports
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
