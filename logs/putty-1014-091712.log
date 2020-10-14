@@ -9,4 +9,7 @@ Last login: Wed Oct 14 09:12:07 2020 from 192.168.193.1
  Documenten          file1              linux.tar.bz2              test.txt
  documents.tar.bz2   file2              Muziek                    "Video's"
 [thomas@localhost ~]$ cd ilnx-labos-2021-thomaxxl/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git remote -v
+origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (fetch)
+origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (push)
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
