@@ -540,3 +540,22 @@ omas:x:1
 [thomas@localhost tmp]$ [thomas@localhost tmp]$ ssh-keygen 
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/thomas/.ssh/id_rsa): /tmp/test
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /tmp/test
+Your public key has been saved in /tmp/test.pub
+The key fingerprint is:
+SHA256:RIkwP/AvtEYB7cTKrkfpUprQDc61iFb4pCbm55Pp1+U thomas@localhost.localdomain
+The key's randomart image is:
++---[RSA 3072]----+
+|    ==....       |
+|     ==o.        |
+|  .. +* .        |
+| ..o+o.=         |
+| ==* o+ S        |
+|+==.B. . .       |
+|*. Bo . o        |
+| .==o. . E       |
+|  +=o            |
++----[SHA256]-----+
+[thomas@localhost tmp]$ 
