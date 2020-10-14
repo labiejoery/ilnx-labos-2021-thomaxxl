@@ -584,4 +584,141 @@ tl1-ssh         6252/tcp                # TL1 over SSH
 tl1-ssh         6252/udp                # TL1 over SSH
 ssh-mgmt        17235/tcp               # SSH Tectia Manager
 ssh-mgmt        17235/udp               # SSH Tectia Manager
-[thomas@localhost tmp]$ grep ssh /etc/services grep ssh /etc/services -E "|we
+[thomas@localhost tmp]$ grep ssh /etc/services grep ssh /etc/services -E "|web"
+ssh             22/tcp                          # The Secure Shell (SSH) Protocol
+ssh             22/udp                          # The Secure Shell (SSH) Protocol
+webster         765/tcp                         # Network dictionary
+webster         765/udp
+squid           3128/tcp        ndl-aas         # squid web proxy
+x11-ssh-offset  6010/tcp                        # SSH X11 forwarding offset
+webcache        8080/tcp        http-alt        # WWW caching service
+webcache        8080/udp        http-alt        # WWW caching service
+ssh             22/sctp                 # SSH
+asip-webadmin   311/tcp                 # AppleShare IP WebAdmin
+asip-webadmin   311/udp                 # AppleShare IP WebAdmin
+sco-websrvrmg3  598/tcp                 # SCO Web Server Manager 3
+sco-websrvrmg3  598/udp                 # SCO Web Server Manager 3
+sshell          614/tcp                 # SSLshell
+sshell          614/udp                 #       SSLshell
+sco-websrvrmgr  620/tcp                 # SCO WebServer Manager
+sco-websrvrmgr  620/udp                 # SCO WebServer Manager
+oob-ws-http     623/tcp                 # DMTF out-of-band web services management protocol
+oob-ws-https    664/tcp                 # DMTF out-of-band secure web services management protocol
+netconf-ssh     830/tcp                 # NETCONF over SSH
+netconf-ssh     830/udp                 # NETCONF over SSH
+webobjects      1085/tcp                # Web Objects
+webobjects      1085/udp                # Web Objects
+webadmstart     1110/tcp                # Start web admin server
+hp-webadmin     1188/tcp                # HP Web Admin
+hp-webadmin     1188/udp                # HP Web Admin
+dellwebadmin-1  1278/tcp                # Dell Web Admin 1
+dellwebadmin-1  1278/udp                # Dell Web Admin 1
+dellwebadmin-2  1279/tcp                # Dell Web Admin 2
+dellwebadmin-2  1279/udp                # Dell Web Admin 2
+web2host        1559/tcp                # web2host
+web2host        1559/udp                # web2host
+webaccess       1739/tcp                # webaccess
+webaccess       1739/udp                # webaccess
+essweb-gw       1772/tcp                # EssWeb Gateway
+essweb-gw       1772/udp                # EssWeb Gateway
+hp-webqosdb     1877/tcp                # hp-webqosdb
+hp-webqosdb     1877/udp                # hp-webqosdb
+webmachine      1963/tcp                # WebMachine
+webmachine      1963/udp                # WebMachine
+weblogin        2054/tcp                # Weblogin Port
+weblogin        2054/udp                # Weblogin Port
+ecwcfg          2263/tcp                # ECweb Configuration Service
+ecwcfg          2263/udp                # ECweb Configuration Service
+cr-websystems   2314/tcp                # CR WebSystems
+cr-websystems   2314/udp                # CR WebSystems
+3com-webview    2339/tcp                # 3Com WebView
+3com-webview    2339/udp                # 3Com WebView
+railgun-webaccl 2408/tcp                # CloudFlare Railgun Web
+combox-web-acc  2534/tcp                # Combox Web Access
+combox-web-acc  2534/udp                # Combox Web Access
+www-dev         2784/tcp                # world wide web - development
+www-dev         2784/udp                # world wide web - development
+repliweb        2837/tcp                # Repliweb
+repliweb        2837/udp                # Repliweb
+webemshttp      2851/tcp                # webemshttp
+webemshttp      2851/udp                # webemshttp
+webmethods-b2b  2907/tcp                # WEBMETHODS B2B
+webmethods-b2b  2907/udp                # WEBMETHODS B2B
+amx-webadmin    2929/tcp                # AMX-WEBADMIN
+amx-webadmin    2929/udp                # AMX-WEBADMIN
+amx-weblinx     2930/tcp                # AMX-WEBLINX
+amx-weblinx     2930/udp                # AMX-WEBLINX
+pmsm-webrctl    2972/tcp                # PMSM Webrctl
+pmsm-webrctl    2972/udp                # PMSM Webrctl
+trusted-web     3011/tcp                # Trusted Web
+trusted-web     3011/udp                # Trusted Web
+d2000webserver  3120/tcp                # D2000 Webserver Port
+d2000webserver  3120/udp                # D2000 Webserver Port
+navegaweb-port  3159/tcp                # NavegaWeb Tarification
+navegaweb-port  3159/udp                # NavegaWeb Tarification
+directv-web     3334/tcp                # Direct TV Webcasting
+directv-web     3334/udp                # Direct TV Webcasting
+webtie          3342/tcp                # WebTIE
+webtie          3342/udp                # WebTIE
+websphere-snmp  3427/tcp                # WebSphere SNMP
+websphere-snmp  3427/udp                # WebSphere SNMP
+ov-nnm-websrv   3443/tcp                # OpenView Network Node Manager WEB Server
+ov-nnm-websrv   3443/udp                # OpenView Network Node Manager WEB Server
+interactionweb  3508/tcp                # Interaction Web
+interactionweb  3508/udp                # Interaction Web
+webmail-2       3511/tcp                # WebMail/2
+webmail-2       3511/udp                # WebMail/2
+mccwebsvr-port  3570/tcp                # MCC Web Server Port
+mccwebsvr-port  3570/udp                # MCC Web Server Port
+webdata         3748/tcp                # webData
+webdata         3748/udp                # webData
+sdo-ssh         3897/tcp                # Simple Distributed Objects over SSH
+sdo-ssh         3897/udp                # Simple Distributed Objects over SSH
+syam-webserver  3930/tcp                # Syam Web Server Port
+syam-webserver  3930/udp                # Syam Web Server Port
+homeportal-web  3941/tcp                # Home Portal Web Server
+homeportal-web  3941/udp                # Home Portal Web Server
+jaxer-web       4327/tcp                # Jaxer Web Protocol
+jaxer-web       4327/udp                # Jaxer Web Protocol
+netconf-ch-ssh  4334/tcp                # NETCONF Call Home (SSH) 
+webyast         4984/tcp                # WebYast
+snmpssh         5161/tcp                # SNMP over SSH Transport Model
+snmpssh-trap    5162/tcp                # SNMP Notification over SSH Transport Model
+bis-web         5584/tcp                # BeInSync-Web
+bis-web         5584/udp                # BeInSync-Web
+shiprush-d-ch   5841/tcp                # Z-firm ShipRush interface for web access and bidirectional data
+spdy            6121/tcp                # SPDY for a faster web
+bex-webadmin    6122/tcp                # Backup Express Web Server
+bex-webadmin    6122/udp                # Backup Express Web Server
+tl1-ssh         6252/tcp                # TL1 over SSH
+tl1-ssh         6252/udp                # TL1 over SSH
+e-design-web    6703/tcp                # e-Design web
+e-design-web    6703/udp                # e-Design web
+talon-webserver 7015/tcp                # Talon Webserver
+talon-webserver 7015/udp                # Talon Webserver
+lm-webwatcher   8208/tcp                # LM Webwatcher
+lm-webwatcher   8208/udp                # LM Webwatcher
+sunwebadmin     8800/tcp                # Sun Web Server Admin Service
+sunwebadmin     8800/udp                # Sun Web Server Admin Service
+sunwebadmins    8989/tcp                # Sun Web Server SSL Admin Service
+sunwebadmins    8989/udp                # Sun Web Server SSL Admin Service
+http-wmap       8990/tcp                # webmail HTTP service
+http-wmap       8990/udp                # webmail HTTP service
+https-wmap      8991/tcp                # webmail HTTPS service
+https-wmap      8991/udp                # webmail HTTPS service
+websm           9090/tcp                # WebSM
+websm           9090/udp                # WebSM
+suncacao-websvc 11165/tcp               # sun cacao web service access point
+suncacao-websvc 11165/udp               # sun cacao web service access point
+oemcacao-websvc 11175/tcp               # OEM cacao web service access point
+ca-web-update   14414/tcp               # CA eTrust Web Update Service
+ca-web-update   14414/udp               # CA eTrust Web Update Service
+ssh-mgmt        17235/tcp               # SSH Tectia Manager
+ssh-mgmt        17235/udp               # SSH Tectia Manager
+openwebnet      20005/tcp               # OpenWebNet protocol for electric network
+openwebnet      20005/udp               # OpenWebNet protocol for electric network
+webphone        21845/tcp               # webphone
+webphone        21845/udp               # webphone
+webpush         1001/tcp                # HTTP Web Push
+pmwebapi        44323/tcp               # Performance Co-Pilot client HTTP API
+[thomas@localhost tmp]$ grep -E "ssh|web" /etc/services 
