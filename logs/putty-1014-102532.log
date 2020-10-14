@@ -472819,4 +472819,4 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
 # port number for both TCP and UDP; hence, most entries here have two entries
 # even if the protocol doesn't support UDP operations.
 # Updated from RFC 1700, ``Assigned Numbers'' (October 1994).  Not all ports
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/Id/d' | head
