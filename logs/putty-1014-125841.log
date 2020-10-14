@@ -3065,4 +3065,10 @@ nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
 #
 # Network services, Internet style
 # IANA services version: last updated 2016-07-08
-[thomas@localhost tmp]$ head -5 /etc/services 
+[thomas@localhost tmp]$ head -5 /etc/services tail
+axio-disc       35100/udp               # Axiomatic discovery protocol
+pmwebapi        44323/tcp               # Performance Co-Pilot client HTTP API
+cloudcheck-ping 45514/udp               # ASSIA CloudCheck WiFi Management keepalive
+cloudcheck      45514/tcp               # ASSIA CloudCheck WiFi Management System
+spremotetablet  46998/tcp               # Capture handwritten signatures
+[thomas@localhost tmp]$ 
