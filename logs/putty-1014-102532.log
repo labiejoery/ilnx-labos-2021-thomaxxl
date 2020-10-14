@@ -121477,4 +121477,4 @@ shutdown:x:6:0:shutdown:/sbin:/sbin/shutdowndisk:x:6:
 halt:x:7:0:halt:/sbin:/sbin/haltlp:x:7:
 mail:x:8:12:mail:/var/spool/mail:/sbin/nologinmem:x:8:
 operator:x:11:0:operator:/root:/sbin/nologinkmem:x:9:
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2paste p1 p2 
