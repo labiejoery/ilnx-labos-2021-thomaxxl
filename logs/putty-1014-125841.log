@@ -307920,4 +307920,4 @@ xx C
 xx C
 xx A
 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt | sed 's/lijn/xx/'uniqvicat | uniqsed 's/lijn/xx/'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt | sed 's/lijn/xx/'uniqvicat | uniqsed 's/lijn/xx/'(reverse-i-search)`':
