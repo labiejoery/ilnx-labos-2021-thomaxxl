@@ -795,4 +795,4 @@ shd:
 boxa
 cpdu
 homa
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2-5 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2-5 /e
