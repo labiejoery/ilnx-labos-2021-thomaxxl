@@ -3090,3 +3090,9 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
      4# Network servXces, Internet style
      5# IANA servXces versXon: last updated 2016-07-08
 [thomas@localhost tmp]$ nl /etc/services | head -5   |  tr i X'[a-z]' '[A-Z]'
+     1# /ETC/SERVICES:
+     2# $ID: SERVICES,V 1.49 2017/08/18 12:43:23 OVASIK EXP $
+     3#
+     4# NETWORK SERVICES, INTERNET STYLE
+     5# IANA SERVICES VERSION: LAST UPDATED 2016-07-08
+[thomas@localhost tmp]$ 
