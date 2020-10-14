@@ -48,4 +48,6 @@ Overwrite (y/n)? ^C
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/
+id_rsa  id_rsa.pub  known_hosts
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
