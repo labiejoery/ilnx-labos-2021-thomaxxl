@@ -307881,4 +307881,10 @@ Kim Clijsters, BEL
 Justine Henin, Bel
 Serena Williams, usa
 Venus Williams, USA
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt | tr 'a-z' 'A-Z'
+AMELIE MAURESMO, FRA
+KIM CLIJSTERS, BEL
+JUSTINE HENIN, BEL
+SERENA WILLIAMS, USA
+VENUS WILLIAMS, USA
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
