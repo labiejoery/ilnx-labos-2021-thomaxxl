@@ -122419,4 +122419,8 @@ lijn 1
 lijn 5
 lijn 5
 lijn 1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat test.txt  | uniq
+lijn 1
+lijn 5
+lijn 1
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
