@@ -100,4 +100,4 @@ drwxrwxr-x. 3 thomas thomas  4096 14 okt 10:38 labo8
 -rw-rw-r--. 1 thomas thomas  3913 14 okt 10:38 labo-8-complex-scripts.md
 drwxrwxr-x. 2 thomas thomas  4096 14 okt 10:38 logs
 -rw-rw-r--. 1 thomas thomas  3369 14 okt 10:38 README.md
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-
