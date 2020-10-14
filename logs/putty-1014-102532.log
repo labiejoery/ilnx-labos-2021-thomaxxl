@@ -402,4 +402,4 @@ Updating 20b71e1..fc937f0
 Fast-forward
  logs/putty-1014-102532.log | 332 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
  1 file changed, 331 insertions(+), 1 deletion(-)
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh)
