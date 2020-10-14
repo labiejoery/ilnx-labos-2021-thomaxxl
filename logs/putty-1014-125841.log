@@ -320237,4 +320237,5 @@ drwxrwxr-x. 3 thomas thomas   4096 13 okt 16:38 labo8
 totaal 8
 -rw-rw-r--. 1 thomas thomas 2738 13 okt 16:38 lorem.txt
 -rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cd labo3
+[thomas@localhost labo3]$ ll
