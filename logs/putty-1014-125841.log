@@ -292,4 +292,4 @@ Typ 'cut --help' voor meer informatie.
 978
 72
 1000
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ cut -f 3 -d : /etc/passwd cut -f 3 -d : /etc/passwd c
