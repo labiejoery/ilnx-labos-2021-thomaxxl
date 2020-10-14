@@ -3084,3 +3084,9 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
 [thomas@localhost tmp]$ head -5 /etc/services  | tail -1nl /etc/services | 
      5# IANA services version: last updated 2016-07-08
 [thomas@localhost tmp]$ nl /etc/services | head -5   | tail -1 tr Xi X
+     1# /etc/servXces:
+     2# $Id: servXces,v 1.49 2017/08/18 12:43:23 ovasXk Exp $
+     3#
+     4# Network servXces, Internet style
+     5# IANA servXces versXon: last updated 2016-07-08
+[thomas@localhost tmp]$ 
