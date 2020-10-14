@@ -152,4 +152,4 @@ labo-6-scripts.md
 labo-7-webserver.md
 labo8
 labo-8-complex-scripts.md
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labo
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labols | grep labo
