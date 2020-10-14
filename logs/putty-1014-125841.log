@@ -307858,4 +307858,6 @@ ZYMED-ZPP
 85386
 [thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | uniq | wc -l
 303369
-[thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | wc -luniq | 
+[thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | wc -luniq | sort | 
+23969
+[thomas@localhost tmp]$ 
