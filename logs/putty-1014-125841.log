@@ -3010,4 +3010,4 @@ systemd-timesync:x:996:991:systemd Time Synchronization:/:/sbin/nologin
 polkitd:x:997:994:User for polkitd:/:/sbin/nologin
 gluster:x:998:996:GlusterFS daemons:/run/gluster:/sbin/nologin
 systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
-[thomas@localhost tmp]$ cat /etc/passwd | sort -t : -k 3
+[thomas@localhost tmp]$ cat /etc/passwd | sort -t : -k 3 -n
