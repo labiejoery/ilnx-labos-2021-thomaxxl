@@ -319890,4 +319890,4 @@ netrjs-272/tcp# Remote Job Service42,220%~@k
 netrjs-272/udp# Remote Job Service43,650%~@k   2,22~@k   1J 
 tcp tftp69/udpnetrjs-373/tcp# Remote Job Service41,230%J  gopher70/tcp# Inteernet Gopher46J 
 tftp            69/tcp tftp69/udp gopher70/tcp# Inteernet Gopher gopher          70/udpnetrjs-373/udp# Remote Job Service41,1120%J  netrjs-1        71/tcp                          # Remote Job Servvice35~@k   
-netrjs-474/tcp# Remote Job Service42,680%
+netrjs-474/tcp# Remote Job Service42,680%0 1 ~@k   1~@k   0~@k   39
