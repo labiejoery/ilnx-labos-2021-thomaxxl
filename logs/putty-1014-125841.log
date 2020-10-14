@@ -320562,4 +320562,11 @@ DESCRIPTION
 4 D Duitsland
 5 NL Nederland
 [thomas@localhost labo3]$ join -j 1 autokentekens landen join -j 1 autokentekens landen   > landenkentekens
+[thomas@localhost labo3]$ cat !$
+cat landenkentekens
+1 B België
+2 F Frankrijk
+3 CH Zwitserland
+4 D Duitsland
+5 NL Nederland
 [thomas@localhost labo3]$ 
