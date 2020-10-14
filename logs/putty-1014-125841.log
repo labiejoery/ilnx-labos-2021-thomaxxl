@@ -2359,3 +2359,9 @@ vdmmesh-disc    18668/udp               # Manufacturing Execution Systems Mesh C
 vdmmesh         18668/tcp               # Manufacturing Execution Systems Mesh Comm
 edi_service     34567/udp               # dhanalakshmi.org EDI Service
 [thomas@localhost tmp]$ grep -E "s+h" /etc/servicescat grep ^r /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+[thomas@localhost tmp]$ grep ^r /etc/passwd
