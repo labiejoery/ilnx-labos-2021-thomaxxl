@@ -319870,4 +319870,7 @@ domain53/udp
 whois++63/tcpwhoispp
 whois++63/udpwhoispp
 bootps67/tcp# BOOTP server
-bootps67/udp36,10%10 fewer lines36,10%4yy4 lines yanked36,10%^M  7~@k   6
+bootps67/udp36,10%10 fewer lines36,10%4yy4 lines yanked36,10%^M  7~@k   6Pmore linesnameserver      42/tcpname# IEN 116
+nameserver      42/udpname# IEN 116
+nicname43/tcpwhois
+nicname43/udpwhois36,10%4 more lines36,10%
