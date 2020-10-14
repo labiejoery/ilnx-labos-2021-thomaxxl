@@ -3078,3 +3078,5 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
 [thomas@localhost tmp]$ 
 [thomas@localhost tmp]$ 
 [thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ tail -5 /etc/services head |
