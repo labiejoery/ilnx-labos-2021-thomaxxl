@@ -307861,4 +307861,5 @@ ZYMED-ZPP
 [thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | wc -luniq | sort | 
 23969
 [thomas@localhost tmp]$ cd
-[thomas@localhost ~]$ c 
+[thomas@localhost ~]$ c d ilnx-labos-2021-thomaxxl/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi 
