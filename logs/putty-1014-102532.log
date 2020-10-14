@@ -264,4 +264,4 @@ csnet-ns        105/tcp         cso             # also used by CSO name server
 csnet-ns        105/udp         cso
 # unfortunately the poppassd (Eudora) uses a port which has already
 # been assigned to a different service. We list the poppassd as an
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2
