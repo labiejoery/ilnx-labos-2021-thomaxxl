@@ -121236,4 +121236,4 @@ JOIN(1)                                 User Commands                           
  Manual page join(1) line 9 (press h for help or q to quit) ESCESCOOBB              treat  the  first line in each file as field headers, print them without trying
  Manual page join(1) line 10 (press h for help or q to quit) ESCESCOOBB              to pair them
  Manual page join(1) line 11 (press h for help or q to quit) ESCESCOOBB
- Manual page join(1) line 12 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+ Manual page join(1) line 12 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /et
