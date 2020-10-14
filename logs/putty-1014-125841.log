@@ -319581,3 +319581,14 @@ for
 the
 RFC
 (END)(END)[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services | awk '{ print $4 }' | less
+
+1.49
+
+Internet
+version:
+
+it
+for
+the
+RFC
+(END)(END)
