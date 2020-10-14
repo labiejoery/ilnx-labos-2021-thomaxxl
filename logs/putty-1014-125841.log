@@ -1865,3 +1865,250 @@ vdmmesh         18668/tcp               # Manufacturing Execution Systems Mesh C
 edi_service     34567/udp               # dhanalakshmi.org EDI Service
 spremotetablet  46998/tcp               # Capture handwritten signatures
 [thomas@localhost tmp]$ grep -E "s.*h" /etc/servicess
+ssh             22/tcp                          # The Secure Shell (SSH) Protocol
+ssh             22/udp                          # The Secure Shell (SSH) Protocol
+# alias here. This should work for programs asking for this service.
+shell           514/tcp         cmd             # no passwords used
+kshell          544/tcp         krcmd           # Kerberized `rsh' (v5)
+bvcontrol       1236/tcp        rmtcfg          # Daniel J. Walsh, Gracilis Packeten remote config server
+bvcontrol       1236/udp                        # Daniel J. Walsh
+nfs             2049/tcp        nfsd shilp      # Network File System
+nfs             2049/udp        nfsd shilp      # Network File System
+nfs             2049/sctp       nfsd shilp      # Network File System
+# running v4 should uncomment these and comment out the v5 entries above.
+x11-ssh-offset  6010/tcp                        # SSH X11 forwarding offset
+ssh             22/sctp                 # SSH
+rsh-spx         222/tcp                 # Berkeley rshd with SPX auth
+rsh-spx         222/udp                 # Berkeley rshd with SPX auth
+shrinkwrap      358/tcp                 # Shrinkwrap
+shrinkwrap      358/udp                 # Shrinkwrap
+kshell          544/udp                 # krcmd
+cybercash       551/tcp                 # cybercash
+cybercash       551/udp                 # cybercash
+devshr-nts      552/tcp                 # DeviceShare
+devshr-nts      552/udp                 # DeviceShare
+chshell         562/tcp                 # chcmd
+chshell         562/udp                 # chcmd
+ms-shuttle      568/tcp                 # microsoft shuttle
+ms-shuttle      568/udp                 # microsoft shuttle
+sshell          614/tcp                 # SSLshell
+sshell          614/udp                 #       SSLshell
+rushd           696/tcp                 # RUSHD
+rushd           696/udp                 # RUSHD
+entrust-kmsh    709/tcp                 # Entrust Key Management Service Handler
+entrust-kmsh    709/udp                 # Entrust Key Management Service Handler
+entrust-ash     710/tcp                 # Entrust Administration Service Handler
+entrust-ash     710/udp                 # Entrust Administration Service Handler
+netconf-ssh     830/tcp                 # NETCONF over SSH
+netconf-ssh     830/udp                 # NETCONF over SSH
+apex-mesh       912/tcp                 # APEX relay-relay service
+apex-mesh       912/udp                 # APEX relay-relay service
+rdrmshc         1075/tcp                # RDRMSHC
+rdrmshc         1075/udp                # RDRMSHC
+fnet-remote-ui  1174/tcp                # FlashNet Remote Admin
+fnet-remote-ui  1174/udp                # FlashNet Remote Admin
+carrius-rshell  1197/tcp                # Carrius Remote Access
+carrius-rshell  1197/udp                # Carrius Remote Access
+shockwave2      1257/tcp                # Shockwave 2
+shockwave2      1257/udp                # Shockwave 2
+mpshrsv         1261/tcp                # mpshrsv
+mpshrsv         1261/udp                # mpshrsv
+atex_elmd       1385/tcp    atex-elmd   # Atex Publishing License Manager
+atex_elmd       1385/udp    atex-elmd   # Atex Publishing License Manager
+proshare1       1459/tcp                # Proshare Notebook Application
+proshare1       1459/udp                # Proshare Notebook Application
+proshare2       1460/tcp                # Proshare Notebook Application
+proshare2       1460/udp                # Proshare Notebook Application
+shivadiscovery  1502/tcp                # Shiva
+shivadiscovery  1502/udp                # Shiva
+vistium-share   1545/tcp                # vistium-share
+vistium-share   1545/udp                # vistium-share
+shivahose       1549/tcp                # Shiva Hose
+shivasound      1549/udp                # Shiva Sound
+shockwave       1626/tcp                # Shockwave
+shockwave       1626/udp                # Shockwave
+isdc            1636/tcp                # ISP shared public data control
+isdc            1636/udp                # ISP shared public data control
+islc            1637/tcp                # ISP shared local data control
+islc            1637/udp                # ISP shared local data control
+ismc            1638/tcp                # ISP shared management control
+ismc            1638/udp                # ISP shared management control
+shiva_confsrvr  1651/tcp   shiva-confsrvr   # shiva_confsrvr
+shiva_confsrvr  1651/udp   shiva-confsrvr   # shiva_confsrvr
+proshare-mc-1   1673/tcp                # Intel Proshare Multicast
+proshare-mc-1   1673/udp                # Intel Proshare Multicast
+proshare-mc-2   1674/tcp                # Intel Proshare Multicast
+proshare-mc-2   1674/udp                # Intel Proshare Multicast
+deskshare       1702/tcp                # deskshare
+deskshare       1702/udp                # deskshare
+slingshot       1705/tcp                # slingshot
+slingshot       1705/udp                # slingshot
+macromedia-fcs  1935/tcp                # Macromedia Flash Communications Server MX
+macromedia-fcs  1935/udp                # Macromedia Flash Communications server MX
+slush           1966/tcp                # Slush
+slush           1966/udp                # Slush
+tcoflashagent   1975/tcp                # TCO Flash Agent
+tcoflashagent   1975/udp                # TCO Flash Agent
+#mshnet         1989/tcp                # MHSnet system
+#mshnet         1989/udp                # MHSnet system
+shadowserver    2027/tcp                #
+shadowserver    2027/udp                #
+konshus-lm      2294/tcp                # Konshus License Manager (FLEX)
+konshus-lm      2294/udp                # Konshus License Manager (FLEX)
+novell-zen      2544/tcp                # Management Daemon Refresh
+novell-zen      2544/udp                # Management Daemon Refresh
+trustestablish  2573/tcp                # Trust Establish
+trustestablish  2573/udp                # Trust Establish
+maytagshuffle   2591/tcp                # Maytag Shuffle
+maytagshuffle   2591/udp                # Maytag Shuffle
+moshebeeri      2627/tcp                # Moshe Beeri
+moshebeeri      2627/udp                # Moshe Beeri
+tmesis-upshot   2798/tcp                # TMESIS-UPShot
+tmesis-upshot   2798/udp                # TMESIS-UPShot
+glishd          2833/tcp                # glishd
+glishd          2833/udp                # glishd
+webemshttp      2851/tcp                # webemshttp
+webemshttp      2851/udp                # webemshttp
+daishi          2870/tcp                # daishi
+daishi          2870/udp                # daishi
+flashmsg        2884/tcp                # Flash Msg
+flashmsg        2884/udp                # Flash Msg
+wap-push        2948/tcp                # WAP PUSH
+wap-push        2948/udp                # WAP PUSH
+wap-pushsecure  2949/tcp                # WAP PUSH SECURE
+wap-pushsecure  2949/udp                # WAP PUSH SECURE
+stvp            3158/tcp                # SmashTV Protocol
+stvp            3158/udp                # SmashTV Protocol
+dwnmshttp       3227/tcp                # DiamondWave NMS Server
+dwnmshttp       3227/udp                # DiamondWave NMS Server
+winshadow       3261/tcp                # winShadow
+winshadow       3261/udp                # winShadow
+dashpas-port    3498/tcp                # DASHPAS user port
+dashpas-port    3498/udp                # DASHPAS user port
+nesh-broker     3507/tcp                # Nesh Broker Port
+nesh-broker     3507/udp                # Nesh Broker Port
+shareapp        3595/tcp                # ShareApp
+shareapp        3595/udp                # ShareApp
+sharp-server    3617/tcp                # ATI SHARP Logic Engine
+sharp-server    3617/udp                # ATI SHARP Logic Engine
+nmmp            3649/tcp                # Nishioka Miyuki Msg Protocol
+nmmp            3649/udp                # Nishioka Miyuki Msg Protocol
+simple-push     3687/tcp                # simple-push
+simple-push     3687/udp                # simple-push
+simple-push-s   3688/tcp                # simple-push Secure
+simple-push-s   3688/udp                # simple-push Secure
+shiprush-db-svr 3841/tcp                # ShipRush Database Server
+winshadow-hd    3861/tcp                # winShadow Host Discovery
+winshadow-hd    3861/udp                # winShadow Host Discovery
+sdo-ssh         3897/tcp                # Simple Distributed Objects over SSH
+sdo-ssh         3897/udp                # Simple Distributed Objects over SSH
+nimsh           3901/tcp                # NIM Service Handler
+nimsh           3901/udp                # NIM Service Handler
+nimaux          3902/tcp                # NIMsh Auxiliary Port
+nimaux          3902/udp                # NIMsh Auxiliary Port
+airshot         3975/tcp                # Air Shot
+airshot         3975/udp                # Air Shot
+starfish        3981/tcp                # Starfish System Admin
+starfish        3981/udp                # Starfish System Admin
+wap-push-http   4035/tcp                # WAP Push OTA-HTTP port
+wap-push-http   4035/udp                # WAP Push OTA-HTTP port
+wap-push-https  4036/tcp                # WAP Push OTA-HTTP secure
+wap-push-https  4036/udp                # WAP Push OTA-HTTP secure
+kingfisher      4058/tcp                # Kingfisher protocol
+kingfisher      4058/udp                # Kingfisher protocol
+shofar          4105/tcp                # Shofar
+shofar          4105/udp                # Shofar
+pscl-mgt        4312/tcp                # Parascale Membership Manager
+netconf-ch-ssh  4334/tcp                # NETCONF Call Home (SSH) 
+shadowstream    4366/udp                # ShadowStream System
+psi-ptt         4374/tcp                # PSI Push-to-Talk Protocol
+thingkit        4423/tcp                # thingkit secure mesh
+synchromesh     4548/tcp                # Synchromesh
+synchromesh     4548/udp                # Synchromesh
+icshostsvc      4553/tcp                # ICS host services
+fmp             4745/tcp                # Funambol Mobile Push
+fmp             4745/udp                # Funambol Mobile Push
+wfc             4847/tcp                # Web Fresh Communication
+wfc             4847/udp                # Web Fresh Communication
+fmwp            5015/tcp                # FileMaker, Inc. - Web publishing
+vpm-udp         5046/udp                # Vishay PM UDP Service
+pixelpusher     5078/udp                # PixelPusher pixel data
+snmpssh         5161/tcp                # SNMP over SSH Transport Model
+snmpssh-trap    5162/tcp                # SNMP Notification over SSH Transport Model
+xmpp-bosh       5280/tcp                # Bidirectional-streams Over Synchronous HTTP (BOSH)
+ms-sideshow     5360/tcp                # Protocol for Windows SideShow
+ms-sideshow     5360/udp                # Protocol for Windows SideShow
+ms-s-sideshow   5361/tcp                # Secure Protocol for Windows SideShow
+ms-s-sideshow   5361/udp                # Secure Protocol for Windows SideShow
+ttl-publisher   5462/tcp                # TTL Publisher
+ttl-publisher   5462/udp                # TTL Publisher
+proshareaudio   5713/tcp                # proshare conf audio
+proshareaudio   5713/udp                # proshare conf audio
+prosharevideo   5714/tcp                # proshare conf video
+prosharevideo   5714/udp                # proshare conf video
+prosharedata    5715/tcp                # proshare conf data
+prosharedata    5715/udp                # proshare conf data
+prosharerequest 5716/tcp                # proshare conf request
+prosharerequest 5716/udp                # proshare conf request
+prosharenotify  5717/tcp                # proshare conf notify
+prosharenotify  5717/udp                # proshare conf notify
+io-dist-group   5728/udp                # Dist. I/O Comm. Service Group Membership
+shiprush-d-ch   5841/tcp                # Z-firm ShipRush interface for web access and bidirectional data
+watershed-lm    6143/tcp                # Watershed License Manager
+watershed-lm    6143/udp                # Watershed License Manager
+tl1-ssh         6252/tcp                # TL1 over SSH
+tl1-ssh         6252/udp                # TL1 over SSH
+nim-vdrshell    6420/tcp                # NIM_VDRShell
+nim-vdrshell    6420/udp                # NIM_VDRShell
+mshvlm          6600/tcp                # Microsoft Hyper-V Live Migration
+iccrushmore     6850/tcp                # ICCRUSHMORE
+iccrushmore     6850/udp                # ICCRUSHMORE
+nfoldman        7393/tcp                # nFoldMan Remote Publish
+nfoldman        7393/udp                # nFoldMan Remote Publish
+tnos-dp         7902/tcp                # TNOS shell Protocol
+tnos-dp         7902/udp                # TNOS shell Protocol
+pushns          7997/tcp                # PUSH Notification Service
+usicontentpush  7998/udp                # USI Content Push Service
+senomix01       8052/tcp                # Senomix Timesheets Server
+senomix01       8052/udp                # Senomix Timesheets Server
+senomix02       8053/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix02       8053/udp                # Senomix Timesheets Client [1 year assignment]
+senomix03       8054/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix03       8054/udp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/udp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/udp                # Senomix Timesheets Server [1 year assignment]
+senomix06       8057/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix06       8057/udp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/udp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/udp                # Senomix Timesheets Client [1 year assignment]
+paycash-online  8128/tcp                # PayCash Online Protocol
+paycash-online  8128/udp                # PayCash Online Protocol
+paycash-wbp     8129/tcp                # PayCash Wallet-Browser
+paycash-wbp     8129/udp                # PayCash Wallet-Browser
+noteshare       8474/tcp                # AquaMinds NoteShare
+noteshare       8474/udp                # AquaMinds NoteShare
+jwpc            16020/tcp               # Filemaker Java Web Publishing Core
+jwpc-bin        16021/tcp               # Filemaker Java Web Publishing Core Binary
+ssh-mgmt        17235/tcp               # SSH Tectia Manager
+ssh-mgmt        17235/udp               # SSH Tectia Manager
+keyshadow       19315/tcp               # Key Shadow for SASSAFRAS
+keyshadow       19315/udp               # Key Shadow for SASSAFRAS
+mle             19788/udp               # Mesh Link Establishment
+shrewd-control  22335/tcp               # Initium Labs Security and Automation Control
+shrewd-stream   22335/udp               # Initium Labs Security and Automation Streaming
+flashfiler      24677/tcp               # FlashFiler
+flashfiler      24677/udp               # FlashFiler
+dhanalakshmi    34567/tcp               # dhanalakshmi.org EDI Service
+febooti-aw      36524/tcp               # Febooti Automation Workshop
+shaperai        43210/tcp               # Shaper Automation Server
+shaperai-disc   43210/udp               # Shaper Automation Server Management Discovery
+dai-shell       45824/tcp               # Server for the DAI family of client-server products
+webpush         1001/tcp                # HTTP Web Push
+vdmmesh-disc    18668/udp               # Manufacturing Execution Systems Mesh Comm
+vdmmesh         18668/tcp               # Manufacturing Execution Systems Mesh Comm
+edi_service     34567/udp               # dhanalakshmi.org EDI Service
+[thomas@localhost tmp]$ 
