@@ -790,4 +790,47 @@ filesphere      24242/tcp               # fileSphere
 filesphere      24242/udp               # fileSphere
 sruth           38800/tcp               # Sruth - University_Corporation_for_Atmospheric_Research
 asihpi          44600/udp                # AudioScience HPI
-[thomas@localhost tmp]$ grep -E "s.h" /etc/services *| le
+[thomas@localhost tmp]$ grep -E "s.h" /etc/services *| less
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, most entries here have two entries
+# The Well Known Ports are those from 0 through 1023.
+# The Registered Ports are those from 1024 through 49151
+# The Dynamic and/or Private Ports are those from 49152 through 65535
+# Each line describes one service, and is of the form:
+ssh             22/tcp                          # The Secure Shell (SSH) Protocol
+ssh             22/udp                          # The Secure Shell (SSH) Protocol
+whois++         63/tcp          whoispp
+whois++         63/udp          whoispp
+hostname        101/tcp         hostnames       # usually from sri-nic
+hostname        101/udp         hostnames       # usually from sri-nic
+# unfortunately the poppassd (Eudora) uses a port which has already
+# been assigned to a different service. We list the poppassd as an
+# alias here. This should work for programs asking for this service.
+https           443/tcp                         # http protocol over TLS/SSL
+https           443/udp                         # http protocol over TLS/SSL
+https           443/sctp                        # http protocol over TLS/SSL
+saft            487/tcp                         # Simple Asynchronous File Transfer
+saft            487/udp                         # Simple Asynchronous File Transfer
+gss-http        488/tcp
+gss-http        488/udp
+shell           514/tcp         cmd             # no passwords used
+kshell          544/tcp         krcmd           # Kerberized `rsh' (v5)
+remotefs        556/tcp         rfs_server rfs  # Brunhoff remote filesystem
+#>The Registered Ports are listed by the IANA and on most systems can be
+#>Ports are used in the TCP [RFC793] to name the ends of logical
+#>connections which carry long term conversations.  For the purpose of
+#>defined.  This list specifies the port used by the server process as
+#>The IANA registers uses of these ports as a convienence to the
+# Port 1236 is registered as `bvcontrol', but is also used by the
+# Gracilis Packeten remote config server.  The official name is listed as
+bvcontrol       1236/tcp        rmtcfg          # Daniel J. Walsh, Gracilis Packeten remote config server
+bvcontrol       1236/udp                        # Daniel J. Walsh
+datametrics     1645/tcp        old-radius sightline    # datametrics / old radius entry
+datametrics     1645/udp        old-radius sightline    # datametrics / old radius entry
+nfs             2049/tcp        nfsd shilp      # Network File System
+nfs             2049/udp        nfsd shilp      # Network File System
+nfs             2049/sctp       nfsd shilp      # Network File System
+zephyr-srv      2102/tcp                        # Zephyr server
+zephyr-srv      2102/udp                        # Zephyr server
+zephyr-clt      2103/tcp                        # Zephyr serv-hm connection
+:[thomas@localhost tmp]$ grep -E "s.*h" /etc/services | less
