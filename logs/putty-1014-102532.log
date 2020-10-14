@@ -449764,3 +449764,5 @@ z-wave-tunnel
 zymed-zpp
 ZYMED-ZPP
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l
+23969
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l
