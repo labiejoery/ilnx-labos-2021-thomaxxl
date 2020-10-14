@@ -365,4 +365,4 @@ service-name
 105/udp
 unfortunately
 been
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'
