@@ -122,4 +122,4 @@ OPTIONS:
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << TEST
