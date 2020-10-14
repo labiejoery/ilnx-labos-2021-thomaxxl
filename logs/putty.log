@@ -10,4 +10,7 @@ Last login: Wed Oct 14 09:07:46 2020 from 192.168.193.1
  [01;34mDocumenten[0m          file1              [01;31mlinux.tar.bz2[0m              test.txt
  [01;31mdocuments.tar.bz2[0m   file2              [01;34mMuziek[0m                    [01;34m"Video's"[0m
 ]0;thomas@localhost:~[thomas@localhost ~]$ cd ilnx-labos-2021-thomaxxl/
-]0;thomas@localhost:~/ilnx-labos-2021-thomaxxl[thomas@localhost ilnx-labos-2021-thomaxxl]$ git
+]0;thomas@localhost:~/ilnx-labos-2021-thomaxxl[thomas@localhost ilnx-labos-2021-thomaxxl]$ git remote -v
+origin	git@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (fetch)
+origin	git@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (push)
+]0;thomas@localhost:~/ilnx-labos-2021-thomaxxl[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
