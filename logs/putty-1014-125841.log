@@ -320581,4 +320581,4 @@ F
 CH
 D
 NL
-[thomas@localhost labo3]$ cat landenkentekens | cut -f 2 -d ' '
+[thomas@localhost labo3]$ cat landenkentekens | cut -f 2 -d ' ',
