@@ -449776,4 +449776,4 @@ ZYMED-ZPP
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -c /etc/services wlcat /etc/services | tr " " "\n" | sort | uniq | wc -l
 23969
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -llfind . | grep tennis
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat 
