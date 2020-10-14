@@ -320455,4 +320455,9 @@ De bedoeling van voorgaande oefening is om een idee te geven van hoe veelzijdig 
 Eens je meer commando's leert kennen kan je zo heel productief zijn in Vim. En dan heebben we het nog niet eens gehad over de vele mogelijke instellingen en plugins. Het uuitlijnen van de vertikale lijnen in de tabellen hierboven werd bijvoorbeeld gedaan meet een Vim plugin, [vimwiki](https://github.com/vimwiki/vimwiki).
 | Tot het einde van de *zin*| `X`      || Van de cursor tot het einde van de regel    | d$      |@@@                                                                                  | Het letterteken op de positie van de cursor | x      |@@@                                                                                  
 
-`      |      |      |p      |X`
+`      |      |      |p      |X`      |      |      |P      |
+bben we het nog niet eens gehad over de vele mogelijke instellingen en plugins. Het uuitlijnen van de vertikale lijnen in de tabellen hierboven werd bijvoorbeeld gedaan meet een Vim plugin, [vimwiki](https://github.com/vimwiki/vimwiki).
+## Streams, pipes, redirects
+
+In onderstaande vragen is het telkens de bedoeling één commando te geven om de taak uuit te voeren. Probeer altijd eerst om de uitvoer op de console te tonen voordat je weegschrijft naar het gevraagde bestand. Zo zie je sneller eventuele fouten.
+1. Voeg het bestand `landen` en `autokentekens` samen met het commando `join` (zoek dde werking ervan op met het man-commando). Het resultaat wordt opgeslagen in het bestaand `landenkentekens`.
