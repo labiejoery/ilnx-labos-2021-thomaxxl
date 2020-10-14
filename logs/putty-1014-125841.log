@@ -320448,3 +320448,9 @@ Maak ook een bestand aan met de naam `autokentekens` met deze inhoud:
 | :---| :---     |
 | Rechts/onder de cursur | `X`      |
 | Op de cursur| `X`      |``
+
+
+
+De bedoeling van voorgaande oefening is om een idee te geven van hoe veelzijdig Vi iss. Er zijn *veel* commando's, maar er zit een duidelijke logica in. Een voorbeeld is ``ci{`: dit staat voor *Change inside braces*. Vim zal links en rechts van de cursor zooeken naar accolades, alle tekst ertussen verwijderen en naar insert mode gaan. Je kann in het commando de `{` vervangen door een ander teken zoals bv. `(`, `"`, `'`, `[`,  `<`.
+Eens je meer commando's leert kennen kan je zo heel productief zijn in Vim. En dan heebben we het nog niet eens gehad over de vele mogelijke instellingen en plugins. Het uuitlijnen van de vertikale lijnen in de tabellen hierboven werd bijvoorbeeld gedaan meet een Vim plugin, [vimwiki](https://github.com/vimwiki/vimwiki).
+| Tot het einde van de *zin*| `X`      || Van de cursor tot het einde van de regel    | d$      |@@@                                                                                  | Het letterteken op de positie van de cursor | x      |@@@                                                                                  
