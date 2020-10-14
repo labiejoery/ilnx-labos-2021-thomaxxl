@@ -790,4 +790,4 @@ filesphere      24242/tcp               # fileSphere
 filesphere      24242/udp               # fileSphere
 sruth           38800/tcp               # Sruth - University_Corporation_for_Atmospheric_Research
 asihpi          44600/udp                # AudioScience HPI
-[thomas@localhost tmp]$ grep -E "s.h" /etc/services *
+[thomas@localhost tmp]$ grep -E "s.h" /etc/services *| le
