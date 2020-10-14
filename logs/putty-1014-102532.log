@@ -121074,3 +121074,24 @@ ssh-mgmt        17235/udp               # SSH Tectia Manager
 # Each line describes one service, and is of the form:
 #
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ head -20 /etc/services tail
+CardWeb-IO      9060/tcp                # CardWeb request-response I/O exchange
+CardWeb-RT      9060/udp                # CardWeb realtime device data
+pumpkindb       9981/tcp                # Event sourcing database engine/language
+abb-hw          10020/tcp               # Hardware configuration and maintenance
+tile-ml         10261/tcp               # Tile remote machine learning
+xpra            14500/tcp               # xpra network protocol
+vdmmesh-disc    18668/udp               # Manufacturing Execution Systems Mesh Comm
+vdmmesh         18668/tcp               # Manufacturing Execution Systems Mesh Comm
+cora-disc       19220/udp               # Discovery for Client Connection ... Service
+cora            19220/tcp               # Client Connection Mgmt/Data Exchange Service
+aigairserver    21221/tcp               # Services for Air Server
+ka-kdp          31016/udp               # Kollective Agent Kollective Delivery
+ka-sddp         31016/tcp               # Kollective Agent Secure Distributed Delivery
+edi_service     34567/udp               # dhanalakshmi.org EDI Service
+axio-disc       35100/tcp               # Axiomatic discovery protocol
+axio-disc       35100/udp               # Axiomatic discovery protocol
+pmwebapi        44323/tcp               # Performance Co-Pilot client HTTP API
+cloudcheck-ping 45514/udp               # ASSIA CloudCheck WiFi Management keepalive
+cloudcheck      45514/tcp               # ASSIA CloudCheck WiFi Management System
+spremotetablet  46998/tcp               # Capture handwritten signatures
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -20 /etc/services 
