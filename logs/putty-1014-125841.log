@@ -320641,4 +320641,5 @@ Spanje ES
 [thomas@localhost labo3]$ echo "Italië I
 Spanje ES"
 echo "Italië I
-Spanje ES" >>
+Spanje ES" >> ^C
+[thomas@localhost labo3]$ 
