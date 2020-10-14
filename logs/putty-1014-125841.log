@@ -2961,4 +2961,4 @@ AUTHOR
        Written by Mike Haertel and Paul Eggert.
 
  Manual page sort(1) line 94/148 87% (press h for help or q to quit) ESCESCOOAA
- Manual page sort(1) line 93/148 87% (press h for help or q to quit)[thomas@localhost tmp]$ man sort cat /etc/passwd | sort
+ Manual page sort(1) line 93/148 87% (press h for help or q to quit)[thomas@localhost tmp]$ man sort cat /etc/passwd | sort -t : 
