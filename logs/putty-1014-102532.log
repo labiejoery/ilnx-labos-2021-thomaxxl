@@ -844,4 +844,4 @@ shd:
 boxa
 cpdu
 homa
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5  man cutcat /etc/passwd | cut -f 5 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5  man cutcat /etc/passwd | cut -f 5 -d :3
