@@ -3089,4 +3089,4 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
      3#
      4# Network servXces, Internet style
      5# IANA servXces versXon: last updated 2016-07-08
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ nl /etc/services | head -5   |  tr i X'
