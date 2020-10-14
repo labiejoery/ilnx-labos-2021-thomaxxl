@@ -461291,4 +461291,46 @@ pmwebapi        44323/tcp               # Performance Co-Pilot client HTTP API
 cloudcheck-ping 45514/udp               # ASSIA CloudCheck WiFi Management keepalive
 cloudcheck      45514/tcp               # ASSIA CloudCheck WiFi Management System
 spremotetablet  46998/tcp               # Capture handwritten signatures
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/^#/d' | less
+
+tcpmux          1/tcp                           # TCP port service multiplexer
+tcpmux          1/udp                           # TCP port service multiplexer
+rje             5/tcp                           # Remote Job Entry
+rje             5/udp                           # Remote Job Entry
+echo            7/tcp
+echo            7/udp
+discard         9/tcp           sink null
+discard         9/udp           sink null
+systat          11/tcp          users
+systat          11/udp          users
+daytime         13/tcp
+daytime         13/udp
+qotd            17/tcp          quote
+qotd            17/udp          quote
+chargen         19/tcp          ttytst source
+chargen         19/udp          ttytst source
+ftp-data        20/tcp
+ftp-data        20/udp
+ftp             21/tcp
+ftp             21/udp          fsp fspd
+ssh             22/tcp                          # The Secure Shell (SSH) Protocol
+ssh             22/udp                          # The Secure Shell (SSH) Protocol
+telnet          23/tcp
+telnet          23/udp
+lmtp            24/tcp                          # LMTP Mail Delivery
+lmtp            24/udp                          # LMTP Mail Delivery
+smtp            25/tcp          mail
+smtp            25/udp          mail
+time            37/tcp          timserver
+time            37/udp          timserver
+rlp             39/tcp          resource        # resource location
+rlp             39/udp          resource        # resource location
+nameserver      42/tcp          name            # IEN 116
+nameserver      42/udp          name            # IEN 116
+nicname         43/tcp          whois
+nicname         43/udp          whois
+tacacs          49/tcp                          # Login Host Protocol (TACACS)
+tacacs          49/udp                          # Login Host Protocol (TACACS)
+re-mail-ck      50/tcp                          # Remote Mail Checking Protocol
+re-mail-ck      50/udp                          # Remote Mail Checking Protocol
+:
