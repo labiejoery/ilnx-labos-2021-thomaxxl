@@ -118139,4 +118139,4 @@ tl1-ssh         6252/tcp                # TL1 over SSH
 tl1-ssh         6252/udp                # TL1 over SSH
 ssh-mgmt        17235/tcp               # SSH Tectia Manager
 ssh-mgmt        17235/udp               # SSH Tectia Manager
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep ssh"ssh
