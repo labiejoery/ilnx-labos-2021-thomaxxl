@@ -319890,4 +319890,26 @@ netrjs-272/tcp# Remote Job Service42,220%~@k
 netrjs-272/udp# Remote Job Service43,650%~@k   2,22~@k   1J 
 tcp tftp69/udpnetrjs-373/tcp# Remote Job Service41,230%J  gopher70/tcp# Inteernet Gopher46J 
 tftp            69/tcp tftp69/udp gopher70/tcp# Inteernet Gopher gopher          70/udpnetrjs-373/udp# Remote Job Service41,1120%J  netrjs-1        71/tcp                          # Remote Job Servvice35~@k   
-netrjs-474/tcp# Remote Job Service42,680%0 1 ~@k   1~@k   0~@k   39$ 62^ 1 $ 62
+netrjs-474/tcp# Remote Job Service42,680%0 1 ~@k   1~@k   0~@k   39$ 62^ 1 $ 62G robot-remote    8270/tcp# Robot Framework Remote Library Interface
+aritts8423/tcp# Aristech text-to-speech server
+ssports-bcast   8808/udp# STATSports Broadcast Service
+CardWeb-IO      9060/tcp# CardWeb request-response I/O exchange
+CardWeb-RT      9060/udp# CardWeb realtime device data
+pumpkindb9981/tcp# Event sourcing database engine/language
+abb-hw10020/tcp# Hardware configuration and maintenance
+tile-ml10261/tcp# Tile remote machine learning
+xpra14500/tcp# xpra network protocol
+vdmmesh-disc    18668/udp# Manufacturing Execution Systems Mesh Comm
+vdmmesh18668/tcp# Manufacturing Execution Systems Mesh Comm
+cora-disc19220/udp# Discovery for Client Connection ... Service
+cora19220/tcp# Client Connection Mgmt/Data Exchange Service
+aigairserver    21221/tcp# Services for Air Server
+ka-kdp31016/udp# Kollective Agent Kollective Delivery
+ka-sddp31016/tcp# Kollective Agent Secure Distributed Delivery
+edi_service     34567/udp# dhanalakshmi.org EDI Service
+axio-disc35100/tcp# Axiomatic discovery protocol
+axio-disc35100/udp# Axiomatic discovery protocol
+pmwebapi44323/tcp# Performance Co-Pilot client HTTP API
+cloudcheck-ping 45514/udp# ASSIA CloudCheck WiFi Management keepalive
+cloudcheck      45514/tcp# ASSIA CloudCheck WiFi Management System
+spremotetablet  46998/tcp# Capture handwritten signatures11437,1     Bodem
