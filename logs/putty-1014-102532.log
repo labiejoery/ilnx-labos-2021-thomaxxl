@@ -122206,4 +122206,4 @@ gluster:x:998:996:GlusterFS daemons:/run/gluster:/sbin/nologin
 systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
 thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -ntr 
