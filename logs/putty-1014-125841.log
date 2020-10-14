@@ -320471,4 +320471,4 @@ totaal 16
 -rw-rw-r--. 1 thomas thomas   60 14 okt 14:07 landen
 -rw-rw-r--. 1 thomas thomas 2738 13 okt 16:38 lorem.txt
 -rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
-[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ cat autokentekens 
