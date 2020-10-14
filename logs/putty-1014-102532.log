@@ -120085,4 +120085,4 @@ edi_service     34567/udp               # dhanalakshmi.org EDI Service
 cloudcheck-ping 45514/udp               # ASSIA CloudCheck WiFi Management keepalive
 cloudcheck      45514/tcp               # ASSIA CloudCheck WiFi Management System
 spremotetablet  46998/tcp               # Capture handwritten signatures
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s*h"
