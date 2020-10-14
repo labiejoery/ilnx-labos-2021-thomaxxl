@@ -320644,4 +320644,6 @@ Spanje ES
 Spanje ES" >> ^C
 [thomas@localhost labo3]$ echo "Italië I
 Spanje ES"cat landenkentekens2
+echo "Italië I" >>Spanje EItalië ISpanje EItalië Icatecho "Italië I
+Spanje ES"
 
