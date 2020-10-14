@@ -121225,4 +121225,8 @@ SYNOPSIS
 NAME
 
 JOIN(1)                                 User Commands                                 JOIN(1)
- Manual page join(1) line 1 (press h for help or q to quit)
+ Manual page join(1) line 1 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 2 (press h for help or q to quit) ESCESCOOBB       --check-order
+ Manual page join(1) line 3 (press h for help or q to quit) ESCESCOOBB              check that the input is correctly sorted, even if all input lines are pairable
+ Manual page join(1) line 4 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 5 (press h for help or q to quit)
