@@ -3072,3 +3072,9 @@ cloudcheck-ping 45514/udp               # ASSIA CloudCheck WiFi Management keepa
 cloudcheck      45514/tcp               # ASSIA CloudCheck WiFi Management System
 spremotetablet  46998/tcp               # Capture handwritten signatures
 [thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ 
