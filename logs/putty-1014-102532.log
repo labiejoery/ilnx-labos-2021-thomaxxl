@@ -118208,4 +118208,4 @@ filesphere      24242/tcp               # fileSphere
 filesphere      24242/udp               # fileSphere
 sruth           38800/tcp               # Sruth - University_Corporation_for_Atmospheric_Research
 asihpi          44600/udp                # AudioScience HPI
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.h"h"*h"
