@@ -240,4 +240,4 @@ SEE ALSO
  Manual page cat(1) line 26 (press h for help or q to quit)[thomas@localhost tmp]$ cut -c 3 /etc/passwd -d :
 cut: een scheidingsteken mag alleen gegeven worden als met velden gewerkt wordt
 Typ 'cut --help' voor meer informatie.
-[thomas@localhost tmp]$ cut -c 3 /etc/passwd -d :
+[thomas@localhost tmp]$ cut -c 3 /etc/passwd -d :-d : 
