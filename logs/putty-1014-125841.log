@@ -320602,4 +320602,5 @@ F Frankrijk
 CH Zwitserland
 D Duitsland
 NL Nederland
-[thomas@localhost labo3]$ (reverse-i-search)`':j': join -j 1 autokentekens landen > landenkentekensoin[thomas@localhost labo3]$ aute
+[thomas@localhost labo3]$ (reverse-i-search)`':j': join -j 1 autokentekens landen > landenkentekensoin[thomas@localhost labo3]$ auteokentekens
+[thomas@localhost labo3]$ 
