@@ -122402,4 +122402,4 @@ sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologinsshd:x:74:74:P
 vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologinvboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
 tcpdump:x:72:72::/:/sbin/nologintcpdump:x:72:72::/:/sbin/nologin
 thomas:x:1000:1000:thomas:/home/thomas:/bin/bashthomas:x:1000:1000:thomas:/home/thomas:/bin/bash
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr 
