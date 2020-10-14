@@ -121052,4 +121052,4 @@ ssh-mgmt        17235/udp               # SSH Tectia Manager
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services head -2
 # /etc/services:
 # $Id: services,v 1.49 2017/08/18 12:43:23 ovasik Exp $
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -2 /etc/services 
