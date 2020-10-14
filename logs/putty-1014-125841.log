@@ -319626,3 +319626,4 @@ RFC
 #---Updated
 (END)[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services | awk '{ print $1"---"$2 }' | lesshead /etc/services | awk '{ print $1"---"$2 }' | lessawk '{ printf "%s;%s", $2, $4 }'
 /etc/services:;$Id:;1.49;Network;InternetIANA;version:;Note;itport;foreven;theUpdated;RFC[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services | awk '{ printf "%s;%s", $2, $4 }'
