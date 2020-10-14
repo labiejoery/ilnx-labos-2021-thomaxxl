@@ -472808,4 +472808,4 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
 # even if the protocol doesn't support UDP operations.
 # Updated from RFC 1700, ``Assigned Numbers'' (October 1994).  Not all ports
 # are included, only the more common ones.
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
