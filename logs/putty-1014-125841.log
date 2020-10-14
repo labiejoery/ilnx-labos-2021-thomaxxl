@@ -86,4 +86,4 @@ labo3                  labo6                                    labo-8-complex-s
     46vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
     47tcpdump:x:72:72::/:/sbin/nologin
     48thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ man cat
