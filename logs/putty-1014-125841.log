@@ -319983,4 +319983,31 @@ smtp25/udpmail
 smtp25/udpmail
 smtp25/udpmail
 smtp25/udpmail
-nameserver      42/tcp 5/udpmail29,20%5 more lines29,20%~@k   1v1-- VISUEEL --129,10%~@k2  225/udp          mail 30
+nameserver      42/tcp 5/udpmail29,20%5 more lines29,20%~@k   1v1-- VISUEEL --129,10%~@k2  225/udp          mail 30~@k3  smtp            25/udp          mail 1~@k4  smtp            25/udp          mail 2~@k5  smtp            25/udp          mail 3~@k6  smtp            25/udp          mail 4~@k7  nameserver      42/tcp 5/udp          mail 5~@k8  smtp            25/udp          mail 6~@k9  smtp            25/udp          mail 7~@k10 smtp            25/udp          mail 8~@k11 smtp            25/udp          mail 9~@k12 nameserver      42/tcp 25/udp          mail 40~@k13 smtp            25/udp          mail 1~@k14 
+smtp            25/udp          mail smtp25/udpmail1442,10%~@k15 
+smtp            25/udp          mail smtp25/udpmail1543,10%~@k16 
+smtp            25/udp          mail nameserver      42/tcp 25/udpmail1644,10%~@k17 
+nameserver      42/tcp 25/udp          mail smtp25/udpmail1745,10%~@k18 
+smtp            25/udp          mail smtp25/udpmail1846,10%d 17 fewer linestcpmux1/udp# TCP port service multiplexer
+rje5/tcp# Remote Job Entry
+rje5/udp# Remote Job Entry
+edddddddddddcho7/tcp
+echo7/udp
+mtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+nameserver      42/tcp 25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+nameserver      42/tcp 25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+nameserver      42/tcp 25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail29,10%17 fewer lines29,10%
