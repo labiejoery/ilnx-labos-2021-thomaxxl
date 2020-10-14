@@ -121477,4 +121477,15 @@ shutdown:x:6:0:shutdown:/sbin:/sbin/shutdowndisk:x:6:
 halt:x:7:0:halt:/sbin:/sbin/haltlp:x:7:
 mail:x:8:12:mail:/var/spool/mail:/sbin/nologinmem:x:8:
 operator:x:11:0:operator:/root:/sbin/nologinkmem:x:9:
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2paste p1 p2 | "''sed -e 'rs/r/X/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2paste p1 p2 | "''sed -e 'rs/r/X/g' 
+Xoot:x:0:0:Xoot:/Xoot:/bin/bashXoot:x:0:
+bin:x:1:1:bin:/bin:/sbin/nologinbin:x:1:
+daemon:x:2:2:daemon:/sbin:/sbin/nologindaemon:x:2:
+adm:x:3:4:adm:/vaX/adm:/sbin/nologinsys:x:3:
+lp:x:4:7:lp:/vaX/spool/lpd:/sbin/nologinadm:x:4:
+sync:x:5:0:sync:/sbin:/bin/synctty:x:5:
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdowndisk:x:6:
+halt:x:7:0:halt:/sbin:/sbin/haltlp:x:7:
+mail:x:8:12:mail:/vaX/spool/mail:/sbin/nologinmem:x:8:
+opeXatoX:x:11:0:opeXatoX:/Xoot:/sbin/nologinkmem:x:9:
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
