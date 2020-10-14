@@ -307852,4 +307852,6 @@ z-wave-s
 z-wave-tunnel
 zymed-zpp
 ZYMED-ZPP
-[thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | sort | uniq | tail  wc -
+[thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | sort | uniq | tail  wc -l
+23969
+[thomas@localhost tmp]$ 
