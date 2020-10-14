@@ -919,3 +919,949 @@ zephyr-srv      2102/tcp                        # Zephyr server
 zephyr-srv      2102/udp                        # Zephyr server
 zephyr-clt      2103/tcp                        # Zephyr serv-hm connection
 :[thomas@localhost tmp]$ grep -E "s.*h" /etc/services | less -C
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, most entries here have two entries
+# The Well Known Ports are those from 0 through 1023.
+# The Registered Ports are those from 1024 through 49151
+# The Dynamic and/or Private Ports are those from 49152 through 65535
+# Each line describes one service, and is of the form:
+ssh             22/tcp                          # The Secure Shell (SSH) Protocol
+ssh             22/udp                          # The Secure Shell (SSH) Protocol
+whois++         63/tcp          whoispp
+whois++         63/udp          whoispp
+hostname        101/tcp         hostnames       # usually from sri-nic
+hostname        101/udp         hostnames       # usually from sri-nic
+# unfortunately the poppassd (Eudora) uses a port which has already
+# been assigned to a different service. We list the poppassd as an
+# alias here. This should work for programs asking for this service.
+https           443/tcp                         # http protocol over TLS/SSL
+https           443/udp                         # http protocol over TLS/SSL
+https           443/sctp                        # http protocol over TLS/SSL
+saft            487/tcp                         # Simple Asynchronous File Transfer
+saft            487/udp                         # Simple Asynchronous File Transfer
+gss-http        488/tcp
+gss-http        488/udp
+shell           514/tcp         cmd             # no passwords used
+kshell          544/tcp         krcmd           # Kerberized `rsh' (v5)
+remotefs        556/tcp         rfs_server rfs  # Brunhoff remote filesystem
+#>The Registered Ports are listed by the IANA and on most systems can be
+#>Ports are used in the TCP [RFC793] to name the ends of logical
+#>connections which carry long term conversations.  For the purpose of
+#>defined.  This list specifies the port used by the server process as
+#>The IANA registers uses of these ports as a convienence to the
+# Port 1236 is registered as `bvcontrol', but is also used by the
+# Gracilis Packeten remote config server.  The official name is listed as
+bvcontrol       1236/tcp        rmtcfg          # Daniel J. Walsh, Gracilis Packeten remote config server
+bvcontrol       1236/udp                        # Daniel J. Walsh
+datametrics     1645/tcp        old-radius sightline    # datametrics / old radius entry
+datametrics     1645/udp        old-radius sightline    # datametrics / old radius entry
+nfs             2049/tcp        nfsd shilp      # Network File System
+nfs             2049/udp        nfsd shilp      # Network File System
+nfs             2049/sctp       nfsd shilp      # Network File System
+zephyr-srv      2102/tcp                        # Zephyr server
+zephyr-srv      2102/udp                        # Zephyr server
+zephyr-clt      2103/tcp                        # Zephyr serv-hm connection
+zephyr-clt      2103/udp                        # Zephyr serv-hm connection
+# Ports numbered 2600 through 2606 are used by the zebra package without
+# being registred.  The primary names are the registered names, and the
+rwhois          4321/tcp                        # Remote Who Is
+rwhois          4321/udp                        # Remote Who Is
+cvsup           5999/tcp        CVSup           # CVSup file transfer/John Polstra/FreeBSD
+cvsup           5999/udp        CVSup           # CVSup file transfer/John Polstra/FreeBSD
+afs3-callback   7001/tcp                        # callbacks to cache managers
+afs3-callback   7001/udp                        # callbacks to cache managers
+afs3-kaserver   7004/tcp                        # AFS/Kerberos authentication service
+afs3-kaserver   7004/udp                        # AFS/Kerberos authentication service
+afs3-rmtsys     7009/tcp                        # remote cache manager service
+afs3-rmtsys     7009/udp                        # remote cache manager service
+pgpkeyserver    11371/tcp       hkp             # PGP/GPG public keyserver
+pgpkeyserver    11371/udp       hkp             # PGP/GPG public keyserver
+# This port is registered as wnn6, but also used under the unregistered name
+# Kerberos (Project Athena/MIT) services
+# running v4 should uncomment these and comment out the v5 entries above.
+kerberos_master 751/udp         pump            # Kerberos authentication
+kerberos_master 751/tcp         pump            # Kerberos authentication
+passwd_server   752/udp         qrh             # Kerberos passwd server
+# Kerberos 5 services, also not registered with IANA
+# Unregistered but useful/necessary other services
+skkserv         1178/tcp        sgi-storman     # SKK Japanese input method
+support         1529/tcp        prmsd gnatsd coauthor   # GNATS, cygnus bug tracker
+sgi-dgl         5232/tcp        csedaemon       # SGI Distributed Graphics
+hostmon         5355/tcp        llmnr           # hostmon uses TCP (nocol)
+hostmon         5355/udp        llmnr           # hostmon uses TCP (nocol)
+x11-ssh-offset  6010/tcp                        # SSH X11 forwarding offset
+# IANA claims 8008 for http-alt
+jetdirect       9100/tcp        laserjet hplj hp-pdl-datastr pdl-datastream
+wnn4_Kr         22305/tcp       cis             # used by the kWnn package
+wnn4_Cn         22289/tcp                       # used by the cWnn package
+wnn4_Tw         22321/tcp                       # used by the tWnn package
+asp             27374/tcp                       # Address Search Protocol
+asp             27374/udp                       # Address Search Protocol
+# Updated additional list from IANA with all missing services 10/04/2015
+#spr-itunes      0/tcp   spl-itunes      # Shirt Pocket netTunes - no port allocated
+ssh             22/sctp                 # SSH
+msg-auth        31/tcp                  # MSG Authentication
+msg-auth        31/udp                  # MSG Authentication
+graphics        41/tcp                  # Graphics
+graphics        41/udp                  # Graphics
+xns-ch          54/tcp                  # XNS Clearinghouse
+xns-ch          54/udp                  # XNS Clearinghouse
+isi-gl          55/tcp                  # ISI Graphics Language
+isi-gl          55/udp                  # ISI Graphics Language
+xns-auth        56/tcp                  # XNS Authentication
+xns-auth        56/udp                  # XNS Authentication
+objcall         94/tcp                  # Tivoli Object Dispatcher
+objcall         94/udp                  # Tivoli Object Dispatcher
+ris             180/tcp                 # Intergraph
+ris             180/udp                 # Intergraph
+fln-spx         221/tcp                 # Berkeley rlogind with SPX auth
+fln-spx         221/udp                 # Berkeley rlogind with SPX auth
+rsh-spx         222/tcp                 # Berkeley rshd with SPX auth
+rsh-spx         222/udp                 # Berkeley rshd with SPX auth
+bhfhs           248/tcp                 # bhfhs
+bhfhs           248/udp                 # bhfhs
+esro-gen        259/tcp                 # Efficient Short Remote Operations
+esro-gen        259/udp                 # Efficient Short Remote Operations
+bhmds           310/tcp                 #       bhmds
+bhmds           310/udp                 #       bhmds
+asip-webadmin   311/tcp                 # AppleShare IP WebAdmin
+asip-webadmin   311/udp                 # AppleShare IP WebAdmin
+pawserv         345/tcp                 # Perf Analysis Workbench
+pawserv         345/udp                 # Perf Analysis Workbench
+dtag-ste-sb     352/tcp bhoedap4        # DTAG (assigned long ago) / bhoedap4
+dtag-ste-sb     352/udp bhoedap4        # DTAG / bhoedap4
+ndsauth         353/tcp                 # NDSAUTH
+ndsauth         353/udp                 # NDSAUTH
+shrinkwrap      358/tcp                 # Shrinkwrap
+shrinkwrap      358/udp                 # Shrinkwrap
+dasp            439/tcp                 # dasp  Thomas Obermair
+cvc_hostd       442/tcp cvc-hostd       # cvc_hostd
+cvc_hostd       442/udp cvc-hostd       # cvc_hostd
+sfs-smp-net     451/tcp                 # Cray Network Semaphore server
+sfs-smp-net     451/udp                 # Cray Network Semaphore server
+scohelp         457/tcp                 # scohelp
+scohelp         457/udp                 # scohelp
+tcpnethaspsrv   475/tcp                 # tcpnethaspsrv
+tcpnethaspsrv   475/udp                 # tcpnethaspsrv
+ohimsrv         506/tcp                 # ohimsrv
+ohimsrv         506/udp                 # ohimsrv
+stx             527/tcp                 # Stock IXChange
+stx             527/udp                 # Stock IXChange
+custix          528/tcp                 # Customer IXChange
+custix          528/udp                 # Customer IXChange
+apertus-ldp     539/tcp                 # Apertus Technologies Load Determination
+apertus-ldp     539/udp                 # Apertus Technologies Load Determination
+kshell          544/udp                 # krcmd
+cybercash       551/tcp                 # cybercash
+cybercash       551/udp                 # cybercash
+devshr-nts      552/tcp                 # DeviceShare
+devshr-nts      552/udp                 # DeviceShare
+chshell         562/tcp                 # chcmd
+chshell         562/udp                 # chcmd
+ms-shuttle      568/tcp                 # microsoft shuttle
+ms-shuttle      568/udp                 # microsoft shuttle
+sntp-heartbeat  580/tcp                 # SNTP HEARTBEAT
+sntp-heartbeat  580/udp                 #       SNTP HEARTBEAT
+philips-vc      583/tcp                 # Philips Video-Conferencing
+philips-vc      583/udp                 # Philips Video-Conferencing
+password-chg    586/tcp                 # Password Change
+password-chg    586/udp                 #       Password Change
+sshell          614/tcp                 # SSLshell
+sshell          614/udp                 #       SSLshell
+oob-ws-http     623/tcp                 # DMTF out-of-band web services management protocol
+cadview-3d      649/tcp                 # Cadview-3d - streaming 3d models over the internet
+cadview-3d      649/udp                 # Cadview-3d - streaming 3d models over the internet
+oob-ws-https    664/tcp                 # DMTF out-of-band secure web services management protocol
+disclose        667/tcp                 # campaign contribution disclosures - SDR Technologies
+disclose        667/udp                 # campaign contribution disclosures - SDR Technologies
+msexch-routing  691/tcp                 # MS Exchange Routing
+msexch-routing  691/udp                 # MS Exchange Routing
+rushd           696/tcp                 # RUSHD
+rushd           696/udp                 # RUSHD
+entrust-kmsh    709/tcp                 # Entrust Key Management Service Handler
+entrust-kmsh    709/udp                 # Entrust Key Management Service Handler
+entrust-ash     710/tcp                 # Entrust Administration Service Handler
+entrust-ash     710/udp                 # Entrust Administration Service Handler
+netconf-ssh     830/tcp                 # NETCONF over SSH
+netconf-ssh     830/udp                 # NETCONF over SSH
+netconfsoaphttp 832/tcp                 # NETCONF for SOAP over HTTPS
+netconfsoaphttp 832/udp                 # NETCONF for SOAP over HTTPS
+apex-mesh       912/tcp                 # APEX relay-relay service
+apex-mesh       912/udp                 # APEX relay-relay service
+sbl             1039/tcp                # Streamlined Blackhole
+sbl             1039/udp                # Streamlined Blackhole
+cognex-insight  1069/tcp                # COGNEX-INSIGHT
+cognex-insight  1069/udp                # COGNEX-INSIGHT
+rdrmshc         1075/tcp                # RDRMSHC
+rdrmshc         1075/udp                # RDRMSHC
+saphostctrl     1128/tcp                # SAPHostControl over SOAP/HTTP
+saphostctrl     1128/udp                # SAPHostControl over SOAP/HTTP
+saphostctrls    1129/tcp                # SAPHostControl over SOAP/HTTPS
+saphostctrls    1129/udp                # SAPHostControl over SOAP/HTTPS
+fnet-remote-ui  1174/tcp                # FlashNet Remote Admin
+fnet-remote-ui  1174/udp                # FlashNet Remote Admin
+llsurfup-http   1183/tcp                # LL Surfup HTTP
+llsurfup-http   1183/udp                # LL Surfup HTTP
+llsurfup-https  1184/tcp                # LL Surfup HTTPS
+llsurfup-https  1184/udp                # LL Surfup HTTPS
+caids-sensor    1192/tcp                # caids sensors channel
+caids-sensor    1192/udp                # caids sensors channel
+carrius-rshell  1197/tcp                # Carrius Remote Access
+carrius-rshell  1197/udp                # Carrius Remote Access
+aeroflight-ads  1218/tcp                # AeroFlight-ADs
+aeroflight-ads  1218/udp                # AeroFlight-ADs
+slinkysearch    1225/tcp                # SLINKYSEARCH
+slinkysearch    1225/udp                # SLINKYSEARCH
+search-agent    1234/tcp                # Infoseek Search Agent
+search-agent    1234/udp                # Infoseek Search Agent
+hacl-qs         1238/tcp                # hacl-qs
+hacl-qs         1238/udp                # hacl-qs
+hermes          1248/tcp                # hermes
+hermes          1248/udp                # hermes
+servergraph     1251/tcp                # servergraph
+servergraph     1251/udp                # servergraph
+shockwave2      1257/tcp                # Shockwave 2
+shockwave2      1257/udp                # Shockwave 2
+mpshrsv         1261/tcp                # mpshrsv
+mpshrsv         1261/udp                # mpshrsv
+hp-sci          1299/tcp                # hp-sci
+hp-sci          1299/udp                # hp-sci
+pdps            1314/tcp                # Photoscript Distributed Printing System
+pdps            1314/udp                # Photoscript Distributed Printing System
+ischat          1336/tcp                # Instant Service Chat
+ischat          1336/udp                # Instant Service Chat
+gv-us           1369/tcp                # GlobalView to Unix Shell
+gv-us           1369/udp                # GlobalView to Unix Shell
+us-gv           1370/tcp                # Unix Shell to GlobalView
+us-gv           1370/udp                # Unix Shell to GlobalView
+atex_elmd       1385/tcp    atex-elmd   # Atex Publishing License Manager
+atex_elmd       1385/udp    atex-elmd   # Atex Publishing License Manager
+checksum        1386/tcp                # CheckSum License Manager
+checksum        1386/udp                # CheckSum License Manager
+objective-dbc   1388/tcp                # Objective Solutions DataBase Cache
+objective-dbc   1388/udp                # Objective Solutions DataBase Cache
+sophia-lm       1408/tcp                # Sophia License Manager
+sophia-lm       1408/udp                # Sophia License Manager
+ora-lm          1446/tcp                # Optical Research Associates License Manager
+ora-lm          1446/udp                # Optical Research Associates License Manager
+apri-lm         1447/tcp                # Applied Parallel Research LM
+apri-lm         1447/udp                # Applied Parallel Research LM
+dwf             1450/tcp                # Tandem Distributed Workbench Facility
+dwf             1450/udp                # Tandem Distributed Workbench Facility
+nrcabq-lm       1458/tcp                # Nichols Research Corp.
+nrcabq-lm       1458/udp                # Nichols Research Corp.
+proshare1       1459/tcp                # Proshare Notebook Application
+proshare1       1459/udp                # Proshare Notebook Application
+proshare2       1460/tcp                # Proshare Notebook Application
+proshare2       1460/udp                # Proshare Notebook Application
+shivadiscovery  1502/tcp                # Shiva
+shivadiscovery  1502/udp                # Shiva
+vistium-share   1545/tcp                # vistium-share
+vistium-share   1545/udp                # vistium-share
+shivahose       1549/tcp                # Shiva Hose
+shivasound      1549/udp                # Shiva Sound
+veritas_pbx     1556/tcp  veritas-pbx   # VERITAS Private Branch Exchange
+veritas_pbx     1556/udp  veritas-pbx   # VERITAS Private Branch Exchange
+web2host        1559/tcp                # web2host
+web2host        1559/udp                # web2host
+taurus-wh       1610/tcp                # taurus-wh
+taurus-wh       1610/udp                # taurus-wh
+softdataphone   1621/tcp                # softdataphone
+softdataphone   1621/udp                # softdataphone
+shockwave       1626/tcp                # Shockwave
+shockwave       1626/udp                # Shockwave
+isdc            1636/tcp                # ISP shared public data control
+isdc            1636/udp                # ISP shared public data control
+islc            1637/tcp                # ISP shared local data control
+islc            1637/udp                # ISP shared local data control
+ismc            1638/tcp                # ISP shared management control
+ismc            1638/udp                # ISP shared management control
+saiseh          1644/tcp                # Satellite-data Acquisition System 4
+saiseh          1644/udp                # Satellite-data Acquisition System 4
+shiva_confsrvr  1651/tcp   shiva-confsrvr   # shiva_confsrvr
+shiva_confsrvr  1651/udp   shiva-confsrvr   # shiva_confsrvr
+proshare-mc-1   1673/tcp                # Intel Proshare Multicast
+proshare-mc-1   1673/udp                # Intel Proshare Multicast
+proshare-mc-2   1674/tcp                # Intel Proshare Multicast
+proshare-mc-2   1674/udp                # Intel Proshare Multicast
+deskshare       1702/tcp                # deskshare
+deskshare       1702/udp                # deskshare
+slingshot       1705/tcp                # slingshot
+slingshot       1705/udp                # slingshot
+csbphonemaster  1724/tcp                # csbphonemaster
+csbphonemaster  1724/udp                # csbphonemaster
+lofr-lm         1752/tcp                # Leap of Faith Research License Manager
+lofr-lm         1752/udp                # Leap of Faith Research License Manager
+pharmasoft      1779/tcp                # pharmasoft
+pharmasoft      1779/udp                # pharmasoft
+tht-treasure    1832/tcp                # ThoughtTreasure
+tht-treasure    1832/udp                # ThoughtTreasure
+gammafetchsvr   1859/tcp                # Gamma Fetcher Server
+gammafetchsvr   1859/udp                # Gamma Fetcher Server
+hp-webqosdb     1877/tcp                # hp-webqosdb
+hp-webqosdb     1877/udp                # hp-webqosdb
+ibm-mqseries2   1881/tcp                # IBM WebSphere MQ Everyplace
+ibm-mqseries2   1881/udp                # IBM WebSphere MQ Everyplace
+amdsched        1931/tcp                # AMD SCHED
+amdsched        1931/udp                # AMD SCHED
+macromedia-fcs  1935/tcp                # Macromedia Flash Communications Server MX
+macromedia-fcs  1935/udp                # Macromedia Flash Communications server MX
+simp-all        1959/tcp                # SIMP Channel
+simp-all        1959/udp                # SIMP Channel
+slush           1966/tcp                # Slush
+slush           1966/udp                # Slush
+netop-school    1971/tcp                # NetOp School
+netop-school    1971/udp                # NetOp School
+intersys-cache  1972/tcp                # Cache
+intersys-cache  1972/udp                # Cache
+dlsrap          1973/tcp                # Data Link Switching Remote Access Protocol
+dlsrap          1973/udp                # Data Link Switching Remote Access Protocol
+tcoflashagent   1975/tcp                # TCO Flash Agent
+tcoflashagent   1975/udp                # TCO Flash Agent
+#mshnet         1989/tcp                # MHSnet system
+#mshnet         1989/udp                # MHSnet system
+search          2010/tcp                #
+shadowserver    2027/tcp                #
+shadowserver    2027/udp                #
+newwavesearch   2058/tcp                # NewWaveSearchables RMI
+newwavesearch   2058/udp                # NewWaveSearchables RMI
+dlsrpn          2065/tcp                # Data Link Switch Read Port Number
+dlsrpn          2065/udp                # Data Link Switch Read Port Number
+dlswpn          2067/tcp                # Data Link Switch Write Port Number
+dlswpn          2067/udp                # Data Link Switch Write Port Number
+avauthsrvprtcl  2068/tcp                # Avocent AuthSrv Protocol
+avauthsrvprtcl  2068/udp                # Avocent AuthSrv Protocol
+sunclustergeo   2084/tcp                # SunCluster Geographic
+sunclustergeo   2084/udp                # SunCluster Geographic
+ias-auth        2139/tcp                # IAS-AUTH
+ias-auth        2139/udp                # IAS-AUTH
+touchnetplus    2158/tcp                # TouchNetPlus Service
+touchnetplus    2158/udp                # TouchNetPlus Service
+navisphere      2162/tcp                # Navisphere
+navisphere      2162/udp                # Navisphere
+navisphere-sec  2163/tcp                # Navisphere Secure
+navisphere-sec  2163/udp                # Navisphere Secure
+vmrdp           2179/tcp                # Microsoft RDP for virtual machines
+vmrdp           2179/udp                # Microsoft RDP for virtual machines
+ssmc            2187/tcp                # Sepehr System Management Control
+ssmd            2187/udp                # Sepehr System Management Data
+ethernet-ip-s   2221/tcp                # EtherNet/IP over TLS
+ethernet-ip-s   2221/udp                # EtherNet/IP over DTLS
+starschool      2270/tcp                # starSchool
+starschool      2270/udp                # starSchool
+mmcals          2271/tcp                # Secure Meeting Maker Scheduling
+mmcals          2271/udp                # Secure Meeting Maker Scheduling
+eapsp           2291/tcp                # EPSON Advanced Printer Share Protocol
+eapsp           2291/udp                # EPSON Advanced Printer Share Protocol
+konshus-lm      2294/tcp                # Konshus License Manager (FLEX)
+konshus-lm      2294/udp                # Konshus License Manager (FLEX)
+attachmate-uts  2304/tcp                # Attachmate UTS
+attachmate-uts  2304/udp                # Attachmate UTS
+sdhelp          2308/tcp                # sdhelp
+sdhelp          2308/udp                # sdhelp
+tscchat         2330/tcp                # TSCCHAT
+tscchat         2330/udp                # TSCCHAT
+psbserver       2350/tcp                # Pharos Booking Server
+psbserver       2350/udp                # Pharos Booking Server
+attachmate-s2s  2419/tcp                # Attachmate S2S
+attachmate-s2s  2419/udp                # Attachmate S2S
+sybasedbsynch   2439/tcp                # SybaseDBSynch
+sybasedbsynch   2439/udp                # SybaseDBSynch
+hpppssvr        2448/tcp                # hpppsvr
+hpppssvr        2448/udp                # hpppsvr
+ms-theater      2460/tcp                # ms-theater
+ms-theater      2460/udp                # ms-theater
+ssm-cvs         2477/tcp                # SecurSight Certificate Valifation Service
+ssm-cvs         2477/udp                # SecurSight Certificate Valifation Service
+ssm-cssps       2478/tcp                # SecurSight Authentication Server (SSL)
+ssm-cssps       2478/udp                # SecurSight Authentication Server (SSL)
+ssm-els         2479/tcp                # SecurSight Event Logging Server (SSL)
+ssm-els         2479/udp                # SecurSight Event Logging Server (SSL)
+novell-zen      2544/tcp                # Management Daemon Refresh
+novell-zen      2544/udp                # Management Daemon Refresh
+trustestablish  2573/tcp                # Trust Establish
+trustestablish  2573/udp                # Trust Establish
+maytagshuffle   2591/tcp                # Maytag Shuffle
+maytagshuffle   2591/udp                # Maytag Shuffle
+appswitch-emp   2616/tcp                # appswitch-emp
+appswitch-emp   2616/udp                # appswitch-emp
+moshebeeri      2627/tcp                # Moshe Beeri
+moshebeeri      2627/udp                # Moshe Beeri
+sybaseanywhere  2638/tcp                # Sybase Anywhere
+sybaseanywhere  2638/udp                # Sybase Anywhere
+sns-dispatcher  2657/tcp                # SNS Dispatcher
+sns-dispatcher  2657/udp                # SNS Dispatcher
+nhserver        2672/tcp                # nhserver
+nhserver        2672/udp                # nhserver
+sms-chat        2703/tcp                # SMS CHAT
+sms-chat        2703/udp                # SMS CHAT
+scan-change     2719/tcp                # Scan & Change
+scan-change     2719/udp                # Scan & Change
+whosells        2781/tcp                # whosells
+whosells        2781/udp                # whosells
+tmesis-upshot   2798/tcp                # TMESIS-UPShot
+tmesis-upshot   2798/udp                # TMESIS-UPShot
+dvr-esm         2804/tcp                # March Networks Digital Video Recorders and Enterprise Service Manager products
+dvr-esm         2804/udp                # March Networks Digital Video Recorders and Enterprise Service Manager products
+vrts-at-port    2821/tcp                # VERITAS Authentication Service
+vrts-at-port    2821/udp                # VERITAS Authentication Service
+glishd          2833/tcp                # glishd
+glishd          2833/udp                # glishd
+webemshttp      2851/tcp                # webemshttp
+webemshttp      2851/udp                # webemshttp
+daishi          2870/tcp                # daishi
+daishi          2870/udp                # daishi
+flashmsg        2884/tcp                # Flash Msg
+flashmsg        2884/udp                # Flash Msg
+kastenchasepad  2918/tcp                # Kasten Chase Pad
+kastenchasepad  2918/udp                # Kasten Chase Pad
+wap-push        2948/tcp                # WAP PUSH
+wap-push        2948/udp                # WAP PUSH
+wap-pushsecure  2949/tcp                # WAP PUSH SECURE
+wap-pushsecure  2949/udp                # WAP PUSH SECURE
+mgxswitch       3070/tcp                # MGXSWITCH
+mgxswitch       3070/udp                # MGXSWITCH
+vcrp            3073/tcp                # Very simple chatroom prot
+vcrp            3073/udp                # Very simple chatroom prot
+wsynch          3111/tcp                # Web Synchronous Services
+wsynch          3111/udp                # Web Synchronous Services
+cs-auth-svr     3113/tcp                # CS-Authenticate Svr Port
+cs-auth-svr     3113/udp                # CS-Authenticate Svr Port
+stvp            3158/tcp                # SmashTV Protocol
+stvp            3158/udp                # SmashTV Protocol
+sossecollector  3166/tcp                # Quest Spotlight Out-Of-Process Collector
+sossecollector  3166/udp                # Quest Spotlight Out-Of-Process Collector
+vx-auth-port    3207/tcp                # Veritas Authentication Port
+vx-auth-port    3207/udp                # Veritas Authentication Port
+dwnmshttp       3227/tcp                # DiamondWave NMS Server
+dwnmshttp       3227/udp                # DiamondWave NMS Server
+whisker         3233/tcp                # WhiskerControl main port
+whisker         3233/udp                # WhiskerControl main port
+semaphore       3255/tcp                # Semaphore Connection Port
+semaphore       3255/udp                # Semaphore Connection Port
+winshadow       3261/tcp                # winShadow
+winshadow       3261/udp                # winShadow
+msft-gc-ssl     3269/tcp                # Microsoft Global Catalog with LDAP/SSL
+msft-gc-ssl     3269/udp                # Microsoft Global Catalog with LDAP/SSL
+sah-lm          3291/tcp                # S A Holditch & Associates - LM
+sah-lm          3291/udp                # S A Holditch & Associates - LM
+ssrip           3318/tcp                # Swith to Swith Routing Information Protocol
+ssrip           3318/udp                # Swith to Swith Routing Information Protocol
+chevinservices  3349/tcp                # Chevin Services
+chevinservices  3349/udp                # Chevin Services
+adtech-test     3357/tcp                # Adtech Test IP
+adtech-test     3357/udp                # Adtech Test IP
+sns-channels    3380/tcp                # SNS Channels
+sns-channels    3380/udp                # SNS Channels
+fujitsu-neat    3382/tcp                # Fujitsu Network Enhanced Antitheft function
+fujitsu-neat    3382/udp                # Fujitsu Network Enhanced Antitheft function
+websphere-snmp  3427/tcp                # WebSphere SNMP
+websphere-snmp  3427/udp                # WebSphere SNMP
+ssdispatch      3430/tcp                # Scott Studios Dispatch
+ssdispatch      3430/udp                # Scott Studios Dispatch
+stun            3478/tcp stun-behavior turn # Session Traversal Utilities for NAT (STUN) port, TURN over TCP
+stun            3478/udp stun-behavior turn # Session Traversal Utilities for NAT (STUN) port, TURN over UDP
+ifsf-hb-port    3486/tcp                # IFSF Heartbeat Port
+ifsf-hb-port    3486/udp                # IFSF Heartbeat Port
+ltctcp          3487/tcp                # LISA TCP Transfer Channel
+ltcudp          3487/udp                # LISA UDP Transfer Channel
+fs-rh-srv       3488/tcp                # FS Remote Host Server
+fs-rh-srv       3488/udp                # FS Remote Host Server
+dashpas-port    3498/tcp                # DASHPAS user port
+dashpas-port    3498/udp                # DASHPAS user port
+lsp-ping        3503/tcp                # MPLS LSP-echo Port
+lsp-ping        3503/udp                # MPLS LSP-echo Port
+nesh-broker     3507/tcp                # Nesh Broker Port
+nesh-broker     3507/udp                # Nesh Broker Port
+quest-data-hub  3566/tcp                # Quest Data Hub
+shareapp        3595/tcp                # ShareApp
+shareapp        3595/udp                # ShareApp
+infiniswitchcl  3602/tcp                # InfiniSwitch Mgr Client
+infiniswitchcl  3602/udp                # InfiniSwitch Mgr Client
+sigma-port      3614/tcp                # Satchwell Sigma
+sigma-port      3614/udp                # Satchwell Sigma
+sharp-server    3617/tcp                # ATI SHARP Logic Engine
+sharp-server    3617/udp                # ATI SHARP Logic Engine
+ssowatch        3644/tcp                # ssowatch
+ssowatch        3644/udp                # ssowatch
+nmmp            3649/tcp                # Nishioka Miyuki Msg Protocol
+nmmp            3649/udp                # Nishioka Miyuki Msg Protocol
+abatjss         3656/tcp                # ActiveBatch Job Scheduler
+abatjss         3656/udp                # ActiveBatch Job Scheduler
+casanswmgmt     3669/tcp                # CA SAN Switch Management
+casanswmgmt     3669/udp                # CA SAN Switch Management
+simple-push     3687/tcp                # simple-push
+simple-push     3687/udp                # simple-push
+simple-push-s   3688/tcp                # simple-push Secure
+simple-push-s   3688/udp                # simple-push Secure
+wv-csp-sms-cir  3716/tcp                # WV CSP SMS CIR Channel
+wv-csp-sms-cir  3716/udp                # WV CSP SMS CIR Channel
+wv-csp-udp-cir  3717/tcp                # WV CSP UDP/IP CIR Channel
+wv-csp-udp-cir  3717/udp                # WV CSP UDP/IP CIR Channel
+sychrond        3723/tcp                # Sychron Service Daemon
+sychrond        3723/udp                # Sychron Service Daemon
+sas-remote-hlp  3755/tcp                # SAS Remote Help Server
+sas-remote-hlp  3755/udp                # SAS Remote Help Server
+sitewatch-s     3766/tcp                # SSL e-watch sitewatch server
+ctdhercules     3773/tcp                # ctdhercules
+ctdhercules     3773/udp                # ctdhercules
+sitewatch       3792/tcp                # e-Watch Corporation SiteWatch
+sitewatch       3792/udp                # e-Watch Corporation SiteWatch
+radius-dynauth  3799/tcp                # RADIUS Dynamic Authorization
+radius-dynauth  3799/udp                # RADIUS Dynamic Authorization
+tcpdataserver   3805/tcp                # ThorGuard Server Port
+tcpdataserver   3805/udp                # ThorGuard Server Port
+sun-as-iiops-ca 3808/tcp                # Sun App Svr-IIOPClntAuth
+sun-as-iiops-ca 3808/udp                # Sun App Svr-IIOPClntAuth
+sunlps-http     3816/tcp                # Sun Local Patch Server
+sunlps-http     3816/udp                # Sun Local Patch Server
+tapeware        3817/tcp                # Yosemite Tech Tapeware
+tapeware        3817/udp                # Yosemite Tech Tapeware
+crinis-hb       3818/tcp                # Crinis Heartbeat
+crinis-hb       3818/udp                # Crinis Heartbeat
+spectardb       3835/tcp                # Spectar Database Rights Service
+spectardb       3835/udp                # Spectar Database Rights Service
+shiprush-db-svr 3841/tcp                # ShipRush Database Server
+winshadow-hd    3861/tcp                # winShadow Host Discovery
+winshadow-hd    3861/udp                # winShadow Host Discovery
+ovsam-mgmt      3869/tcp                # hp OVSAM MgmtServer Disco
+ovsam-mgmt      3869/udp                # hp OVSAM MgmtServer Disco
+ovsam-d-agent   3870/tcp                # hp OVSAM HostAgent Disco
+ovsam-d-agent   3870/udp                # hp OVSAM HostAgent Disco
+avocent-adsap   3871/tcp                # Avocent DS Authorization
+avocent-adsap   3871/udp                # Avocent DS Authorization
+ciphire-serv    3888/tcp                # Ciphire Services
+ciphire-serv    3888/udp                # Ciphire Services
+ndsconnect      3890/tcp                # Niche Data Server Connect
+ndsconnect      3890/udp                # Niche Data Server Connect
+sdo-ssh         3897/tcp                # Simple Distributed Objects over SSH
+sdo-ssh         3897/udp                # Simple Distributed Objects over SSH
+nimsh           3901/tcp                # NIM Service Handler
+nimsh           3901/udp                # NIM Service Handler
+nimaux          3902/tcp                # NIMsh Auxiliary Port
+nimaux          3902/udp                # NIMsh Auxiliary Port
+charsetmgr      3903/tcp                # CharsetMGR
+charsetmgr      3903/udp                # CharsetMGR
+gbmt-stars      3912/tcp                # Global Maintech Stars
+gbmt-stars      3912/udp                # Global Maintech Stars
+smauth-port     3929/tcp                # AMS Port
+smauth-port     3929/udp                # AMS Port
+ianywhere-dbns  3968/tcp                # iAnywhere DBNS
+ianywhere-dbns  3968/udp                # iAnywhere DBNS
+progistics      3973/tcp                # ConnectShip Progistics
+progistics      3973/udp                # ConnectShip Progistics
+citysearch      3974/tcp                # Remote Applicant Tracking Service
+citysearch      3974/udp                # Remote Applicant Tracking Service
+airshot         3975/tcp                # Air Shot
+airshot         3975/udp                # Air Shot
+smwan           3979/tcp                # Smith Micro Wide Area Network Service
+smwan           3979/udp                # Smith Micro Wide Area Network Service
+starfish        3981/tcp                # Starfish System Admin
+starfish        3981/udp                # Starfish System Admin
+mapper-ws_ethd  3986/tcp  mapper-ws-ethd  # MAPPER workstation server
+mapper-ws_ethd  3986/udp  mapper-ws-ethd  # MAPPER workstation server
+as-debug        4026/tcp                # Graphical Debug Server
+as-debug        4026/udp                # Graphical Debug Server
+vrts-auth-port  4032/tcp                # VERITAS Authorization Service
+vrts-auth-port  4032/udp                # VERITAS Authorization Service
+wap-push-http   4035/tcp                # WAP Push OTA-HTTP port
+wap-push-http   4035/udp                # WAP Push OTA-HTTP port
+wap-push-https  4036/tcp                # WAP Push OTA-HTTP secure
+wap-push-https  4036/udp                # WAP Push OTA-HTTP secure
+kingfisher      4058/tcp                # Kingfisher protocol
+kingfisher      4058/udp                # Kingfisher protocol
+dsmeter_iatc    4060/tcp  dsmeter-iatc  # DSMETER Inter-Agent Transfer Channel
+dsmeter_iatc    4060/udp  dsmeter-iatc  # DSMETER Inter-Agent Transfer Channel
+seraph          4076/tcp                # Seraph DCS
+seraph          4076/udp                # Seraph DCS
+fortisphere-vm  4084/udp                # Fortisphere VM Service
+ftsync          4086/udp                # Firewall/NAT state table synchronization
+npsp            4088/tcp                # Noah Printing Service Protocol
+shofar          4105/tcp                # Shofar
+shofar          4105/udp                # Shofar
+synchronite     4106/tcp                # Synchronite
+synchronite     4106/udp                # Synchronite
+stars           4131/tcp                # Global Maintech Stars
+stars           4131/udp                # Global Maintech Stars
+cl-db-attach    4135/tcp                # Classic Line Database Server Attach
+cl-db-attach    4135/udp                # Classic Line Database Server Attach
+PowerAlert-nsa  4150/tcp                # PowerAlert Network Shutdown Agent
+PowerAlert-nsa  4150/udp                # PowerAlert Network Shutdown Agent
+d-cinema-csp    4170/tcp                # SMPTE Content Synchonization Protocol
+pscl-mgt        4312/tcp                # Parascale Membership Manager
+publiqare-sync  4329/tcp                # PubliQare Distributed Environment Synchronisation Engine
+netconf-ch-ssh  4334/tcp                # NETCONF Call Home (SSH) 
+restconf-ch-tls 4336/tcp                # RESTCONF Call Home (TLS) 
+shadowstream    4366/udp                # ShadowStream System
+psi-ptt         4374/tcp                # PSI Push-to-Talk Protocol
+tolteces        4375/tcp                # Toltec EasyShare
+tolteces        4375/udp                # Toltec EasyShare
+slscc           4408/tcp                # SLS Technology Control Centre
+smallchat       4412/udp                # SmallChat
+thingkit        4423/tcp                # thingkit secure mesh
+pharos          4443/tcp                # Pharos
+pharos          4443/udp                # Pharos
+prchat-user     4455/tcp                # PR Chat User
+prchat-user     4455/udp                # PR Chat User
+prchat-server   4456/tcp                # PR Chat Server
+prchat-server   4456/udp                # PR Chat Server
+hpssmgmt        4484/tcp                # hpssmgmt service
+hpssmgmt        4484/udp                # hpssmgmt service
+wssauthsvc      4537/tcp                # WSS Security Service
+wssauthsvc      4537/udp                # WSS Security Service
+swx-gate        4538/tcp                # Software Data Exchange Gateway
+swx-gate        4538/udp                # Software Data Exchange Gateway
+synchromesh     4548/tcp                # Synchromesh
+synchromesh     4548/udp                # Synchromesh
+icshostsvc      4553/tcp                # ICS host services
+mtcevrunqss     4557/udp                # Marathon everRun Quorum Service Server
+kwtc            4566/tcp                # Kids Watch Time Control Service
+kwtc            4566/udp                # Kids Watch Time Control Service
+iax             4569/tcp                # Inter-Asterisk eXchange
+iax             4569/udp                # Inter-Asterisk eXchange
+ias-neighbor    4596/tcp                # IAS-Neighbor (ANRI-ANRI)
+ias-neighbor    4596/udp                # IAS-Neighbor (ANRI-ANRI)
+sixchat         4605/tcp                # Direct End to End Secure
+netxms-sync     4702/tcp                # NetXMS Server Synchronization
+netxms-sync     4702/udp                # NetXMS Server Synchronization
+resorcs         4733/tcp                # RES Orchestration Catalog Services
+ifsp            4744/tcp                # Internet File Synchronization Protocol
+ifsp            4744/udp                # Internet File Synchronization Protocol
+fmp             4745/tcp                # Funambol Mobile Push
+fmp             4745/udp                # Funambol Mobile Push
+buschtrommel    4747/udp                # peer-to-peer file exchange
+simon           4753/tcp                # Simple Invocation of Methods
+sia-ctrl-plane  4787/tcp                # Service Insertion Architecture (SIA) Control-Plane
+wfc             4847/tcp                # Web Fresh Communication
+wfc             4847/udp                # Web Fresh Communication
+appserv-http    4848/tcp                # App Server - Admin HTTP
+appserv-http    4848/udp                # App Server - Admin HTTP
+appserv-https   4849/tcp                # App Server - Admin HTTPS
+appserv-https   4849/udp                # App Server - Admin HTTPS
+lmcs            4877/tcp                # Lighting Management Control System
+lmcs            4877/udp                # Lighting Management Control System
+hislip          4880/tcp                # IVI High-Speed LAN Instrument Protocol
+socp-t          4881/udp                # SOCP Time Synchronization Protocol
+wmlserver       4883/tcp                # Meier-Phelps License Server
+atsc-mh-ssc     4937/udp                # ATSC-M/H Service Signaling Channel
+dbsyncarbiter   4953/tcp                # Synchronization Arbiter
+ctxs-vpp        4980/udp                # Citrix Virtual Path 
+smar-se-port1   4987/tcp                # SMAR Ethernet Port 1
+smar-se-port1   4987/udp                # SMAR Ethernet Port 1
+smar-se-port2   4988/tcp                # SMAR Ethernet Port 2
+smar-se-port2   4988/udp                # SMAR Ethernet Port 2
+busycal         4990/tcp                # BusySync Calendar Synch. Protocol
+busycal         4990/udp                # BusySync Calendar Synch. Protocol
+telelpathstart  5010/tcp                # TelepathStart
+telelpathstart  5010/udp                # TelepathStart
+fmwp            5015/tcp                # FileMaker, Inc. - Web publishing
+swxadmin        5043/tcp                # ShopWorX Administration
+swxadmin        5043/udp                # ShopWorX Administration
+vpm-udp         5046/udp                # Vishay PM UDP Service
+powerschool     5071/tcp                # PowerSchool
+powerschool     5071/udp                # PowerSchool
+pvaccess        5075/tcp                # Experimental Physics and Industrial Control System
+pixelpusher     5078/udp                # PixelPusher pixel data
+hughes-ap       5105/udp                # Hughes Association Protocol
+snmpssh         5161/tcp                # SNMP over SSH Transport Model
+snmpssh-trap    5162/tcp                # SNMP Notification over SSH Transport Model
+sbackup         5163/tcp                # Shadow Backup
+cpscomm         5194/tcp                # CipherPoint Config Service
+xmpp-bosh       5280/tcp                # Bidirectional-streams Over Synchronous HTTP (BOSH)
+hacl-hb         5300/tcp                # HA cluster heartbeat
+hacl-hb         5300/udp                # HA cluster heartbeat
+stuns           5349/tcp stun-behaviors turns # STUN over TLS, TURN over TLS
+stuns           5349/udp stun-behaviors turns # Reserved for a future enhancement of STUN, Reserved for a future enhancement of TURN
+ms-sideshow     5360/tcp                # Protocol for Windows SideShow
+ms-sideshow     5360/udp                # Protocol for Windows SideShow
+ms-s-sideshow   5361/tcp                # Secure Protocol for Windows SideShow
+ms-s-sideshow   5361/udp                # Secure Protocol for Windows SideShow
+securitychase   5399/tcp                # SecurityChase
+securitychase   5399/udp                # SecurityChase
+excerpts        5401/tcp                # Excerpt Search Secure
+excerpts        5401/udp                # Excerpt Search Secure
+base            5429/tcp                # Billing and Accounting System Exchange
+base            5429/udp                # Billing and Accounting System Exchange
+ttl-publisher   5462/tcp                # TTL Publisher
+ttl-publisher   5462/udp                # TTL Publisher
+absolab-col     5470/tcp                # The Apsolab company's data collection protocol
+absolab-cols    5471/tcp                # The Apsolab company's secure data collection protocol
+absolab-tag     5472/tcp                # The Apsolab company's dynamic tag protocol
+absolab-tags    5473/tcp                # The Apsolab company's secure dynamic tag protocol
+absolab-rpc     5474/udp                # The Apsolab company's status query protocol
+absolab-data    5475/tcp                # The Apsolab company's data retrieval protocol
+sgi-esphttp     5554/tcp                # SGI ESP HTTP
+sgi-esphttp     5554/udp                # SGI ESP HTTP
+sfmsso          5635/tcp                # SFM Authentication Subsystem
+ics             5639/tcp                # Symantec Integrity Checking
+questdb2-lnchr  5677/tcp                # Quest Central DB2 Launchr
+questdb2-lnchr  5677/udp                # Quest Central DB2 Launchr
+brightcore      5682/udp                # BrightCore control & data transfer exchange
+rbsystem        5693/tcp                # Robert Bosch Data Transfer
+proshareaudio   5713/tcp                # proshare conf audio
+proshareaudio   5713/udp                # proshare conf audio
+prosharevideo   5714/tcp                # proshare conf video
+prosharevideo   5714/udp                # proshare conf video
+prosharedata    5715/tcp                # proshare conf data
+prosharedata    5715/udp                # proshare conf data
+prosharerequest 5716/tcp                # proshare conf request
+prosharerequest 5716/udp                # proshare conf request
+prosharenotify  5717/tcp                # proshare conf notify
+prosharenotify  5717/udp                # proshare conf notify
+dtpt            5721/tcp                # Desktop Passthru Service
+dtpt            5721/udp                # Desktop Passthru Service
+omhs            5723/tcp                # Operations Manager - Health Service
+omhs            5723/udp                # Operations Manager - Health Service
+io-dist-group   5728/udp                # Dist. I/O Comm. Service Group Membership
+3par-mgmt-ssl   5783/tcp                # 3PAR Management Service with SSL
+3par-mgmt-ssl   5783/udp                # 3PAR Management Service with SSL
+shiprush-d-ch   5841/tcp                # Z-firm ShipRush interface for web access and bidirectional data
+fis             5912/tcp                # Flight Information Services
+fis             5912/udp                # Flight Information Services
+fis             5912/sctp               # Flight Information Services
+consul-insight  5992/tcp                # Consul InSight Security
+consul-insight  5992/udp                # Consul InSight Security
+ldss            6087/tcp                # Local Download Sharing Service
+ldss            6087/udp                # Local Download Sharing Service
+synchronet-db   6100/tcp                # SynchroNet-db
+synchronet-db   6100/udp                # SynchroNet-db
+synchronet-rtc  6101/tcp                # SynchroNet-rtc
+synchronet-rtc  6101/udp                # SynchroNet-rtc
+synchronet-upd  6102/tcp                # SynchroNet-upd
+synchronet-upd  6102/udp                # SynchroNet-upd
+softcm          6110/tcp                # HP SoftBench CM
+softcm          6110/udp                # HP SoftBench CM
+spc             6111/tcp                # HP SoftBench Sub-Process Control
+spc             6111/udp                # HP SoftBench Sub-Process Control
+pnbs            6124/tcp                # Phlexible Network Backup Service
+pnbs            6124/udp                # Phlexible Network Backup Service
+aspentec-lm     6142/tcp                # Aspen Technology License Manager
+aspentec-lm     6142/udp                # Aspen Technology License Manager
+watershed-lm    6143/tcp                # Watershed License Manager
+watershed-lm    6143/udp                # Watershed License Manager
+tl1-ssh         6252/tcp                # TL1 over SSH
+tl1-ssh         6252/udp                # TL1 over SSH
+abb-escp        6316/tcp                # Ethernet Sensor Communications Protocol
+abb-escp        6316/udp                # Ethernet Sensor Communications Protocol
+redis           6379/tcp                # An advanced key-value cache and store
+boe-cachesvr    6403/tcp                # boe-cachesvr
+boe-cachesvr    6403/udp                # boe-cachesvr
+nim-vdrshell    6420/tcp                # NIM_VDRShell
+nim-vdrshell    6420/udp                # NIM_VDRShell
+sun-sr-https    6443/tcp                # Service Registry Default HTTPS Domain
+sun-sr-https    6443/udp                # Service Registry Default HTTPS Domain
+sun-sr-http     6480/tcp                # Service Registry Default HTTP Domain
+sun-sr-http     6480/udp                # Service Registry Default HTTP Domain
+sun-sr-iiop-aut 6487/tcp                # Service Registry Default IIOPAuth Domain
+sun-sr-iiop-aut 6487/udp                # Service Registry Default IIOPAuth Domain
+mshvlm          6600/tcp                # Microsoft Hyper-V Live Migration
+mstmg-sstp      6601/tcp                # Microsoft Threat Management Gateway SSTP
+afesc-mc        6628/tcp                # AFE Stock Channel M/C
+afesc-mc        6628/udp                # AFE Stock Channel M/C
+cisco-vpath-tun 6633/udp                # Cisco vPath Services Overlay
+mpls-udp-dtls   6636/udp                # Encapsulate MPLS packets in UDP tunnels with DTLS
+ovsdb           6640/tcp                # Open vSwitch Database
+ircs-u          6697/tcp                # Internet Relay Chat via TLS/SSL
+frc-hp          6704/sctp               # ForCES HP (High Priority) channel
+frc-mp          6705/sctp               # ForCES MP (Medium Priority) channel
+frc-lp          6706/sctp               # ForCES LP (Low priority) channel
+plysrv-http     6770/tcp                # PolyServe http
+plysrv-http     6770/udp                # PolyServe http
+plysrv-https    6771/tcp                # PolyServe https
+plysrv-https    6771/udp                # PolyServe https
+smc-http        6788/tcp                # SMC-HTTP
+smc-http        6788/udp                # SMC-HTTP
+smc-https       6789/tcp                # SMC-HTTPS
+smc-https       6789/udp                # SMC-HTTPS
+iccrushmore     6850/tcp                # ICCRUSHMORE
+iccrushmore     6850/udp                # ICCRUSHMORE
+acctopus-cc     6868/tcp                # Acctopus Command Channel
+ethoscan        6935/tcp                # EthoScan Service
+ethoscan        6935/udp                # EthoScan Service
+ct2nmcs         7023/tcp                # Comtech T2 NMCS
+ct2nmcs         7023/udp                # Comtech T2 NMCS
+scenccs         7129/tcp                # Catalog Content Search
+scenccs         7129/udp                # Catalog Content Search
+nfoldman        7393/tcp                # nFoldMan Remote Publish
+nfoldman        7393/udp                # nFoldMan Remote Publish
+oracleas-https  7443/tcp                # Oracle Application Server HTTPS
+oracleas-https  7443/udp                # Oracle Application Server HTTPS
+rise            7473/tcp                # Rise: The Vieneo Province
+rise            7473/udp                # Rise: The Vieneo Province
+silhouette      7500/tcp                # Silhouette User
+silhouette      7500/udp                # Silhouette User
+soap-http       7627/tcp                # SOAP Service Port
+soap-http       7627/udp                # SOAP Service Port
+sun-user-https  7677/tcp                # Sun App Server - HTTPS
+sun-user-https  7677/udp                # Sun App Server - HTTPS
+smip            7734/tcp                # Smith Protocol over IP
+smip            7734/udp                # Smith Protocol over IP
+csoauth         7847/tcp                # A product key authentication by CSO
+rbt-smc         7870/tcp                # Riverbed Steelhead Mobile Service
+tnos-dp         7902/tcp                # TNOS shell Protocol
+tnos-dp         7902/udp                # TNOS shell Protocol
+generalsync     7962/tcp                # general-purpose synchronization protocol
+generalsync     7962/udp                # general-purpose synchronization protocol
+sossd-collect   7981/tcp                # Spotlight on SQL Server Desktop Collect
+sossd-agent     7982/tcp                # Spotlight on SQL Server Desktop Agent
+sossd-disc      7982/udp                # Spotlight on SQL Server Desktop Agent Discovery
+pushns          7997/tcp                # PUSH Notification Service
+usicontentpush  7998/udp                # USI Content Push Service
+senomix01       8052/tcp                # Senomix Timesheets Server
+senomix01       8052/udp                # Senomix Timesheets Server
+senomix02       8053/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix02       8053/udp                # Senomix Timesheets Client [1 year assignment]
+senomix03       8054/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix03       8054/udp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/udp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/udp                # Senomix Timesheets Server [1 year assignment]
+senomix06       8057/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix06       8057/udp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/udp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/udp                # Senomix Timesheets Client [1 year assignment]
+cp-cluster      8116/tcp                # Check Point Clustering
+cp-cluster      8116/udp                # Check Point Clustering
+paycash-online  8128/tcp                # PayCash Online Protocol
+paycash-online  8128/udp                # PayCash Online Protocol
+paycash-wbp     8129/tcp                # PayCash Wallet-Browser
+paycash-wbp     8129/udp                # PayCash Wallet-Browser
+spytechphone    8192/tcp                # SpyTech Phone Service
+spytechphone    8192/udp                # SpyTech Phone Service
+aesop           8202/udp                # Audio+Ethernet Standard Open Protocol
+synapse-nhttps  8243/tcp                # Synapse Non Blocking HTTPS
+synapse-nhttps  8243/udp                # Synapse Non Blocking HTTPS
+synapse-nhttp   8280/tcp                # Synapse Non Blocking HTTP
+synapse-nhttp   8280/udp                # Synapse Non Blocking HTTP
+tnp-discover    8320/tcp                # Thin(ium) Network Protocol
+tnp-discover    8320/udp                # Thin(ium) Network Protocol
+dlpx-sp         8415/tcp                # Delphix Session Protocol
+espeech         8416/tcp                # eSpeech Session Protocol
+espeech         8416/udp                # eSpeech Session Protocol
+espeech-rtp     8417/tcp                # eSpeech RTP Protocol
+espeech-rtp     8417/udp                # eSpeech RTP Protocol
+pcsync-https    8443/tcp                # PCsync HTTPS
+pcsync-https    8443/udp                # PCsync HTTPS
+pcsync-http     8444/tcp                # PCsync HTTP
+pcsync-http     8444/udp                # PCsync HTTP
+noteshare       8474/tcp                # AquaMinds NoteShare
+noteshare       8474/udp                # AquaMinds NoteShare
+ultraseek-http  8765/tcp                # Ultraseek HTTP
+ultraseek-http  8765/udp                # Ultraseek HTTP
+twds            8937/tcp                # Transaction Warehouse Data Service
+emc-pp-mgmtsvc  9083/tcp                # EMC PowerPath Mgmt Service
+armcenterhttps  9295/tcp                # ARMCenter https Service
+armcenterhttps  9295/udp                # ARMCenter https Service
+sphinxql        9306/tcp                # Sphinx search server (MySQL listener)
+sphinxapi       9312/tcp                # Sphinx search server
+ctechlicensing  9346/tcp                # C Tech Licensing
+ctechlicensing  9346/udp                # C Tech Licensing
+tungsten-https  9443/tcp                # WSO2 Tungsten HTTPS
+tungsten-https  9443/udp                # WSO2 Tungsten HTTPS
+l5nas-parchan   9747/tcp                # L5NAS Parallel Channel
+l5nas-parchan   9747/udp                # L5NAS Parallel Channel
+tungsten-http   9762/tcp                # WSO2 Tungsten HTTP
+tungsten-http   9762/udp                # WSO2 Tungsten HTTP
+enrp            9901/udp                # enrp server channel
+enrp-sctp       9901/sctp               # enrp server channel
+enrp-sctp-tls   9902/sctp               # enrp/tls server channel
+bngsync         10439/udp               # BalanceNG session table synchronization protocol
+serverdocs      10548/tcp               # Apple Document Sharing
+imip-channels   11320/tcp               # IMIP Channels Port
+imip-channels   11320/udp               # IMIP Channels Port
+emc-xsw-dcache  11723/tcp               # EMC XtremSW distributed cache
+emc-xsw-dcache  11723/udp               # EMC XtremSW distributed cache
+lanschool       11796/tcp               # LanSchool
+lanschool-mpt   11796/udp               # Lanschool Multipoint
+entextxid       12000/tcp               # IBM Enterprise Extender SNA XID Exchange
+entextxid       12000/udp               # IBM Enterprise Extender SNA XID Exchange
+entexthigh      12002/tcp               # IBM Enterprise Extender SNA COS High Priority
+entexthigh      12002/udp               # IBM Enterprise Extender SNA COS High Priority
+warehouse-sss   12321/tcp               # Warehouse Monitoring Syst SSS
+warehouse-sss   12321/udp               # Warehouse Monitoring Syst SSS
+warehouse       12322/tcp               # Warehouse Monitoring Syst
+warehouse       12322/udp               # Warehouse Monitoring Syst
+dsmcc-passthru  13820/tcp               # DSMCC Pass-Thru Messages
+dsmcc-passthru  13820/udp               # DSMCC Pass-Thru Messages
+dsmcc-ccp       13822/tcp               # DSMCC Channel Change Protocol
+dsmcc-ccp       13822/udp               # DSMCC Channel Change Protocol
+scotty-ft       14000/tcp               # SCOTTY High-Speed Filetransfer
+scotty-ft       14000/udp               # SCOTTY High-Speed Filetransfer
+scotty-disc     14002/udp               # Discovery of a SCOTTY hardware codec board
+hde-lcesrvr-1   14936/tcp               # hde-lcesrvr-1
+hde-lcesrvr-1   14936/udp               # hde-lcesrvr-1
+hde-lcesrvr-2   14937/tcp               # hde-lcesrvr-2
+hde-lcesrvr-2   14937/udp               # hde-lcesrvr-2
+jwpc            16020/tcp               # Filemaker Java Web Publishing Core
+jwpc-bin        16021/tcp               # Filemaker Java Web Publishing Core Binary
+netserialext3   16367/tcp               # Network Serial Extension Ports Three
+netserialext3   16367/udp               # Network Serial Extension Ports Three
+axon-tunnel     16665/tcp               # Reliable multipath data transport for high latencies
+amt-soap-http   16992/tcp               # Intel(R) AMT SOAP/HTTP
+amt-soap-http   16992/udp               # Intel(R) AMT SOAP/HTTP
+amt-soap-https  16993/tcp               # Intel(R) AMT SOAP/HTTPS
+amt-soap-https  16993/udp               # Intel(R) AMT SOAP/HTTPS
+cpsp            17222/udp               # Control Plane Synchronization Protocol
+ssh-mgmt        17235/tcp               # SSH Tectia Manager
+ssh-mgmt        17235/udp               # SSH Tectia Manager
+ohsc            18186/tcp               # Occupational Health SC
+ohsc            18186/udp               # Occupational Health Sc
+clusterxl       18243/tcp               # Checkpoint router state backup
+ua-secureagent  19194/tcp               # UserAuthority SecureAgent
+ua-secureagent  19194/udp               # UserAuthority SecureAgent
+keyshadow       19315/tcp               # Key Shadow for SASSAFRAS
+keyshadow       19315/udp               # Key Shadow for SASSAFRAS
+hp-sco          19410/tcp               # hp-sco
+hp-sco          19410/udp               # hp-sco
+hp-sca          19411/tcp               # hp-sca
+hp-sca          19411/udp               # hp-sca
+mle             19788/udp               # Mesh Link Establishment
+avesterra       20057/tcp               # AvesTerra Hypergraph Transfer Protocol (HGTP)
+gsidcap         22128/tcp               # GSI dCache Access Protocol
+shrewd-control  22335/tcp               # Initium Labs Security and Automation Control
+shrewd-stream   22335/udp               # Initium Labs Security and Automation Streaming
+filesphere      24242/tcp               # fileSphere
+filesphere      24242/udp               # fileSphere
+flashfiler      24677/tcp               # FlashFiler
+flashfiler      24677/udp               # FlashFiler
+rna             25471/sctp              # RNSAP User Adaptation for Iurh
+bf-master       25955/udp               # Bitfighter master server
+bosswave        28589/tcp               # Building operating system services wide area verified exchange
+gamesmith-port  31765/tcp               # GameSmith Port
+gamesmith-port  31765/udp               # GameSmith Port
+dgi-serv        33333/tcp               # Digital Gaslight Service
+dhanalakshmi    34567/tcp               # dhanalakshmi.org EDI Service
+rt-sound        35002/tcp               # ReadyTech Sound Server
+rt-classmanager 35004/tcp               # ReadyTech ClassManager
+rt-classmanager 35004/udp               # ReadyTech ClassManager
+guttersnex      35356/tcp               # Gutters Note Exchange
+febooti-aw      36524/tcp               # Febooti Automation Workshop
+unisys-eportal  37654/tcp               # Unisys ClearPath ePortal
+unisys-eportal  37654/udp               # Unisys ClearPath ePortal
+sruth           38800/tcp               # Sruth - University_Corporation_for_Atmospheric_Research
+secrmmsafecopya 38865/tcp               # for use of the secRMM SafeCopy program
+shaperai        43210/tcp               # Shaper Automation Server
+shaperai-disc   43210/udp               # Shaper Automation Server Management Discovery
+asihpi          44600/udp                # AudioScience HPI
+m3da-disc       44900/udp               # M3DA Discovery (efficient machine-to-machine communication)
+dai-shell       45824/tcp               # Server for the DAI family of client-server products
+jvl-mactalk     47100/udp               # Configuration of motors conneced to industrial ethernet
+# Updated additional list from IANA with all missing services 05/05/2017 done by Karl Vogel
+webpush         1001/tcp                # HTTP Web Push
+ngr-t           1528/udp                # NGR transport for mobile ad-hoc networks
+uma             1797/tcp                # Universal Management Architecture
+uma             1797/udp                # Universal Management Architecture
+gre-udp-dtls    4755/udp                # GRE-in-UDP Encapsulation with DTLS
+coherence-disc  7574/udp                # Oracle Coherence Cluster discovery service
+ucs-isc         8070/tcp                # Oracle Communication Indexed Search Converter
+opsmessaging    8090/tcp                # Vehicle to station messaging
+aritts          8423/tcp                # Aristech text-to-speech server
+CardWeb-IO      9060/tcp                # CardWeb request-response I/O exchange
+vdmmesh-disc    18668/udp               # Manufacturing Execution Systems Mesh Comm
+vdmmesh         18668/tcp               # Manufacturing Execution Systems Mesh Comm
+edi_service     34567/udp               # dhanalakshmi.org EDI Service
+spremotetablet  46998/tcp               # Capture handwritten signatures
+[thomas@localhost tmp]$ 
