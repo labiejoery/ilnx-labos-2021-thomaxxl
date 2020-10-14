@@ -320613,3 +320613,7 @@ Duitsland D
 Nederland NL
 [thomas@localhost labo3]$ 
 [thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ cat landenkentekens2ut -f2-3 -d ' ' landenkentekens >
