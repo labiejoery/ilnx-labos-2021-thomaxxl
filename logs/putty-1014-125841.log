@@ -320342,4 +320342,11 @@ totaal 16
 -rw-rw-r--. 1 thomas thomas   60 14 okt 14:07 landen
 -rw-rw-r--. 1 thomas thomas 2738 13 okt 16:38 lorem.txt
 -rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
-[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ vi ../labo
+labo-1-installatie.md                    labo6/
+labo-2-verkenning.md                     labo-6-scripts.md
+labo3/                                   labo-7-webserver.md
+labo-3-tekst.md                          labo8/
+labo-4-intro-scripts.md                  labo-8-complex-scripts.md
+labo-5-gebruikers-bestandspermissies.md  
+[thomas@localhost labo3]$ vi ../labo
