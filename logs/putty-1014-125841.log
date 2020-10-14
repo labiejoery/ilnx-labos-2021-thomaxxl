@@ -722,3 +722,72 @@ webphone        21845/udp               # webphone
 webpush         1001/tcp                # HTTP Web Push
 pmwebapi        44323/tcp               # Performance Co-Pilot client HTTP API
 [thomas@localhost tmp]$ grep -E "ssh|web" /etc/services [thomas@localhost tmp]$ grep -E "ssh|web" /etc/services ssh-E "ssh|web".h7
+# port number for both TCP and UDP; hence, most entries here have two entries
+ssh             22/tcp                          # The Secure Shell (SSH) Protocol
+ssh             22/udp                          # The Secure Shell (SSH) Protocol
+# alias here. This should work for programs asking for this service.
+gss-http        488/tcp
+gss-http        488/udp
+x11-ssh-offset  6010/tcp                        # SSH X11 forwarding offset
+ssh             22/sctp                 # SSH
+sshell          614/tcp                 # SSLshell
+sshell          614/udp                 #       SSLshell
+oob-ws-http     623/tcp                 # DMTF out-of-band web services management protocol
+oob-ws-https    664/tcp                 # DMTF out-of-band secure web services management protocol
+netconf-ssh     830/tcp                 # NETCONF over SSH
+netconf-ssh     830/udp                 # NETCONF over SSH
+ischat          1336/tcp                # Instant Service Chat
+ischat          1336/udp                # Instant Service Chat
+saiseh          1644/tcp                # Satellite-data Acquisition System 4
+saiseh          1644/udp                # Satellite-data Acquisition System 4
+amdsched        1931/tcp                # AMD SCHED
+amdsched        1931/udp                # AMD SCHED
+netop-school    1971/tcp                # NetOp School
+netop-school    1971/udp                # NetOp School
+navisphere      2162/tcp                # Navisphere
+navisphere      2162/udp                # Navisphere
+navisphere-sec  2163/tcp                # Navisphere Secure
+navisphere-sec  2163/udp                # Navisphere Secure
+starschool      2270/tcp                # starSchool
+starschool      2270/udp                # starSchool
+sdhelp          2308/tcp                # sdhelp
+sdhelp          2308/udp                # sdhelp
+sah-lm          3291/tcp                # S A Holditch & Associates - LM
+sah-lm          3291/udp                # S A Holditch & Associates - LM
+websphere-snmp  3427/tcp                # WebSphere SNMP
+websphere-snmp  3427/udp                # WebSphere SNMP
+sunlps-http     3816/tcp                # Sun Local Patch Server
+sunlps-http     3816/udp                # Sun Local Patch Server
+crinis-hb       3818/tcp                # Crinis Heartbeat
+crinis-hb       3818/udp                # Crinis Heartbeat
+sdo-ssh         3897/tcp                # Simple Distributed Objects over SSH
+sdo-ssh         3897/udp                # Simple Distributed Objects over SSH
+fortisphere-vm  4084/udp                # Fortisphere VM Service
+netconf-ch-ssh  4334/tcp                # NETCONF Call Home (SSH) 
+buschtrommel    4747/udp                # peer-to-peer file exchange
+powerschool     5071/tcp                # PowerSchool
+powerschool     5071/udp                # PowerSchool
+snmpssh         5161/tcp                # SNMP over SSH Transport Model
+snmpssh-trap    5162/tcp                # SNMP Notification over SSH Transport Model
+sgi-esphttp     5554/tcp                # SGI ESP HTTP
+sgi-esphttp     5554/udp                # SGI ESP HTTP
+rbsystem        5693/tcp                # Robert Bosch Data Transfer
+dtpt            5721/tcp                # Desktop Passthru Service
+dtpt            5721/udp                # Desktop Passthru Service
+tl1-ssh         6252/tcp                # TL1 over SSH
+tl1-ssh         6252/udp                # TL1 over SSH
+oracleas-https  7443/tcp                # Oracle Application Server HTTPS
+oracleas-https  7443/udp                # Oracle Application Server HTTPS
+sphinxql        9306/tcp                # Sphinx search server (MySQL listener)
+sphinxapi       9312/tcp                # Sphinx search server
+lanschool       11796/tcp               # LanSchool
+lanschool-mpt   11796/udp               # Lanschool Multipoint
+dsmcc-passthru  13820/tcp               # DSMCC Pass-Thru Messages
+dsmcc-passthru  13820/udp               # DSMCC Pass-Thru Messages
+ssh-mgmt        17235/tcp               # SSH Tectia Manager
+ssh-mgmt        17235/udp               # SSH Tectia Manager
+filesphere      24242/tcp               # fileSphere
+filesphere      24242/udp               # fileSphere
+sruth           38800/tcp               # Sruth - University_Corporation_for_Atmospheric_Research
+asihpi          44600/udp                # AudioScience HPI
+[thomas@localhost tmp]$ 
