@@ -243,4 +243,53 @@ Typ 'cut --help' voor meer informatie.
 [thomas@localhost tmp]$ cut -c 3 /etc/passwd -d :-d : 
 cut: een scheidingsteken mag alleen gegeven worden als met velden gewerkt wordt
 Typ 'cut --help' voor meer informatie.
-[thomas@localhost tmp]$ cut -c 3 -d : /etc/passwd 
+[thomas@localhost tmp]$ cut -c 3 -d : /etc/passwd f
+0
+1
+2
+3
+4
+5
+6
+7
+8
+11
+12
+14
+65534
+999
+192
+193
+81
+59
+107
+998
+997
+172
+171
+996
+70
+995
+994
+993
+113
+987
+986
+985
+75
+32
+48
+984
+29
+983
+982
+173
+981
+980
+42
+979
+74
+978
+72
+1000
+[thomas@localhost tmp]$ 
