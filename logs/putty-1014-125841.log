@@ -562,4 +562,4 @@ The key's randomart image is:
 -rw-------. 1 thomas thomas 2622 14 okt 13:17 /tmp/test
 [thomas@localhost tmp]$ ll /tmp/test.pub 
 -rw-r--r--. 1 thomas thomas 582 14 okt 13:17 /tmp/test.pub
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ cat 
