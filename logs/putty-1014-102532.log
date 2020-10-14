@@ -121488,4 +121488,4 @@ shutdown:x:6:0:shutdown:/sbin:/sbin/shutdowndisk:x:6:
 halt:x:7:0:halt:/sbin:/sbin/haltlp:x:7:
 mail:x:8:12:mail:/vaX/spool/mail:/sbin/nologinmem:x:8:
 opeXatoX:x:11:0:opeXatoX:/Xoot:/sbin/nologinkmem:x:9:
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/X/g' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/X/g' qsdfsdfq
