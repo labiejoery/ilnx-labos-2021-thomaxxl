@@ -320233,4 +320233,8 @@ drwxrwxr-x. 3 thomas thomas   4096 13 okt 16:38 labo8
 -rw-rw-r--. 1 thomas thomas   3369 13 okt 16:38 README.md
 -rw-r--r--. 1 thomas thomas 691913 14 okt 14:03 services
 -rw-rw-r--. 1 thomas thomas    100 14 okt 13:39 tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ll labo3
+totaal 8
+-rw-rw-r--. 1 thomas thomas 2738 13 okt 16:38 lorem.txt
+-rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
