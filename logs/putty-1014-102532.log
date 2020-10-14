@@ -121334,4 +121334,4 @@ JOIN(1)                                 User Commands                           
     46vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
     47tcpdump:x:72:72::/:/sbin/nologin
     48thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd
