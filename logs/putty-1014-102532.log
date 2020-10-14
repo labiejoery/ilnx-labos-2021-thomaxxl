@@ -121696,4 +121696,4 @@ tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev
 unbound:x:993:988:Unbound DNS resolver:/etc/unbound:/sbin/nologin
 usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
 vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort head -
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort head -5 /etc/passwd | sor
