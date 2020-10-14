@@ -319580,4 +319580,4 @@ it
 for
 the
 RFC
-(END)(END)[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+(END)(END)[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services | awk '{ print $4 }' | less
