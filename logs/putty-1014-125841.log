@@ -30,4 +30,9 @@ Receiving objects:  45% (800/1777), 1.21 MiB | 2.16 MiB/sReceiving objects:  46
 Receiving objects:  94% (1671/1777), 3.47 MiB | 3.27 MiB/sReceiving objects:  95% (1689/1777), 3.47 MiB | 3.27 MiB/sReceiving objects:  96% (1706/1777), 3.47 MiB | 3.27 MiB/sReceiving objects:  97% (1724/1777), 3.47 MiB | 3.27 MiB/sReceiving objects:  98% (1742/1777), 3.47 MiB | 3.27 MiB/sReceiving objects:  99% (1760/1777), 3.47 MiB | 3.27 MiB/sReceiving objects: 100% (1777/1777), 3.47 MiB | 3.27 MiB/sReceiving objects: 100% (1777/1777), 4.12 MiB | 3.32 MiB/s, done.
 Resolving deltas:   0% (0/879)Resolving deltas:  45% (399/879)Resolving deltas:  46% (407/879)Resolving deltas:  51% (457/879)Resolving deltas:  57% (507/879)Resolving deltas:  63% (557/879)Resolving deltas:  69% (607/879)Resolving deltas:  74% (659/879)Resolving deltas:  80% (709/879)Resolving deltas:  89% (787/879)Resolving deltas:  94% (828/879)Resolving deltas:  96% (844/879)Resolving deltas:  98% (863/879)Resolving deltas: 100% (879/879)Resolving deltas: 100% (879/879), done.
 [thomas@localhost tmp]$ 
-[thomas@localhost tmp]$ ls 
+[thomas@localhost tmp]$ ls ilnx-labos-2021-thomaxxl/
+cheat-sheet.md         labo-3-tekst.md                          labo-6-scripts.md          logs
+labo-1-installatie.md  labo-4-intro-scripts.md                  labo-7-webserver.md        README.md
+labo-2-verkenning.md   labo-5-gebruikers-bestandspermissies.md  labo8                      sync.sh
+labo3                  labo6                                    labo-8-complex-scripts.md
+[thomas@localhost tmp]$ 
