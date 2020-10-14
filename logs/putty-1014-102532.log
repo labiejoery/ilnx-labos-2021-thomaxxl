@@ -122304,4 +122304,4 @@ SSHD:X:74:74:PRIVILEGE-SEPARATED SSH:/VAR/EMPTY/SSHD:/SBIN/NOLOGIN
 VBOXADD:X:978:1::/VAR/RUN/VBOXADD:/SBIN/NOLOGIN
 TCPDUMP:X:72:72::/:/SBIN/NOLOGIN
 THOMAS:X:1000:1000:THOMAS:/HOME/THOMAS:/BIN/BASH
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr '[a-z]' '[A-Z]'paste
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr '[a-z]' '[A-Z]'paste p/etc/passwd
