@@ -39,4 +39,5 @@ origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (fetch)
 origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (push)
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen
+Generating public/private rsa key pair.
