@@ -307875,4 +307875,10 @@ Justine Henin, Bel
 Amelie Mauresmo, Fra
 Serena Williams, usa
 Venus Williams, USA
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cay
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cay t atennis.txt 
+Amelie Mauresmo, Fra
+Kim Clijsters, BEL
+Justine Henin, Bel
+Serena Williams, usa
+Venus Williams, USA
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
