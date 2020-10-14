@@ -698,3 +698,52 @@ DESCRIPTION
        -z, --zero-terminated
               line delimiter is NUL, not newline
  Manual page cut(1) line 1 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man cutcat /etc/passwd | cut -f 5 -d :c2 
+o
+i
+a
+d
+p
+y
+h
+a
+a
+p
+a
+t
+o
+y
+y
+y
+b
+s
+e
+l
+o
+t
+u
+y
+v
+i
+h
+n
+s
+n
+e
+a
+a
+p
+p
+o
+p
+p
+m
+b
+m
+l
+d
+n
+s
+b
+c
+h
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2 
