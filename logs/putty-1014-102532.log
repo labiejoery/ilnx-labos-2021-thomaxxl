@@ -58,4 +58,5 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDTY4Nrn3JFP5pzK6KiVGNfQJTjRmYr3KA6jJ2OIxn8
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.publs ~/.ssh/ssh-keygengit remote -v
 origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (fetch)
 origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (push)
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cd /v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cd /var/tmp/
+[thomas@localhost tmp]$ 
