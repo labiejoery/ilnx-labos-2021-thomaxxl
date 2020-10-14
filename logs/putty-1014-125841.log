@@ -320654,4 +320654,12 @@ Italië I
 Nederland NL
 Spanje E
 Zwitserland CH
-[thomas@localhost labo3]$ sort landenkentekens2 -lk 
+[thomas@localhost labo3]$ sort landenkentekens2 -lk 2
+België B
+Zwitserland CH
+Duitsland D
+Spanje E
+Frankrijk F
+Italië I
+Nederland NL
+[thomas@localhost labo3]$ 
