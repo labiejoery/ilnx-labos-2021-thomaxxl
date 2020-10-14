@@ -2961,4 +2961,53 @@ AUTHOR
        Written by Mike Haertel and Paul Eggert.
 
  Manual page sort(1) line 94/148 87% (press h for help or q to quit) ESCESCOOAA
- Manual page sort(1) line 93/148 87% (press h for help or q to quit)[thomas@localhost tmp]$ man sort cat /etc/passwd | sort -t : 
+ Manual page sort(1) line 93/148 87% (press h for help or q to quit)[thomas@localhost tmp]$ man sort cat /etc/passwd | sort -t : -k 3
+root:x:0:0:root:/root:/bin/bash
+thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
+qemu:x:107:107:qemu user:/:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+bin:x:1:1:bin:/bin:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt
+tcpdump:x:72:72::/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
+gnome-initial-setup:x:979:977::/run/gnome-initial-setup/:/sbin/nologin
+flatpak:x:980:978:User for flatpak system helper:/:/sbin/nologin
+nm-openconnect:x:981:979:NetworkManager user for OpenConnect:/:/sbin/nologin
+nm-openvpn:x:982:981:Default user for running openvpn spawned by NetworkManager:/:/sbin/nologin
+openvpn:x:983:982:OpenVPN:/etc/openvpn:/sbin/nologin
+colord:x:984:984:User for colord:/var/lib/colord:/sbin/nologin
+saslauth:x:985:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+geoclue:x:986:986:User for geoclue:/var/lib/geoclue:/sbin/nologin
+dnsmasq:x:987:987:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologin
+unbound:x:993:988:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+chrony:x:994:989::/var/lib/chrony:/sbin/nologin
+pipewire:x:995:990:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+systemd-timesync:x:996:991:systemd Time Synchronization:/:/sbin/nologin
+polkitd:x:997:994:User for polkitd:/:/sbin/nologin
+gluster:x:998:996:GlusterFS daemons:/run/gluster:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+[thomas@localhost tmp]$ cat /etc/passwd | sort -t : -k 3
