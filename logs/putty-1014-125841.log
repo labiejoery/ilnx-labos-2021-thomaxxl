@@ -320301,4 +320301,8 @@ tcpmux1/tcp# TCP port service multiplexer-- INSERT --# /etc/services:# /etc/ser
 # port number for both TCP and UDP; hence, most entries here have two entries
 # even if the protocol doesn't support UDP operations.
 # Updated from RFC 1700, ``Assigned Numbers'' (October 1994).  Not all ports
-# are included, only the more common ones.5 more lines
+# are included, only the more common ones.5 more linesfewer lines; before #5  3 seconds ago#http://www.iana.org/assignments/port-numbers
+# The Well Known Ports are those from 0 through 1023.
+# The Registered Ports are those from 1024 through 49151
+# The Dynamic and/or Private Ports are those from 49152 through 65535
+#5 fewer lines; before #5  3 seconds agolines yanked
