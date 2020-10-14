@@ -2409,4 +2409,4 @@ gnome-initial-setup:x:979:977::/run/gnome-initial-setup/:/sbin/nologin
 sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
 vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
 tcpdump:x:72:72::/:/sbin/nologin
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ grep n$ /etc/passwd
