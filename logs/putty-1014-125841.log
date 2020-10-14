@@ -3060,3 +3060,9 @@ systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
 thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
 [thomas@localhost tmp]$ cat /etc/passwd | sort -t : -k 3 -n[thomas@localhost tmp]$ cat /etc/passwd | sort -t : -k 3 -nhead -5 /etc/services 
+# /etc/services:
+# $Id: services,v 1.49 2017/08/18 12:43:23 ovasik Exp $
+#
+# Network services, Internet style
+# IANA services version: last updated 2016-07-08
+[thomas@localhost tmp]$ head -5 /etc/services 
