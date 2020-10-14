@@ -227,4 +227,14 @@ SEE ALSO
        Full documentation <https://www.gnu.org/software/coreutils/cat>
        or available locally via: info '(coreutils) cat invocation'
 
- Manual page cat(1) line 36 (press h for help or q to quit)
+ Manual page cat(1) line 36 (press h for help or q to quit) ESCESCOOAA
+ Manual page cat(1) line 35 (press h for help or q to quit) ESCESCOOAA              display TAB characters as ^I
+ Manual page cat(1) line 34 (press h for help or q to quit) ESCESCOOAA       -T, --show-tabs
+ Manual page cat(1) line 33 (press h for help or q to quit) ESCESCOOAA
+ Manual page cat(1) line 32 (press h for help or q to quit) ESCESCOOAA       -t     equivalent to -vT
+ Manual page cat(1) line 31 (press h for help or q to quit) ESCESCOOAA
+ Manual page cat(1) line 30 (press h for help or q to quit) ESCESCOOAA              suppress repeated empty output lines
+ Manual page cat(1) line 29 (press h for help or q to quit) ESCESCOOAA       -s, --squeeze-blank
+ Manual page cat(1) line 28 (press h for help or q to quit) ESCESCOOAA
+ Manual page cat(1) line 27 (press h for help or q to quit) ESCESCOOAA              number all output lines
+ Manual page cat(1) line 26 (press h for help or q to quit)[thomas@localhost tmp]$ 
