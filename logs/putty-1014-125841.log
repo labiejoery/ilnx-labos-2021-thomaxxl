@@ -308059,4 +308059,4 @@ tcpmux          1/tcp                           # TCP port service multiplexer
 #
 # $Id: services,v 1.49 2017/08/18 12:43:23 ovasik Exp $
 # /etc/services:
-:
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ less /etc/services  
