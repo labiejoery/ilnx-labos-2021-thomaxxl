@@ -440,3 +440,52 @@ omas:x:1
 72
 1000
 [thomas@localhost tmp]$ cut -f3 -d : /etc/passwd -6
+0:0:root:/root
+1:1:bin:/bin
+2:2:daemon:/sbin
+3:4:adm:/var/adm
+4:7:lp:/var/spool/lpd
+5:0:sync:/sbin
+6:0:shutdown:/sbin
+7:0:halt:/sbin
+8:12:mail:/var/spool/mail
+11:0:operator:/root
+12:100:games:/usr/games
+14:50:FTP User:/var/ftp
+65534:65534:Kernel Overflow User:/
+999:997:systemd Core Dumper:/
+192:192:systemd Network Management:/
+193:193:systemd Resolver:/
+81:81:System message bus:/
+59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null
+107:107:qemu user:/
+998:996:GlusterFS daemons:/run/gluster
+997:994:User for polkitd:/
+172:172:RealtimeKit:/proc
+171:171:PulseAudio System Daemon:/var/run/pulse
+996:991:systemd Time Synchronization:/
+70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon
+995:990:PipeWire System Daemon:/var/run/pipewire
+994:989::/var/lib/chrony
+993:988:Unbound DNS resolver:/etc/unbound
+113:113:usbmuxd user:/
+987:987:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq
+986:986:User for geoclue:/var/lib/geoclue
+985:76:Saslauthd user:/run/saslauthd
+75:75:radvd user:/
+32:32:Rpcbind Daemon:/var/lib/rpcbind
+48:48:Apache:/usr/share/httpd
+984:984:User for colord:/var/lib/colord
+29:29:RPC Service User:/var/lib/nfs
+983:982:OpenVPN:/etc/openvpn
+982:981:Default user for running openvpn spawned by NetworkManager:/
+173:173::/etc/abrt
+981:979:NetworkManager user for OpenConnect:/
+980:978:User for flatpak system helper:/
+42:42::/var/lib/gdm
+979:977::/run/gnome-initial-setup/
+74:74:Privilege-separated SSH:/var/empty/sshd
+978:1::/var/run/vboxadd
+72:72::/
+1000:1000:thomas:/home/thomas
+[thomas@localhost tmp]$ cut -f3-6 -d : /etc/passwd 
