@@ -537,4 +537,6 @@ omas:x:1
 978:1::/var/run/vboxadd
 72:72::/
 1000:1000:thomas:/home/thomas
-[thomas@localhost tmp]$ [thomas@localhost tmp]$ ss
+[thomas@localhost tmp]$ [thomas@localhost tmp]$ ssh-keygen 
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/thomas/.ssh/id_rsa): 
