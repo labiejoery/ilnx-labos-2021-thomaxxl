@@ -121095,3 +121095,6 @@ cloudcheck-ping 45514/udp               # ASSIA CloudCheck WiFi Management keepa
 cloudcheck      45514/tcp               # ASSIA CloudCheck WiFi Management System
 spremotetablet  46998/tcp               # Capture handwritten signatures
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -20 /etc/services 
+cloudcheck      45514/tcp               # ASSIA CloudCheck WiFi Management System
+spremotetablet  46998/tcp               # Capture handwritten signatures
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
