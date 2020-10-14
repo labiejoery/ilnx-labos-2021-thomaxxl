@@ -307842,3 +307842,14 @@ zymed-zpp
 ZYMED-ZPP
 ZYMED-ZPP
 [thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | sort | uniq | tail 
+zre-disc
+zsecure
+zSecure
+zserv
+z-wave
+Z-Wave
+z-wave-s
+z-wave-tunnel
+zymed-zpp
+ZYMED-ZPP
+[thomas@localhost tmp]$ 
