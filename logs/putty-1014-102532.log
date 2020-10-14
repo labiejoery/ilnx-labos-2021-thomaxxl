@@ -607,3 +607,52 @@ thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 72
 1000
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :5
+root
+bin
+daemon
+adm
+lp
+sync
+shutdown
+halt
+mail
+operator
+games
+FTP User
+Kernel Overflow User
+systemd Core Dumper
+systemd Network Management
+systemd Resolver
+System message bus
+Account used by the trousers package to sandbox the tcsd daemon
+qemu user
+GlusterFS daemons
+User for polkitd
+RealtimeKit
+PulseAudio System Daemon
+systemd Time Synchronization
+Avahi mDNS/DNS-SD Stack
+PipeWire System Daemon
+
+Unbound DNS resolver
+usbmuxd user
+Dnsmasq DHCP and DNS server
+User for geoclue
+Saslauthd user
+radvd user
+Rpcbind Daemon
+Apache
+User for colord
+RPC Service User
+OpenVPN
+Default user for running openvpn spawned by NetworkManager
+
+NetworkManager user for OpenConnect
+User for flatpak system helper
+
+
+Privilege-separated SSH
+
+
+thomas
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
