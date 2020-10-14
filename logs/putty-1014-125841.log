@@ -319569,4 +319569,15 @@ tcpmux          1/tcp                           # TCP port service multiplexer
 tcpmux          1/udp                           # TCP port service multiplexer
 rje             5/tcp                           # Remote Job Entry
 rje             5/udp                           # Remote Job Entry
-:[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ sed '/^$/d' /etc/services  | lessless /etc/servicessed '/^$/d' /etc/services | lessheade /etc/services | awk '{ print $4 }' 
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ sed '/^$/d' /etc/services  | lessless /etc/servicessed '/^$/d' /etc/services | lessheade /etc/services | awk '{ print $4 }' | less
+
+1.49
+
+Internet
+version:
+
+it
+for
+the
+RFC
+(END)(END)[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
