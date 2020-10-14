@@ -449795,4 +449795,10 @@ Justine Henin
 Martina Hingis
 Serena Williams
 Venus Williams
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt | tr 'a-z' 'A-Z'
+JUSTINE HENIN
+VENUS WILLIAMS
+SERENA WILLIAMS
+MARTINA HINGIS
+KIM CLIJSTERS
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
