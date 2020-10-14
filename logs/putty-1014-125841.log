@@ -439,4 +439,4 @@ omas:x:1
 978
 72
 1000
-[thomas@localhost tmp]$ cut -f3 -d : /etc/passwd 
+[thomas@localhost tmp]$ cut -f3 -d : /etc/passwd -6
