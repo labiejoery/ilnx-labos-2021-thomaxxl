@@ -121573,3 +121573,4 @@ thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd 
