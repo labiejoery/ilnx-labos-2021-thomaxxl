@@ -122412,4 +122412,11 @@ lijn 1
 lijn 1
 lijn 1
 lijn 1
-lijn 55:x
+lijn 55:x"test.txt" [New] 5L, 35C written
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txtcat test.txt 
+lijn 1
+lijn 1
+lijn 5
+lijn 5
+lijn 1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
