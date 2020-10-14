@@ -121229,4 +121229,11 @@ JOIN(1)                                 User Commands                           
  Manual page join(1) line 2 (press h for help or q to quit) ESCESCOOBB       --check-order
  Manual page join(1) line 3 (press h for help or q to quit) ESCESCOOBB              check that the input is correctly sorted, even if all input lines are pairable
  Manual page join(1) line 4 (press h for help or q to quit) ESCESCOOBB
- Manual page join(1) line 5 (press h for help or q to quit)
+ Manual page join(1) line 5 (press h for help or q to quit) ESCESCOOBB       --nocheck-order
+ Manual page join(1) line 6 (press h for help or q to quit) ESCESCOOBB              do not check that the input is correctly sorted
+ Manual page join(1) line 7 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 8 (press h for help or q to quit) ESCESCOOBB       --header
+ Manual page join(1) line 9 (press h for help or q to quit) ESCESCOOBB              treat  the  first line in each file as field headers, print them without trying
+ Manual page join(1) line 10 (press h for help or q to quit) ESCESCOOBB              to pair them
+ Manual page join(1) line 11 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 12 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
