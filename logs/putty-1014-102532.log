@@ -121388,3 +121388,79 @@ JOIN(1)                                 User Commands                           
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/gtrro
+groff/  group   group-  
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/group
+root:x:0:0:root:/root:/bin/bashroot:x:0:
+bin:x:1:1:bin:/bin:/sbin/nologinbin:x:1:
+daemon:x:2:2:daemon:/sbin:/sbin/nologindaemon:x:2:
+adm:x:3:4:adm:/var/adm:/sbin/nologinsys:x:3:
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologinadm:x:4:
+sync:x:5:0:sync:/sbin:/bin/synctty:x:5:
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdowndisk:x:6:
+halt:x:7:0:halt:/sbin:/sbin/haltlp:x:7:
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologinmem:x:8:
+operator:x:11:0:operator:/root:/sbin/nologinkmem:x:9:
+games:x:12:100:games:/usr/games:/sbin/nologinwheel:x:10:thomas
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologincdrom:x:11:
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologinmail:x:12:
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologinman:x:15:
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologindialout:x:18:
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologinfloppy:x:19:
+dbus:x:81:81:System message bus:/:/sbin/nologingames:x:20:
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologintape:x:33:
+qemu:x:107:107:qemu user:/:/sbin/nologinvideo:x:39:
+gluster:x:998:996:GlusterFS daemons:/run/gluster:/sbin/nologinftp:x:50:
+polkitd:x:997:994:User for polkitd:/:/sbin/nologinlock:x:54:
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologinaudio:x:63:
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologinusers:x:100:
+systemd-timesync:x:996:991:systemd Time Synchronization:/:/sbin/nologinnobody:x:65534:
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologinutmp:x:22:
+pipewire:x:995:990:PipeWire System Daemon:/var/run/pipewire:/sbin/nologinutempter:x:35:
+chrony:x:994:989::/var/lib/chrony:/sbin/nologininput:x:999:
+unbound:x:993:988:Unbound DNS resolver:/etc/unbound:/sbin/nologinkvm:x:36:qemu
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologinrender:x:998:
+dnsmasq:x:987:987:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologinsystemd-journal:x:190:
+geoclue:x:986:986:User for geoclue:/var/lib/geoclue:/sbin/nologinsystemd-coredump:x:997:
+saslauth:x:985:76:Saslauthd user:/run/saslauthd:/sbin/nologinsystemd-network:x:192:
+radvd:x:75:75:radvd user:/:/sbin/nologinsystemd-resolve:x:193:
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologindbus:x:81:
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologintss:x:59:
+colord:x:984:984:User for colord:/var/lib/colord:/sbin/nologindip:x:40:
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologinqemu:x:107:
+openvpn:x:983:982:OpenVPN:/etc/openvpn:/sbin/nologingluster:x:996:
+nm-openvpn:x:982:981:Default user for running openvpn spawned by NetworkManager:/:/sbin/nologinprintadmin:x:995:
+abrt:x:173:173::/etc/abrt:/sbin/nologinpolkitd:x:994:
+nm-openconnect:x:981:979:NetworkManager user for OpenConnect:/:/sbin/nologinrtkit:x:172:
+flatpak:x:980:978:User for flatpak system helper:/:/sbin/nologinpulse-access:x:993:
+gdm:x:42:42::/var/lib/gdm:/sbin/nologinpulse-rt:x:992:
+gnome-initial-setup:x:979:977::/run/gnome-initial-setup/:/sbin/nologinpulse:x:171:
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologinsystemd-timesync:x:991:
+vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologinavahi:x:70:
+tcpdump:x:72:72::/:/sbin/nologinpipewire:x:990:
+thomas:x:1000:1000:thomas:/home/thomas:/bin/bashchrony:x:989:
+unbound:x:988:
+usbmuxd:x:113:
+dnsmasq:x:987:
+geoclue:x:986:
+saslauth:x:76:
+radvd:x:75:
+rpc:x:32:
+ssh_keys:x:985:
+apache:x:48:
+colord:x:984:
+rpcuser:x:29:
+libvirt:x:983:
+openvpn:x:982:
+nm-openvpn:x:981:
+abrt:x:173:
+brlapi:x:980:
+nm-openconnect:x:979:
+flatpak:x:978:
+gdm:x:42:
+gnome-initial-setup:x:977:
+sshd:x:74:
+vboxsf:x:976:
+slocate:x:21:
+tcpdump:x:72:
+thomas:x:1000:
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
