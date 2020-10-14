@@ -102,4 +102,5 @@ drwxrwxr-x. 2 thomas thomas  4096 14 okt 10:38 logs
 -rw-rw-r--. 1 thomas thomas  3369 14 okt 10:38 README.md
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen 
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/thomas/.ssh/id_rsa): 
+Enter file in which to save the key (/home/thomas/.ssh/id_rsa): ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
