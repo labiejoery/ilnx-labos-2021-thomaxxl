@@ -2534,4 +2534,4 @@ thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
     46vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
     47tcpdump:x:72:72::/:/sbin/nologin
     48thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
-[thomas@localhost tmp]$ cat -n /etc/passwd
+[thomas@localhost tmp]$ cat -n /etc/passwdpas
