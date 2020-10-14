@@ -320215,4 +320215,22 @@ dei-icda618/udp# DEI-ICDA
 compaq-evm      619/tcp# Compaq EVM
 compaq-evm      619/udp# Compaq EVM
 sco-websrvrmgr  620/tcp# SCO WebServer Manager1327,111%N?ssh1326,111%^[  ^[  ^[  ^[  ::q[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ ll
+totaal 772
+-rw-rw-r--. 1 thomas thomas    888 13 okt 16:38 cheat-sheet.md
+-rw-rw-r--. 1 thomas thomas   3704 13 okt 16:38 labo-1-installatie.md
+-rw-rw-r--. 1 thomas thomas  11353 13 okt 16:38 labo-2-verkenning.md
+drwxrwxr-x. 2 thomas thomas   4096 13 okt 16:38 labo3
+-rw-rw-r--. 1 thomas thomas   9622 13 okt 16:38 labo-3-tekst.md
+-rw-rw-r--. 1 thomas thomas   1994 13 okt 16:38 labo-4-intro-scripts.md
+-rw-rw-r--. 1 thomas thomas  13301 13 okt 16:38 labo-5-gebruikers-bestandspermissies.md
+drwxrwxr-x. 3 thomas thomas   4096 13 okt 16:38 labo6
+-rw-rw-r--. 1 thomas thomas   6242 13 okt 16:38 labo-6-scripts.md
+-rw-rw-r--. 1 thomas thomas   5967 13 okt 16:38 labo-7-webserver.md
+drwxrwxr-x. 3 thomas thomas   4096 13 okt 16:38 labo8
+-rw-rw-r--. 1 thomas thomas   3913 13 okt 16:38 labo-8-complex-scripts.md
+-rw-rw-r--. 1 thomas thomas     43 14 okt 13:41 music.txt
+-rw-rw-r--. 1 thomas thomas   3369 13 okt 16:38 README.md
+-rw-r--r--. 1 thomas thomas 691913 14 okt 14:03 services
+-rw-rw-r--. 1 thomas thomas    100 14 okt 13:39 tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
