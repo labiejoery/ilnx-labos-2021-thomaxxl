@@ -390,4 +390,4 @@ hd:x:74:
 oxadd:x:
 pdump:x:
 omas:x:1
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ cut -c3-10 /etc/passwd /etc/passwdf 3 -d : /etc/passwd 
