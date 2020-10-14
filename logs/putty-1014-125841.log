@@ -3095,4 +3095,4 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
      3#
      4# NETWORK SERVICES, INTERNET STYLE
      5# IANA SERVICES VERSION: LAST UPDATED 2016-07-08
-[thomas@localhost tmp]$ nl /etc/services | head -5   |  tr '[a-z]' '[A-Z]'[thomas@localhost tmp]$ nl /etc/services | head -5   |  tr '[a-z]' '[A-Z]'
+[thomas@localhost tmp]$ nl /etc/services | head -5   |  tr '[a-z]' '[A-Z]'[thomas@localhost tmp]$ nl /etc/services | head -5   |  tr '[a-z]' '[A-Z]'nl /etc/services | head -5   |  tr '[a-z]' '[A-Z]'
