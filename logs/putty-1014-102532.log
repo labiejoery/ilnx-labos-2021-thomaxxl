@@ -449812,4 +449812,4 @@ Abba
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt vi music.txtcat music.txt (reverse-i-search)`':s': cat music.txte': cat /etc/services | tr " " "\n" | sort | uniq | wc -ld': paste p1 p2 | sed -e 's/root/test/g' ^C
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 
