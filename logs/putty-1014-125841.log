@@ -320331,3 +320331,9 @@ tcpmux1/tcp# TCP port service multiplexer-- INSERT --# /etc/services:# /etc/ser
 #3 more linesfewer lines; before #8  5 seconds ago# Each line describes one service, and is of the form:
 #
 # service-name  port/protocol  [aliases ...]   [# comment]3 fewer lines; before #8  5 seconds ago
+-- VISUAL --# Network services, Internet style 
+# IANA services version: last updated 2016-07-08 
+# 
+# Network services, Internet style# IANA services version: last updated 2016-07-08#4 lines yanked3 more lines# IANA services version: last updated 2016-07-08
+#
+## Network services, Internet style3 more lines
