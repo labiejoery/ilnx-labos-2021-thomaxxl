@@ -33,4 +33,8 @@ find: /boot/grub2: Toegang geweigerd
 /proc/fs/nfsd
 /proc/bus
 /proc/bus/pci
-all.txt[thomas@localhost ~]$ cd i
+all.txt[thomas@localhost ~]$ cd ilnx-labos-2021-thomaxxl/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git remote -v
+origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (fetch)
+origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (push)
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
