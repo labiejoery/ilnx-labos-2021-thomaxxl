@@ -320032,4 +320032,55 @@ nameserver      42/tcp 25/udpmail
 smtp25/udpmail
 smtp25/udpmail
 smtp25/udpmail
-smtp25/udpmail31,10%^[  ^[  //
+smtp25/udpmail31,10%^[  ^[  //s
+sssssssssssssssss
+names
+s
+s
+s
+s
+nameserver      42/tcp 25/udpmail32,50%/sshttp80/udpwww www-http    # HyperText Transfer Protocol
+http80/sctp# HyperText Transfer Protocol
+kerberos88/tcpkerberos5 krb5  # Kerberos v5
+kerberos88/udpkerberos5 krb5  # Kerberos v5
+supdup95/tcp
+supdup95/udp
+hostname101/tcphostnames# usually from sri-nic
+hostname101/udphostnames# usually from sri-nic
+iso-tsap102/tcptsap# part of ISODE.
+csnet-ns105/tcpcso# also used by CSO name server
+csnet-ns105/udpcso
+# unfortunately the poppassd (Eudora) uses a port which has already
+# been assigned to a different service. We list the poppassd as an
+# alias here. This should work for programs asking for this service.
+# (due to a bug in inetd the 3com-tsmux line is disabled)
+#3com-tsmux     106/tcp         poppassd
+#3com-tsmux     106/udp         poppassd
+rtelnet107/tcp# Remote Telnet
+rtelnet107/udp
+pop2109/tcppop-2 postoffice# POP version 2
+pop2109/udppop-2
+pop3110/tcppop-3# POP version 3
+pop3110/udppop-374,260%/sshsvn3690/tcp# Subversion
+svn3690/udp# Subversion
+postgres5432/tcppostgresql      # POSTGRES
+postgres5432/udppostgresql      # POSTGRES
+fax4557/tcp# FAX transmission service        (old)
+hylafax4559/tcp# HylaFAX client-server protocol  (new)
+sgi-dgl5232/tcpcsedaemon# SGI Distributed Graphics
+sgi-dgl5232/udp
+hostmon5355/tcpllmnr# hostmon uses TCP (nocol)
+hostmon5355/udpllmnr# hostmon uses TCP (nocol)
+canna5680/tcpauriga-router
+x11-ssh-offset  6010/tcp# SSH X11 forwarding offset
+xfs7100/tcpfont-service    # X font server
+tircproxy7666/tcp# Tircproxy
+# IANA claims 8008 for http-alt
+webcache8080/tcphttp-alt# WWW caching service
+webcache8080/udphttp-alt# WWW caching service
+tproxy8081/tcpsunproxyadmin   # Transparent Proxy
+tproxy8081/udpsunproxyadmin   # Transparent Proxy
+jetdirect9100/tcplaserjet hplj hp-pdl-datastr pdl-datastream
+mandelspawn     9359/udpmandelbrot      # network mandelbrot
+kamanda10081/tcpfamdc# amanda backup services (Kerberos)
+kamanda10081/udpfamdc# amanda backup services (Kerberos)526,54%/sshssh526,54%~@k   7~@k   6~@k   5~@k   6
