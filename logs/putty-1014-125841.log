@@ -319642,4 +319642,4 @@ Updated;RFC
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ cp /etc/services .
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ vi ln $(which vi)
 ln: kan geen harde koppeling './vi' naar '/usr/bin/vi' aanmaken: Actie is niet toegestaan
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ln $(which vi)
