@@ -54914,4 +54914,44 @@ SEE ALSO
        or available locally via: info '(coreutils) fmt invocation'
 
 GNU coreutils 8.32                        March 2020                                   FMT(1)
+ Manual page fmt(1) line 21/61 (END) (press h for help or q to quit) ESCESC[[55~~       -p, --prefix=STRING
+
+              preserve indentation of first two lines
+       -c, --crown-margin
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       is an abbreviated form of --width=DIGITS.
+       Reformat each paragraph in the FILE(s), writing to standard output.  The option -WIDTH
+DESCRIPTION
+
+       fmt [-WIDTH] [OPTION]... [FILE]...
+SYNOPSIS
+
+       fmt - simple optimal text formatter
+NAME
+
+FMT(1)                                  User Commands                                  FMT(1)
+ Manual page fmt(1) line 1/61 63% (press h for help or q to quit) ESCESC[[66~~              output version information and exit
+
+AUTHOR
+       Written by Ross Paterson.
+
+REPORTING BUGS
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report any translation bugs to <https://translationproject.org/team/>
+
+COPYRIGHT
+       Copyright  © 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or
+       later <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.  There is  NO  WAR
+       RANTY, to the extent permitted by law.
+
+SEE ALSO
+       Full documentation <https://www.gnu.org/software/coreutils/fmt>
+       or available locally via: info '(coreutils) fmt invocation'
+
+GNU coreutils 8.32                        March 2020                                   FMT(1)
  Manual page fmt(1) line 21/61 (END) (press h for help or q to quit)
