@@ -2414,3 +2414,6 @@ root:x:0:0:root:/root:/bin/bash
 thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 [thomas@localhost tmp]$ grep h$ /etc/passwdbash
 [thomas@localhost tmp]$ grep bashh$ /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
+[thomas@localhost tmp]$ 
