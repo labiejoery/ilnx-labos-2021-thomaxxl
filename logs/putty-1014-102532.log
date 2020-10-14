@@ -121704,4 +121704,46 @@ lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
 root:x:0:0:root:/root:/bin/bash
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :
 sort: kan niet lezen: ':': Bestand of map bestaat niet
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :head -5 /etc/passwd | sort -k 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :head -5 /etc/passwd | sort -k 3 -d :man sort
+SORT(1)                                               User Commands                                              SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+ Manual page sort(1) line 1 (press h for help or q to quit)/ddeelliimm
