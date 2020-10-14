@@ -2843,4 +2843,6 @@ DESCRIPTION
               compare human readable numbers (e.g., 2K 1G)
 
        -n, --numeric-sort
- Manual page sort(1) line 1 (press h for help or q to quit)
+ Manual page sort(1) line 1 (press h for help or q to quit) ESCESCOOBB              compare according to string numerical value
+ Manual page sort(1) line 2 (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 3 (press h for help or q to quit)
