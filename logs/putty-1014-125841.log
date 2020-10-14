@@ -307854,4 +307854,4 @@ zymed-zpp
 ZYMED-ZPP
 [thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | sort | uniq | tail  wc -l
 23969
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ cat /etc/services | tr ' ' "\n" | sort | uniq | wc -l
