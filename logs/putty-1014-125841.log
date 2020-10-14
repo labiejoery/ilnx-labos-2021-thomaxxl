@@ -320507,4 +320507,5 @@ DESCRIPTION
        -i, --ignore-case
               ignore differences in case when comparing fields
  Manual page join(1) line 1 (press h for help or q to quit) ESCESCOOBB
- Manual page join(1) line 2 (press h for help or q to quit)
+ Manual page join(1) line 2 (press h for help or q to quit) ESCESCOOBB       -j FIELD
+ Manual page join(1) line 3 (press h for help or q to quit)
