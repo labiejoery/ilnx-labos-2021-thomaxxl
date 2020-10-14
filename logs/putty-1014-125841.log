@@ -320694,4 +320694,74 @@ DESCRIPTION
        -d, --dictionary-order
               consider only blanks and alphanumeric characters
 
- Manual page sort(1) line 1 (press h for help or q to quit)
+ Manual page sort(1) line 1 (press h for help or q to quit)/--ttSORT(1)                            User Commands                           SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory  arguments  to  long options are mandatory for short options too.
+       Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+SORT(1)                            User Commands                           SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory  arguments  to  long options are mandatory for short options too.
+       Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+...skipping...
+              read input from the files specified by NUL-terminated names in  file
+              F; If F is - then read names from standard input
+
+       -k, --key=KEYDEF
+              sort via a key; KEYDEF gives location and type
+
+       -m, --merge
+              merge already sorted files; do not sort
+
+       -o, --output=FILE
+              write result to FILE instead of standard output
+
+       -s, --stable
+              stabilize sort by disabling last-resort comparison
+
+       -S, --buffer-size=SIZE
+              use SIZE for main memory buffer
+
+       -t, --field-separator=SEP
+              use SEP instead of non-blank to blank transition
+
+       -T, --temporary-directory=DIR
+              use DIR for temporaries, not $TMPDIR or /tmp; multiple options spec
+ Manual page sort(1) line 77/152 61% (press h for help or q to quit)
