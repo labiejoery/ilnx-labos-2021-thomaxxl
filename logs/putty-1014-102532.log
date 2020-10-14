@@ -122091,4 +122091,4 @@ REPORTING BUGS
 
 COPYRIGHT
        Copyright  ©  2020  Free  Software  Foundation,  Inc.    License   GPLv3+:   GNU   GPL   version   3   or   later
- Manual page sort(1) line 92/143 92% (press h for help or q to quit)
+ Manual page sort(1) line 92/143 92% (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man sorthead -5 /etc/passwd | sort -k 3 -d :
