@@ -320260,4 +320260,8 @@ totaal 8
 3 -- INSERT --sdqf-- INSERT --
 3 CH~                                                                                    O-- INSERT --
 2 F~                                                                                    
-2 F:set :
+2 F:set :set nu      1 1 B
+      2 2 F
+      3 3 CH
+      4 4 D
+      5 5 NL
