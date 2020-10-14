@@ -54852,4 +54852,4 @@ spremotetablet
 # Capture
 handwritten
 signatures
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 10passwdman fmtcat /etc/passwd | fmt -w 10
