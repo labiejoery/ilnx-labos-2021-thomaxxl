@@ -2435,3 +2435,5 @@ thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 
 
 [thomas@localhost tmp]$ grep ^$ /etc/services | wc -l
+16
+[thomas@localhost tmp]$ 
