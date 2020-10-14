@@ -121236,4 +121236,53 @@ JOIN(1)                                 User Commands                           
  Manual page join(1) line 9 (press h for help or q to quit) ESCESCOOBB              treat  the  first line in each file as field headers, print them without trying
  Manual page join(1) line 10 (press h for help or q to quit) ESCESCOOBB              to pair them
  Manual page join(1) line 11 (press h for help or q to quit) ESCESCOOBB
- Manual page join(1) line 12 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /et
+ Manual page join(1) line 12 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd
+     1root:x:0:0:root:/root:/bin/bash
+     2bin:x:1:1:bin:/bin:/sbin/nologin
+     3daemon:x:2:2:daemon:/sbin:/sbin/nologin
+     4adm:x:3:4:adm:/var/adm:/sbin/nologin
+     5lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+     6sync:x:5:0:sync:/sbin:/bin/sync
+     7shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+     8halt:x:7:0:halt:/sbin:/sbin/halt
+     9mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+    10operator:x:11:0:operator:/root:/sbin/nologin
+    11games:x:12:100:games:/usr/games:/sbin/nologin
+    12ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+    13nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+    14systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+    15systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+    16systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+    17dbus:x:81:81:System message bus:/:/sbin/nologin
+    18tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+    19qemu:x:107:107:qemu user:/:/sbin/nologin
+    20gluster:x:998:996:GlusterFS daemons:/run/gluster:/sbin/nologin
+    21polkitd:x:997:994:User for polkitd:/:/sbin/nologin
+    22rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+    23pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+    24systemd-timesync:x:996:991:systemd Time Synchronization:/:/sbin/nologin
+    25avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+    26pipewire:x:995:990:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+    27chrony:x:994:989::/var/lib/chrony:/sbin/nologin
+    28unbound:x:993:988:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+    29usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+    30dnsmasq:x:987:987:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologin
+    31geoclue:x:986:986:User for geoclue:/var/lib/geoclue:/sbin/nologin
+    32saslauth:x:985:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+    33radvd:x:75:75:radvd user:/:/sbin/nologin
+    34rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+    35apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+    36colord:x:984:984:User for colord:/var/lib/colord:/sbin/nologin
+    37rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+    38openvpn:x:983:982:OpenVPN:/etc/openvpn:/sbin/nologin
+    39nm-openvpn:x:982:981:Default user for running openvpn spawned by NetworkManager:/:/sbin/nologin
+    40abrt:x:173:173::/etc/abrt:/sbin/nologin
+    41nm-openconnect:x:981:979:NetworkManager user for OpenConnect:/:/sbin/nologin
+    42flatpak:x:980:978:User for flatpak system helper:/:/sbin/nologin
+    43gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+    44gnome-initial-setup:x:979:977::/run/gnome-initial-setup/:/sbin/nologin
+    45sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+    46vboxadd:x:978:1::/var/run/vboxadd:/sbin/nologin
+    47tcpdump:x:72:72::/:/sbin/nologin
+    48thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
