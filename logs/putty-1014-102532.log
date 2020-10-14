@@ -121702,4 +121702,4 @@ bin:x:1:1:bin:/bin:/sbin/nologin
 daemon:x:2:2:daemon:/sbin:/sbin/nologin
 lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
 root:x:0:0:root:/root:/bin/bash
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort
