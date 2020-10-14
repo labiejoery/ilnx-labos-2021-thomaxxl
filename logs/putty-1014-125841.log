@@ -320297,3 +320297,8 @@ tcpmux1/tcp# TCP port service multiplexer-- INSERT --# /etc/services:# /etc/ser
 
 
 
+5 lines yankedmore lines# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, most entries here have two entries
+# even if the protocol doesn't support UDP operations.
+# Updated from RFC 1700, ``Assigned Numbers'' (October 1994).  Not all ports
+# are included, only the more common ones.5 more lines
