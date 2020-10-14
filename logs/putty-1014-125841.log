@@ -307942,4 +307942,4 @@ operator:x:11:0:operator:/TEST:/sbin/nologin
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ sed 's/root/TEST/' /etc/passwd | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ sed 's/root/TEST/' /etc/passwd | headg
