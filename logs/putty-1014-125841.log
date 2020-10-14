@@ -320616,4 +320616,4 @@ Nederland NL
 [thomas@localhost labo3]$ 
 [thomas@localhost labo3]$ 
 [thomas@localhost labo3]$ 
-[thomas@localhost labo3]$ cat landenkentekens2ut -f2-3 -d ' ' landenkentekens >
+[thomas@localhost labo3]$ cat landenkentekens2ut -f2-3 -d ' ' landenkentekens >join -j 1 landen autokentekens > landenkentekens
