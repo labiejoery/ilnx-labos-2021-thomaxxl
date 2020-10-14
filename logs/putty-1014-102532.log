@@ -655,4 +655,4 @@ Privilege-separated SSH
 
 
 thomas
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 5 -d :
