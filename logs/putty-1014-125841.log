@@ -319853,4 +319853,10 @@ tacacs49/udp# Login Host Protocol (TACACS)30,10%dd
 re-mail-ck      50/tcp# Remote Mail Checking Protocol30,10%dd  
 re-mail-ck      50/udp# Remote Mail Checking Protocol30,10%dd  
 domain53/tcp# name-domain server30,10%dpE99: huidige buffer is niet in diff-modus30,10%~@k   1~@k   0^[  ^[  dd  
-domain53/udp30,10%P smtp25/udpmail30,10%p smtp25/udpmail31,10%
+domain53/udp30,10%P smtp25/udpmail30,10%p smtp25/udpmail31,10%p smtp25/udpmail32,10%p smtp25/udpmail33,10%p smtp25/udpmail34,10%p smtp25/udpmail35,10%p smtp25/udpmail36,10%p smtp25/udpmail37,10%p smtp25/udpmail38,10%p 
+smtp25/udpmail39,10%p 
+smtp25/udpmail40,10%p 
+smtp25/udpmail41,10%p 
+smtp25/udpmail42,10%p 
+smtp25/udpmail43,10%p 
+smtp25/udpmail44,10%~@k   3~@k   2~@k   1~@k   0~@k   39~@k   8~@k   7~@k   6
