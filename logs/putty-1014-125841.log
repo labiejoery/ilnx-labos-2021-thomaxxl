@@ -721,4 +721,4 @@ webphone        21845/tcp               # webphone
 webphone        21845/udp               # webphone
 webpush         1001/tcp                # HTTP Web Push
 pmwebapi        44323/tcp               # Performance Co-Pilot client HTTP API
-[thomas@localhost tmp]$ grep -E "ssh|web" /etc/services [thomas@localhost tmp]$ grep -E "ssh|web" /etc/services ssh-E "ssh|web".h
+[thomas@localhost tmp]$ grep -E "ssh|web" /etc/services [thomas@localhost tmp]$ grep -E "ssh|web" /etc/services ssh-E "ssh|web".h7
