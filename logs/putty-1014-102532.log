@@ -697,4 +697,4 @@ DESCRIPTION
 
        -z, --zero-terminated
               line delimiter is NUL, not newline
- Manual page cut(1) line 1 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man cut
+ Manual page cut(1) line 1 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man cutcat /etc/passwd | cut -f 5 -d :c2 
