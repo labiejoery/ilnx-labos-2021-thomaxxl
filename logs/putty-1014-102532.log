@@ -121049,4 +121049,7 @@ tl1-ssh         6252/tcp                # TL1 over SSH
 tl1-ssh         6252/udp                # TL1 over SSH
 ssh-mgmt        17235/tcp               # SSH Tectia Manager
 ssh-mgmt        17235/udp               # SSH Tectia Manager
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services head 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services head -2
+# /etc/services:
+# $Id: services,v 1.49 2017/08/18 12:43:23 ovasik Exp $
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
