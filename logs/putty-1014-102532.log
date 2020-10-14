@@ -121926,4 +121926,45 @@ GNU coreutils 8.32                                     March 2020               
               sort according to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, version -V
        --sort=WORD
 
- Manual page sort(1) line 49/143 56% (press h for help or q to quit)
+ Manual page sort(1) line 49/143 56% (press h for help or q to quit) ESCESC[[55~~              reverse the result of comparisons
+       -r, --reverse
+
+              get random bytes from FILE
+       --random-source=FILE
+
+              shuffle, but group identical keys.  See shuf(1)
+       -R, --random-sort
+
+              compare according to string numerical value
+       -n, --numeric-sort
+
+              compare human readable numbers (e.g., 2K 1G)
+       -h, --human-numeric-sort
+
+              compare (unknown) < 'JAN' < ... < 'DEC'
+       -M, --month-sort
+
+              consider only printable characters
+       -i, --ignore-nonprinting
+
+              compare according to general numerical value
+       -g, --general-numeric-sort
+
+              fold lower case to upper case characters
+       -f, --ignore-case
+
+              consider only blanks and alphanumeric characters
+       -d, --dictionary-order
+
+              ignore leading blanks
+       -b, --ignore-leading-blanks
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Write sorted concatenation of all FILE(s) to standard output.
+DESCRIPTION
+
+       sort [OPTION]... --files0-from=F
+ Manual page sort(1) line 8/143 28% (press h for help or q to quit)
