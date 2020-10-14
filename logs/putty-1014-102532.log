@@ -507,3 +507,5 @@ cso
 already
 an
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $NF}'ssh-keygen head -100 /etc/services | awk '{print $NF}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat 
