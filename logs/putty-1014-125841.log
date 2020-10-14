@@ -584,4 +584,4 @@ tl1-ssh         6252/tcp                # TL1 over SSH
 tl1-ssh         6252/udp                # TL1 over SSH
 ssh-mgmt        17235/tcp               # SSH Tectia Manager
 ssh-mgmt        17235/udp               # SSH Tectia Manager
-[thomas@localhost tmp]$ grep ssh /etc/services grep ssh /etc/services 
+[thomas@localhost tmp]$ grep ssh /etc/services grep ssh /etc/services -
