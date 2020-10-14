@@ -33,4 +33,4 @@ find: /boot/grub2: Toegang geweigerd
 /proc/fs/nfsd
 /proc/bus
 /proc/bus/pci
-all.txt
+all.txt[thomas@localhost ~]$ 
