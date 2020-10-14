@@ -8,4 +8,4 @@ Last login: Wed Oct 14 09:18:16 2020 from 192.168.193.1
  Bureaublad          f                  linux                      TEST
  Documenten          file1              linux.tar.bz2              test.txt
  documents.tar.bz2   file2              Muziek                    "Video's"
-[thomas@localhost ~]$ 
+[thomas@localhost ~]$ find / -type d > all.txt 2>&1
