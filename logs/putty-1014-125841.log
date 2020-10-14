@@ -320662,4 +320662,4 @@ Spanje E
 Frankrijk F
 Italië I
 Nederland NL
-[thomas@localhost labo3]$ sort landenkentekens2 -k 2 
+[thomas@localhost labo3]$ sort landenkentekens2 -k 2 -t "'
