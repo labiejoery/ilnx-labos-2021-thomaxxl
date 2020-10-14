@@ -157,4 +157,39 @@ SEE ALSO
        Full documentation <https://www.gnu.org/software/coreutils/cat>
        or available locally via: info '(coreutils) cat invocation'
 
- Manual page cat(1) line 36 (press h for help or q to quit)
+ Manual page cat(1) line 36 (press h for help or q to quit) ESCESC[[55~~
+              display TAB characters as ^I
+       -T, --show-tabs
+
+       -t     equivalent to -vT
+
+              suppress repeated empty output lines
+       -s, --squeeze-blank
+
+              number all output lines
+       -n, --number
+
+              display $ at end of each line
+       -E, --show-ends
+
+       -e     equivalent to -vE
+
+              number nonempty output lines, overrides -n
+       -b, --number-nonblank
+
+              equivalent to -vET
+       -A, --show-all
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Concatenate FILE(s) to standard output.
+DESCRIPTION
+
+       cat [OPTION]... [FILE]...
+SYNOPSIS
+
+       cat - concatenate files and print on the standard output
+NAME
+
+CAT(1)                                             User Commands                                            CAT(1)
+ Manual page cat(1) line 1 (press h for help or q to quit)
