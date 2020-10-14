@@ -121704,4 +121704,4 @@ lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
 root:x:0:0:root:/root:/bin/bash
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :
 sort: kan niet lezen: ':': Bestand of map bestaat niet
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :head -5 /etc/passwd | sort -k 3 -d :
