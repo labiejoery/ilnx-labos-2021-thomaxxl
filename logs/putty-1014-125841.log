@@ -319648,3 +319648,22 @@ ln: kan geen harde koppeling './vi' naar '/usr/bin/vi' aanmaken: Actie is niet t
 /usr/bin/which: no vim in (/home/thomas/.local/bin:/home/thomas/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin)
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ type $(which vim)sudo dngf install vim
 [sudo] wachtwoord voor thomas: 
+Laatste metadata-expiratie-check: 0:24:45 geleden op wo 14 okt 2020 13:27:55.
+Afhankelijkheden opgelost.
+====================================================================================================
+ Pakket                    Architectuur      Versie                        Repo               Grootte
+====================================================================================================
+Installeren:
+ vim-enhanced              x86_64            2:8.2.1805-1.fc32             updates            1.6 M
+Afhankelijkheden installeren:
+ gpm-libs                  x86_64            1.20.7-21.fc32                fedora              20 k
+ vim-common                x86_64            2:8.2.1805-1.fc32             updates            6.6 M
+ vim-filesystem            noarch            2:8.2.1805-1.fc32             updates             21 k
+
+Transactie-overzicht
+====================================================================================================
+Installeren  4 Pakketten
+
+Totale downloadgrootte: 8.2 M
+Installatiegrootte    : 33 M
+Is dit goed [y/N]: 
