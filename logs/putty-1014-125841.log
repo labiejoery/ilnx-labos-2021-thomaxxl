@@ -2609,3 +2609,5 @@ slocate:x:21:
 tcpdump:x:72:
 thomas:x:1000:
 [thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ paste /etc/passwd /etc/groupcat -n /etc/passwdnl
