@@ -319646,4 +319646,4 @@ ln: kan geen harde koppeling './vi' naar '/usr/bin/vi' aanmaken: Actie is niet t
 /usr/bin/vi is /usr/bin/vi
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ type $(which vi)m)
 /usr/bin/which: no vim in (/home/thomas/.local/bin:/home/thomas/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin)
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ type $(which vim)
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ type $(which vim)su
