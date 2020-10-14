@@ -307912,4 +307912,12 @@ lijn B
 lijn C
 lijn A
 
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt | uniqsed 's/lijn/x
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt | uniqsed 's/lijn/xx'/'
+xx A
+xx A
+xx B
+xx C
+xx C
+xx A
+
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
