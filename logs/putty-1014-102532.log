@@ -121746,4 +121746,184 @@ DESCRIPTION
               compare according to string numerical value
 
        -R, --random-sort
- Manual page sort(1) line 1 (press h for help or q to quit)/ddeelliimm
+ Manual page sort(1) line 1 (press h for help or q to quit)/ddeelliimmSORT(1)                                               User Commands                                              SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+SORT(1)                                               User Commands                                              SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+...skipping...
+              line delimiter is NUL, not newline
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+       KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is a field  number  and  C  a  character
+       position in the field; both are origin 1, and the stop position defaults to the line's end.  If neither -t nor -b
+       is in effect, characters in a field are counted from the beginning of the preceding whitespace.  OPTS is  one  or
+       more  single-letter  ordering  options [bdfgiMhnRrV], which override global ordering options for that key.  If no
+       key is given, use the entire line as the key.  Use --debug to diagnose incorrect key usage.
+
+       SIZE may be followed by the following multiplicative suffixes: % 1% of memory, b 1, K 1024 (default), and  so  on
+       for M, G, T, P, E, Z, Y.
+
+       ***  WARNING *** The locale specified by the environment affects sort order.  Set LC_ALL=C to get the traditional
+       sort order that uses native byte values.
+
+AUTHOR
+       Written by Mike Haertel and Paul Eggert.
+
+REPORTING BUGS
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report any translation bugs to <https://translationproject.org/team/>
+
+COPYRIGHT
+       Copyright  ©  2020  Free  Software  Foundation,  Inc.    License   GPLv3+:   GNU   GPL   version   3   or   later
+       <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted
+       by law.
+
+SEE ALSO
+       shuf(1), uniq(1)
+
+       Full documentation <https://www.gnu.org/software/coreutils/sort>
+       or available locally via: info '(coreutils) sort invocation'
+
+GNU coreutils 8.32                                     March 2020                                                SORT(1)
+~
+~
+ Manual page sort(1) line 105/143 (END) (press h for help or q to quit) ESCESCOOAA       -z, --zero-terminated
+ Manual page sort(1) line 104/143 (END) (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 103/143 (END) (press h for help or q to quit) ESCESCOOAA              with -c, check for strict ordering; without -c, output only the first of an equal run
+ Manual page sort(1) line 102/143 98% (press h for help or q to quit) ESCESCOOAA       -u, --unique
+ Manual page sort(1) line 101/143 98% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 100/143 97% (press h for help or q to quit) ESCESCOOAA              change the number of sorts run concurrently to N
+ Manual page sort(1) line 99/143 96% (press h for help or q to quit) ESCESCOOAA       --parallel=N
+ Manual page sort(1) line 98/143 96% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 97/143 95% (press h for help or q to quit) ESCESCOOAA              use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories
+ Manual page sort(1) line 96/143 95% (press h for help or q to quit) ESCESCOOAA       -T, --temporary-directory=DIR
+ Manual page sort(1) line 95/143 95% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 94/143 95% (press h for help or q to quit) ESCESCOOAA              use SEP instead of non-blank to blank transition
+ Manual page sort(1) line 93/143 93% (press h for help or q to quit) ESCESCOOAA       -t, --field-separator=SEP
+ Manual page sort(1) line 92/143 92% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 91/143 90% (press h for help or q to quit) ESCESCOOAA              use SIZE for main memory buffer
+ Manual page sort(1) line 90/143 90% (press h for help or q to quit) ESCESC[[55~~       -S, --buffer-size=SIZE
+
+              stabilize sort by disabling last-resort comparison
+       -s, --stable
+
+              write result to FILE instead of standard output
+       -o, --output=FILE
+
+              merge already sorted files; do not sort
+       -m, --merge
+
+              sort via a key; KEYDEF gives location and type
+       -k, --key=KEYDEF
+
+              standard input
+              read  input  from  the  files  specified by NUL-terminated names in file F; If F is - then read names from
+       --files0-from=F
+
+              annotate the part of the line used to sort, and warn about questionable usage to stderr
+       --debug
+
+              compress temporaries with PROG; decompress them with PROG -d
+       --compress-program=PROG
+
+              like -c, but do not report first bad line
+       -C, --check=quiet, --check=silent
+
+              check for sorted input; do not sort
+       -c, --check, --check=diagnose-first
+
+              merge at most NMERGE inputs at once; for more use temp files
+       --batch-size=NMERGE
+
+       Other options:
+
+              natural sort of (version) numbers within text
+       -V, --version-sort
+
+              sort according to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, version -V
+       --sort=WORD
+
+ Manual page sort(1) line 49/143 56% (press h for help or q to quit)
