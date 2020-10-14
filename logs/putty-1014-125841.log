@@ -320625,4 +320625,4 @@ Nederland NL
 [thomas@localhost labo3]$ echo "Sp>> Spanje E
 Spanje E
 [thomas@localhost labo3]$ echo Spanje E >> landenkentekens2""
-[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ echo "Spanje E" >> landenkentekens2
