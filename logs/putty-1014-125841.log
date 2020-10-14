@@ -320555,4 +320555,4 @@ DESCRIPTION
  Manual page join(1) line 13 (press h for help or q to quit) ESCESCOOBB
  Manual page join(1) line 14 (press h for help or q to quit) ESCESCOOBB       -1 FIELD
  Manual page join(1) line 15 (press h for help or q to quit) ESCESCOOBB              join on this FIELD of file 1
- Manual page join(1) line 16 (press h for help or q to quit)
+ Manual page join(1) line 16 (press h for help or q to quit)[thomas@localhost labo3]$ man join join -J 1 autokentekens lande
