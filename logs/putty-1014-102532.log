@@ -405,4 +405,4 @@ Fast-forward
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh)-keygen 
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/thomas/.ssh/id_rsa): ^C
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen git pull
