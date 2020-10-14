@@ -3,3 +3,10 @@ login as: thomas
 thomas@192.168.193.128's password: 
 Last login: Wed Oct 14 10:25:37 2020 from 192.168.193.1
 [thomas@localhost ~]$ ls
+ a                   documents.tar.gz   ilnx-labos-2021-thomaxxl   TEST
+ Afbeeldingen        Downloads          linux                      test.txt
+ all.txt             f                  linux.tar.bz2             "Video's"
+ Bureaublad          file1              Muziek
+ Documenten          file2              Openbaar
+ documents.tar.bz2   file3              Sjablonen
+[thomas@localhost ~]$ 
