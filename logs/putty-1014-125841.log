@@ -2417,4 +2417,4 @@ thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 root:x:0:0:root:/root:/bin/bash
 thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 [thomas@localhost tmp]$ grep bash$ /etc/passwdgrep bash$ /etc/passwdgrep bash$ /etc/passwdgrep bash$ /etc/passwdgrep bash$ /etc/passwd^
-[thomas@localhost tmp]$ grep ^$ /etc/passwdservices 
+[thomas@localhost tmp]$ grep ^$ /etc/passwdservices | 
