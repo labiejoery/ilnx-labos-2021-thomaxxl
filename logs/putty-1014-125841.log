@@ -320670,4 +320670,28 @@ Spanje E
 Frankrijk F
 Italië I
 Nederland NL
-[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ man sort
+SORT(1)                            User Commands                           SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory  arguments  to  long options are mandatory for short options too.
+       Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+ Manual page sort(1) line 1 (press h for help or q to quit)
