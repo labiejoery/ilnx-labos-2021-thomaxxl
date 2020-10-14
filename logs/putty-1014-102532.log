@@ -606,4 +606,4 @@ thomas:x:1000:1000:thomas:/home/thomas:/bin/bash
 978
 72
 1000
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :5
