@@ -319958,4 +319958,12 @@ rje5/tcp# Remote Job Entry
 rje5/udp# Remote Job Entry
 
 
-25/udp          mailsmtp            25/udp          mailsmtp            25/udp          mailsmtp            25/udp          mailsmtp            25/udp          mailnameserver      42/tcp   vve  I  4   MMaool+++29,10%6 lines yanked29,10%
+25/udp          mailsmtp            25/udp          mailsmtp            25/udp          mailsmtp            25/udp          mailsmtp            25/udp          mailnameserver      42/tcp   vve  I  4   MMaool+++29,10%6 lines yanked29,10%P5 more linessmtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+nameserver      42/tcp 25/udpmail@@@                                                                                                 29,10%5 more lines29,10%Psmtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+nameserver      42/tcp 25/udpmail@@@                                                                                                 29,10%5 more lines29,10%
