@@ -319722,4 +319722,111 @@ Klaar.
 #
 # service-name  port/protocol  [aliases ...]   [# comment]
 
-tcpmux1/tcp# TCP port service multiplexer1,1Top
+tcpmux1/tcp# TCP port service multiplexer1,1Top~@k   tcpmux1/tcp# TCP port service multiplexer
+tcpmux1/udp# TCP port service multiplexer
+rje5/tcp# Remote Job Entry
+rje5/udp# Remote Job Entry
+echo7/tcp
+echo7/udp
+discard9/tcpsink null
+discard9/udpsink null
+systat11/tcpusers
+systat11/udpusers
+daytime13/tcp
+daytime13/udp
+qotd17/tcpquote
+qotd17/udpquote
+chargen19/tcpttytst source
+chargen19/udpttytst source
+ftp-data20/tcp
+ftp-data20/udp
+# 21 is registered to ftp, but also used by fsp
+ftp21/tcp
+ftp21/udpfsp fspd
+ssh22/tcp# The Secure Shell (SSH) Protocol27,10%~@k   ftp21/udpfsp fspd
+ssh22/tcp# The Secure Shell (SSH) Protocol
+ssh22/udp# The Secure Shell (SSH) Protocol
+telnet23/tcp
+telnet23/udp
+# 24 - private mail system
+lmtp24/tcp# LMTP Mail Delivery
+lmtp24/udp# LMTP Mail Delivery
+smtp25/tcpmail
+smtp25/udpmail
+time37/tcptimserver
+time37/udptimserver
+rlp39/tcpresource# resource location
+rlp39/udpresource# resource location
+nameserver      42/tcpname# IEN 116
+nameserver      42/udpname# IEN 116
+nicname43/tcpwhois
+nicname43/udpwhois
+tacacs49/tcp# Login Host Protocol (TACACS)
+tacacs49/udp# Login Host Protocol (TACACS)
+re-mail-ck      50/tcp# Remote Mail Checking Protocol
+re-mail-ck      50/udp# Remote Mail Checking Protocol
+domain53/tcp# name-domain server48,10%~@k   tcpmux1/tcp# TCP port service multiplexer
+tcpmux1/udp# TCP port service multiplexer
+rje5/tcp# Remote Job Entry
+rje5/udp# Remote Job Entry
+echo7/tcp
+echo7/udp
+discard9/tcpsink null
+discard9/udpsink null
+systat11/tcpusers
+systat11/udpusers
+daytime13/tcp
+daytime13/udp
+qotd17/tcpquote
+qotd17/udpquote
+chargen19/tcpttytst source
+chargen19/udpttytst source
+ftp-data20/tcp
+ftp-data20/udp
+# 21 is registered to ftp, but also used by fsp
+ftp21/tcp
+ftp21/udpfsp fspd
+ssh22/tcp# The Secure Shell (SSH) Protocol39,10%~@k   # /etc/services:
+# $Id: services,v 1.49 2017/08/18 12:43:23 ovasik Exp $
+#
+# Network services, Internet style
+# IANA services version: last updated 2016-07-08
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, most entries here have two entries
+# even if the protocol doesn't support UDP operations.
+# Updated from RFC 1700, ``Assigned Numbers'' (October 1994).  Not all ports
+# are included, only the more common ones.
+#
+# The latest IANA port assignments can be gotten from
+#       http://www.iana.org/assignments/port-numbers
+# The Well Known Ports are those from 0 through 1023.
+# The Registered Ports are those from 1024 through 49151
+# The Dynamic and/or Private Ports are those from 49152 through 65535
+#
+# Each line describes one service, and is of the form:
+#
+# service-name  port/protocol  [aliases ...]   [# comment]
+
+tcpmux1/tcp# TCP port service multiplexer18,1Top~@k   ~@k   ~@k   ~@k   ~@k   ~@k   tcpmux1/tcp# TCP port service multiplexer
+tcpmux1/udp# TCP port service multiplexer
+rje5/tcp# Remote Job Entry
+rje5/udp# Remote Job Entry
+echo7/tcp
+echo7/udp
+discard9/tcpsink null
+discard9/udpsink null
+systat11/tcpusers
+systat11/udpusers
+daytime13/tcp
+daytime13/udp
+qotd17/tcpquote
+qotd17/udpquote
+chargen19/tcpttytst source
+chargen19/udpttytst source
+ftp-data20/tcp
+ftp-data20/udp
+# 21 is registered to ftp, but also used by fsp
+ftp21/tcp
+ftp21/udpfsp fspd
+ssh22/tcp# The Secure Shell (SSH) Protocol27,10%
