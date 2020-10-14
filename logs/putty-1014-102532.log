@@ -121100,4 +121100,4 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -2 /etc/services head
 # /etc/services:
 # $Id: services,v 1.49 2017/08/18 12:43:23 ovasik Exp $
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ man
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ man jooin
