@@ -746,4 +746,4 @@ s
 b
 c
 h
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2 - 
