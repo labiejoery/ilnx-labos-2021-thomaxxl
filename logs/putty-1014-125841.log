@@ -559,3 +559,5 @@ The key's randomart image is:
 |  +=o            |
 +----[SHA256]-----+
 [thomas@localhost tmp]$ ll /tmp/test
+-rw-------. 1 thomas thomas 2622 14 okt 13:17 /tmp/test
+[thomas@localhost tmp]$ ll /tmp/test.pub 
