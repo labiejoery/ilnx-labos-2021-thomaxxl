@@ -461333,4 +461333,4 @@ tacacs          49/tcp                          # Login Host Protocol (TACACS)
 tacacs          49/udp                          # Login Host Protocol (TACACS)
 re-mail-ck      50/tcp                          # Remote Mail Checking Protocol
 re-mail-ck      50/udp                          # Remote Mail Checking Protocol
-:[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/^#/d' | less
