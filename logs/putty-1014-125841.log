@@ -320460,4 +320460,4 @@ bben we het nog niet eens gehad over de vele mogelijke instellingen en plugins. 
 ## Streams, pipes, redirects
 
 In onderstaande vragen is het telkens de bedoeling één commando te geven om de taak uuit te voeren. Probeer altijd eerst om de uitvoer op de console te tonen voordat je weegschrijft naar het gevraagde bestand. Zo zie je sneller eventuele fouten.
-1. Voeg het bestand `landen` en `autokentekens` samen met het commando `join` (zoek dde werking ervan op met het man-commando). Het resultaat wordt opgeslagen in het bestaand `landenkentekens`.
+1. Voeg het bestand `landen` en `autokentekens` samen met het commando `join` (zoek dde werking ervan op met het man-commando). Het resultaat wordt opgeslagen in het bestaand `landenkentekens`.:
