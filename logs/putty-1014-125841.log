@@ -2364,4 +2364,4 @@ rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
 radvd:x:75:75:radvd user:/:/sbin/nologin
 rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
 rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
-[thomas@localhost tmp]$ grep ^r /etc/passwd
+[thomas@localhost tmp]$ grep ^r /etc/passwd /etc/passwdn /etc/passwd$ /etc/passwd
