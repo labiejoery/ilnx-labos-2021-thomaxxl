@@ -320126,4 +320126,92 @@ sco-dtmgr617/udp# SCO Desktop Administration Server
 dei-icda618/tcp# DEI-ICDA
 dei-icda618/udp# DEI-ICDA
 compaq-evm      619/tcp# Compaq EVM
-compaq-evm      619/udp# Compaq EVM1326,111%n/ssh1327,111%
+compaq-evm      619/udp# Compaq EVM1326,111%n/ssh1327,111%nmdbs_daemon     800/udp    mdbs-daemon  #
+device801/tcp#
+device801/udp#
+mbap-s802/tcp# Modbus Application Protocol Secure
+mbap-s802/udp# Modbus Application Protocol Secure
+fcp-udp810/tcp# FCP
+fcp-udp810/udp# FCP Datagram
+itm-mcell-s     828/tcp# itm-mcell-s
+itm-mcell-s     828/udp# itm-mcell-s
+pkix-3-ca-ra    829/tcp# PKIX-3 CA/RA
+pkix-3-ca-ra    829/udp# PKIX-3 CA/RA
+netconf-ssh     830/tcp# NETCONF over SSH
+netconf-ssh     830/udp# NETCONF over SSH
+netconf-beep    831/tcp# NETCONF over BEEP
+netconf-beep    831/udp# NETCONF over BEEP
+netconfsoaphttp 832/tcp# NETCONF for SOAP over HTTPS
+netconfsoaphttp 832/udp# NETCONF for SOAP over HTTPS
+netconfsoapbeep 833/tcp# NETCONF for SOAP over BEEP
+netconfsoapbeep 833/udp# NETCONF for SOAP over BEEP
+dhcp-failover2  847/tcp# dhcp-failover 2
+dhcp-failover2  847/udp# dhcp-failover 2
+gdoi848/tcp# GDOI
+gdoi848/udp# GDOI1582,913%n/ssh1583,913%nrtc-pm-port     3891/udp# Oracle RTC-PM port
+pcc-image-port  3892/tcp# PCC-image-port
+pcc-image-port  3892/udp# PCC-image-port
+cgi-starapi     3893/tcp# CGI StarAPI Server
+cgi-starapi     3893/udp# CGI StarAPI Server
+syam-agent      3894/tcp# SyAM Agent Port
+syam-agent      3894/udp# SyAM Agent Port
+syam-smc3895/tcp# SyAm SMC Service Port
+syam-smc3895/udp# SyAm SMC Service Port
+sdo-tls3896/tcp# Simple Distributed Objects over TLS
+sdo-tls3896/udp# Simple Distributed Objects over TLS
+sdo-ssh3897/tcp# Simple Distributed Objects over SSH
+sdo-ssh3897/udp# Simple Distributed Objects over SSH
+senip3898/tcp# IAS, Inc. SmartEye NET Internet Protocol
+senip3898/udp# IAS, Inc. SmartEye NET Internet Protocol
+itv-control     3899/tcp# ITV Port
+itv-control     3899/udp# ITV Port
+### 3900 tcp/udp reserved udt-os/udt_os
+nimsh3901/tcp# NIM Service Handler
+nimsh3901/udp# NIM Service Handler
+nimaux3902/tcp# NIMsh Auxiliary Port
+nimaux3902/udp# NIMsh Auxiliary Port
+charsetmgr      3903/tcp# CharsetMGR7153,562%n/ssh7154,562%N?7153,562%Ndevice801/tcp#
+device801/udp#
+mbap-s802/tcp# Modbus Application Protocol Secure
+mbap-s802/udp# Modbus Application Protocol Secure
+fcp-udp810/tcp# FCP
+fcp-udp810/udp# FCP Datagram
+itm-mcell-s     828/tcp# itm-mcell-s
+itm-mcell-s     828/udp# itm-mcell-s
+pkix-3-ca-ra    829/tcp# PKIX-3 CA/RA
+pkix-3-ca-ra    829/udp# PKIX-3 CA/RA
+netconf-ssh     830/tcp# NETCONF over SSH
+netconf-ssh     830/udp# NETCONF over SSH
+netconf-beep    831/tcp# NETCONF over BEEP
+netconf-beep    831/udp# NETCONF over BEEP
+netconfsoaphttp 832/tcp# NETCONF for SOAP over HTTPS
+netconfsoaphttp 832/udp# NETCONF for SOAP over HTTPS
+netconfsoapbeep 833/tcp# NETCONF for SOAP over BEEP
+netconfsoapbeep 833/udp# NETCONF for SOAP over BEEP
+dhcp-failover2  847/tcp# dhcp-failover 2
+dhcp-failover2  847/udp# dhcp-failover 2
+gdoi848/tcp# GDOI
+gdoi848/udp# GDOI
+domain-s853/tcp# DNS query-response protocol1583,913%N?ssh1582,913%Nurm606/tcp# Cray Unified Resource Manager
+urm606/udp# Cray Unified Resource Manager
+nqs607/tcp# nqs
+nqs607/udp# nqs
+sift-uft608/tcp# Sender-Initiated/Unsolicited File Transfer
+sift-uft608/udp# Sender-Initiated/Unsolicited File Transfer
+npmp-trap609/tcp# npmp-trap
+npmp-trap609/udp# npmp-trap
+hmmp-op613/tcp# HMMP Operation
+hmmp-op613/udp#       HMMP Operation
+sshell614/tcp# SSLshell
+sshell614/udp#       SSLshell
+sco-inetmgr     615/tcp#       Internet Configuration Manager
+sco-inetmgr     615/udp# Internet Configuration Manager
+sco-sysmgr      616/tcpgii     # SCO System Administration Server
+sco-sysmgr      616/udp# SCO System Administration Server
+sco-dtmgr617/tcp# SCO Desktop Administration Server
+sco-dtmgr617/udp# SCO Desktop Administration Server
+dei-icda618/tcp# DEI-ICDA
+dei-icda618/udp# DEI-ICDA
+compaq-evm      619/tcp# Compaq EVM
+compaq-evm      619/udp# Compaq EVM
+sco-websrvrmgr  620/tcp# SCO WebServer Manager1327,111%N?ssh1326,111%
