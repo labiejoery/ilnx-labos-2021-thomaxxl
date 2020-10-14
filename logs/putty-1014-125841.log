@@ -320083,4 +320083,47 @@ tproxy8081/udpsunproxyadmin   # Transparent Proxy
 jetdirect9100/tcplaserjet hplj hp-pdl-datastr pdl-datastream
 mandelspawn     9359/udpmandelbrot      # network mandelbrot
 kamanda10081/tcpfamdc# amanda backup services (Kerberos)
-kamanda10081/udpfamdc# amanda backup services (Kerberos)526,54%/sshssh526,54%~@k   7~@k   6~@k   5~@k   6
+kamanda10081/udpfamdc# amanda backup services (Kerberos)526,54%/sshssh526,54%~@k   7~@k   6~@k   5~@k   6n# Updated additional list from IANA with all missing services 10/04/2015
+#spr-itunes      0/tcp   spl-itunes      # Shirt Pocket netTunes - no port allocated
+compressnet     2/tcp# Management Utility
+compressnet     2/udp# Management Utility
+#compressnet    3/tcp                   # Compression Process
+#compressnet    3/udp                   # Compression Process
+discard9/sctp# Discard
+discard9/dccp# Discard SC:DISC
+ftp-data20/sctp# FTP
+ftp21/sctp# FTP
+ssh22/sctp# SSH
+nsw-fe27/tcp# NSW User System FE
+nsw-fe27/udp# NSW User System FE
+msg-icp29/tcp# MSG ICP
+msg-icp29/udp# MSG ICP
+msg-auth31/tcp# MSG Authentication
+msg-auth31/udp# MSG Authentication
+dsp33/tcp# Display Support Protocol
+dsp33/udp# Display Support Protocol
+graphics41/tcp# Graphics
+graphics41/udp# Graphics
+mpm-flags44/tcp# MPM FLAGS Protocol568,14%n/sshsoap-beep605/udp# SOAP over BEEP
+urm606/tcp# Cray Unified Resource Manager
+urm606/udp# Cray Unified Resource Manager
+nqs607/tcp# nqs
+nqs607/udp# nqs
+sift-uft608/tcp# Sender-Initiated/Unsolicited File Transfer
+sift-uft608/udp# Sender-Initiated/Unsolicited File Transfer
+npmp-trap609/tcp# npmp-trap
+npmp-trap609/udp# npmp-trap
+hmmp-op613/tcp# HMMP Operation
+hmmp-op613/udp#       HMMP Operation
+sshell614/tcp# SSLshell
+sshell614/udp#       SSLshell
+sco-inetmgr     615/tcp#       Internet Configuration Manager
+sco-inetmgr     615/udp# Internet Configuration Manager
+sco-sysmgr      616/tcpgii     # SCO System Administration Server
+sco-sysmgr      616/udp# SCO System Administration Server
+sco-dtmgr617/tcp# SCO Desktop Administration Server
+sco-dtmgr617/udp# SCO Desktop Administration Server
+dei-icda618/tcp# DEI-ICDA
+dei-icda618/udp# DEI-ICDA
+compaq-evm      619/tcp# Compaq EVM
+compaq-evm      619/udp# Compaq EVM1326,111%n/ssh1327,111%
