@@ -319859,4 +319859,6 @@ smtp25/udpmail40,10%p
 smtp25/udpmail41,10%p 
 smtp25/udpmail42,10%p 
 smtp25/udpmail43,10%p 
-smtp25/udpmail44,10%~@k   3~@k   2~@k   1~@k   0~@k   39~@k   8~@k   7~@k   6~@k   7~@k   6
+smtp25/udpmail44,10%~@k   3~@k   2~@k   1~@k   0~@k   39~@k   8~@k   7~@k   6~@k   7~@k   63dd3 fewer linesnameserver      42/udpname# IEN 116
+nicname43/tcpwhois
+nicname43/udpwhois36,10%3 fewer lines36,10%
