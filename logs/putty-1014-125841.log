@@ -320646,4 +320646,12 @@ Spanje ES
 Spanje ES"cat landenkentekens2
 echo "Italië I" >>Spanje EItalië ISpanje EItalië Icatecho "Italië I
 Spanje ES"
-sort landenkentekens
+sort landenkentekens2 
+België B
+Duitsland D
+Frankrijk F
+Italië I
+Nederland NL
+Spanje E
+Zwitserland CH
+[thomas@localhost labo3]$ 
