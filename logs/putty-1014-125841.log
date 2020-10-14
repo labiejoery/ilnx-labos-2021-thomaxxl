@@ -319912,4 +319912,4 @@ axio-disc35100/udp# Axiomatic discovery protocol
 pmwebapi44323/tcp# Performance Co-Pilot client HTTP API
 cloudcheck-ping 45514/udp# ASSIA CloudCheck WiFi Management keepalive
 cloudcheck      45514/tcp# ASSIA CloudCheck WiFi Management System
-spremotetablet  46998/tcp# Capture handwritten signatures11437,1     Bodem
+spremotetablet  46998/tcp# Capture handwritten signatures11437,1     Bodem0 
