@@ -320514,3 +320514,45 @@ DESCRIPTION
  Manual page join(1) line 6 (press h for help or q to quit) ESCESCOOBB              obey FORMAT while constructing output line
  Manual page join(1) line 7 (press h for help or q to quit) ESCESCOOBB
  Manual page join(1) line 8 (press h for help or q to quit)[thomas@localhost labo3]$ man join cat autokentekens landejoin -J 1
+join: ongeldige optie -- 'J'
+Typ 'join --help' voor meer informatie.
+[thomas@localhost labo3]$ join -J 1 autokentekens landen man join 
+JOIN(1)                            User Commands                           JOIN(1)
+
+NAME
+       join - join lines of two files on a common field
+
+SYNOPSIS
+       join [OPTION]... FILE1 FILE2
+
+DESCRIPTION
+       For  each  pair  of input lines with identical join fields, write a line to
+       standard output.  The default join field is the first, delimited by blanks.
+
+       When FILE1 or FILE2 (not both) is -, read standard input.
+
+       -a FILENUM
+              also print unpairable lines from file FILENUM, where FILENUM is 1 or
+              2, corresponding to FILE1 or FILE2
+
+       -e EMPTY
+              replace missing input fields with EMPTY
+
+       -i, --ignore-case
+              ignore differences in case when comparing fields
+ Manual page join(1) line 1 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 2 (press h for help or q to quit) ESCESCOOBB       -j FIELD
+ Manual page join(1) line 3 (press h for help or q to quit) ESCESCOOBB              equivalent to '-1 FIELD -2 FIELD'
+ Manual page join(1) line 4 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 5 (press h for help or q to quit) ESCESCOOBB       -o FORMAT
+ Manual page join(1) line 6 (press h for help or q to quit) ESCESCOOBB              obey FORMAT while constructing output line
+ Manual page join(1) line 7 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 8 (press h for help or q to quit) ESCESCOOBB       -t CHAR
+ Manual page join(1) line 9 (press h for help or q to quit) ESCESCOOBB              use CHAR as input and output field separator
+ Manual page join(1) line 10 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 11 (press h for help or q to quit) ESCESCOOBB       -v FILENUM
+ Manual page join(1) line 12 (press h for help or q to quit) ESCESCOOBB              like -a FILENUM, but suppress joined output lines
+ Manual page join(1) line 13 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 14 (press h for help or q to quit) ESCESCOOBB       -1 FIELD
+ Manual page join(1) line 15 (press h for help or q to quit) ESCESCOOBB              join on this FIELD of file 1
+ Manual page join(1) line 16 (press h for help or q to quit)
