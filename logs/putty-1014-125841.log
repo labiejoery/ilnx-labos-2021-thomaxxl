@@ -319829,4 +319829,4 @@ ftp-data20/udp
 # 21 is registered to ftp, but also used by fsp
 ftp21/tcp
 ftp21/udpfsp fspd
-ssh22/tcp# The Secure Shell (SSH) Protocol27,10%~@k   2a -- INVOEGEN --27,30%2^[  27,10%a -- INVOEGEN --27,20%ycho 7/tcp3ycho 7/tcp4ycho 7/tcp5^[  27,40%
+ssh22/tcp# The Secure Shell (SSH) Protocol27,10%~@k   2a -- INVOEGEN --27,30%2^[  27,10%a -- INVOEGEN --27,20%ycho 7/tcp3ycho 7/tcp4ycho 7/tcp5^[  27,40%o -- INVOEGEN --28,10%28,10%s2d3q4f5
