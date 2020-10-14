@@ -566,4 +566,22 @@ The key's randomart image is:
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDf9FlJnLOWpbhIT/Om3bArwK/Oo7ihqDrImDiyAHg0UD86ZgGsN1rDP9R1IUz0Q6zh2xgVPYL7Rm4+706vNcu8doVOrje0g1BxJV6421C/10Pum786Ij2K7lNNL9KE4NXyy3C5qNRmdsBS4GmKFYCSz/CawoOfyZ2aU076tkyR98QFSsJLC0t3+YinUlDLlYZVc1/CSsmTC2qb1EOYX33Yj+x/GcyOKzUgzv4Znc7TafYR5SIoayQLlmX0ch6SErq5IoZCMpUxoDu3Q1WWg8zhuvpoQGzACl6zzTldmRZeSEHH96DGlQMqj6AhK2qwzP5mBOHPRWorYOA/AIKKLFoSEc5orhiuPJqCdq6AdfkCJJDehGd0bDqKtHcRt6AATZ+FktrLwNVI5WsSIOtffNdYd1aKPrEyigahx49M+lswb2Vz1j6Vf/BTVJL2CP0t4EYDQTUc6Z7DpqiBySaBtgN6AoSaQLGBHFp79JZMVTHMrhZ9XLDdaZrxcWrgf28auzE= thomas@localhost.localdomain
 [thomas@localhost tmp]$ grep sssh /etc/passwd
 sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
-[thomas@localhost tmp]$ grep ssh /etc/passwd
+[thomas@localhost tmp]$ grep ssh /etc/passwdservices 
+ssh             22/tcp                          # The Secure Shell (SSH) Protocol
+ssh             22/udp                          # The Secure Shell (SSH) Protocol
+x11-ssh-offset  6010/tcp                        # SSH X11 forwarding offset
+ssh             22/sctp                 # SSH
+sshell          614/tcp                 # SSLshell
+sshell          614/udp                 #       SSLshell
+netconf-ssh     830/tcp                 # NETCONF over SSH
+netconf-ssh     830/udp                 # NETCONF over SSH
+sdo-ssh         3897/tcp                # Simple Distributed Objects over SSH
+sdo-ssh         3897/udp                # Simple Distributed Objects over SSH
+netconf-ch-ssh  4334/tcp                # NETCONF Call Home (SSH) 
+snmpssh         5161/tcp                # SNMP over SSH Transport Model
+snmpssh-trap    5162/tcp                # SNMP Notification over SSH Transport Model
+tl1-ssh         6252/tcp                # TL1 over SSH
+tl1-ssh         6252/udp                # TL1 over SSH
+ssh-mgmt        17235/tcp               # SSH Tectia Manager
+ssh-mgmt        17235/udp               # SSH Tectia Manager
+[thomas@localhost tmp]$ 
