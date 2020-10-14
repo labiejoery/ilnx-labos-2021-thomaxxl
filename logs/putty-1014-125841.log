@@ -320011,4 +320011,25 @@ smtp25/udpmail
 smtp25/udpmail
 smtp25/udpmail
 smtp25/udpmail29,10%17 fewer lines29,10%~@k   30dw  25/udpmail~@k   1^[  ^[  ::wqx"services" 11448L, 691913B opgeslagen
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vim services 
+"services" 11448L, 691913B  zz           #       http://www.iana.org/assignments/port-numbers
+# The Well Known Ports are those from 0 through 1023.# The Registered Ports are those from 1024 through 49151# The Dynamic and/or Private Ports are those from 49152 through 65535
+#
+# Each line describes one service, and is of the form:
+#
+# service-name  port/protocol  [aliases ...]   [# comment]
+
+tcpmux1/tcp# TCP port service multiplexer
+tcpmux1/udp# TCP port service multiplexer
+rje5/tcp# Remote Job Entry
+rje5/udp# Remote Job Entry
+edddddddddddcho7/tcp
+echo7/udp
+mtp25/udpmail
+25/udpmail
+smtp25/udpmail
+nameserver      42/tcp 25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail
+smtp25/udpmail31,10%
