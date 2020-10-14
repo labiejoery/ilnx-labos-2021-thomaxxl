@@ -320336,4 +320336,10 @@ tcpmux1/tcp# TCP port service multiplexer-- INSERT --# /etc/services:# /etc/ser
 # 
 # Network services, Internet style# IANA services version: last updated 2016-07-08#4 lines yanked3 more lines# IANA services version: last updated 2016-07-08
 #
-## Network services, Internet style3 more lines# NNetwork etwork services, Internet style1 change; before #10  3 seconds agoetwork services, Internet styleNetwork services, Internet styleNetwork Network services, Internet style:
+## Network services, Internet style3 more lines# NNetwork etwork services, Internet style1 change; before #10  3 seconds agoetwork services, Internet styleNetwork services, Internet styleNetwork Network services, Internet style:q![thomas@localhost labo3]$ ll
+totaal 16
+-rw-rw-r--. 1 thomas thomas   22 14 okt 14:10 autokentekens
+-rw-rw-r--. 1 thomas thomas   60 14 okt 14:07 landen
+-rw-rw-r--. 1 thomas thomas 2738 13 okt 16:38 lorem.txt
+-rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
+[thomas@localhost labo3]$ 
