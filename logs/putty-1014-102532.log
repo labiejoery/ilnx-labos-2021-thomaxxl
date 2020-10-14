@@ -122423,4 +122423,4 @@ lijn 1
 lijn 1
 lijn 5
 lijn 1
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" 
