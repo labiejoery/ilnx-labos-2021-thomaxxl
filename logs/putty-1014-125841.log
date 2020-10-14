@@ -320569,4 +320569,4 @@ cat landenkentekens
 3 CH Zwitserland
 4 D Duitsland
 5 NL Nederland
-[thomas@localhost labo3]$ cat landenkentekens | cut -f
+[thomas@localhost labo3]$ cat landenkentekens | cut -f 
