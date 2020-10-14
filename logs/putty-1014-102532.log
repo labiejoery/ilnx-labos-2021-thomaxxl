@@ -449925,4 +449925,4 @@ chargen         19/udp          ttytst source
 ftp-data        20/tcp
 ftp-data        20/udp
 # 21 is registered to ftp, but also used by fsp
-:
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | less
