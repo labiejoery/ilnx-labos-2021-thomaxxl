@@ -319887,4 +319887,5 @@ gopher70/udp39,620%~@k
 netrjs-171/tcp# Remote Job Service40,370%~@k   
 netrjs-171/udp# Remote Job Service41,220%~@k   
 netrjs-272/tcp# Remote Job Service42,220%~@k   
-netrjs-272/udp# Remote Job Service43,650%
+netrjs-272/udp# Remote Job Service43,650%~@k   2,22~@k   1J 
+tcp tftp69/udpnetrjs-373/tcp# Remote Job Service41,230%
