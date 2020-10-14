@@ -121184,4 +121184,45 @@ REPORTING BUGS
 COPYRIGHT
        Copyright © 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3  or
        later <https://gnu.org/licenses/gpl.html>.
- Manual page join(1) line 42 (press h for help or q to quit)
+ Manual page join(1) line 42 (press h for help or q to quit) ESCESC[[55~~              join on this FIELD of file 2
+       -2 FIELD
+
+              join on this FIELD of file 1
+       -1 FIELD
+
+              like -a FILENUM, but suppress joined output lines
+       -v FILENUM
+
+              use CHAR as input and output field separator
+       -t CHAR
+
+              obey FORMAT while constructing output line
+       -o FORMAT
+
+              equivalent to '-1 FIELD -2 FIELD'
+       -j FIELD
+
+              ignore differences in case when comparing fields
+       -i, --ignore-case
+
+              replace missing input fields with EMPTY
+       -e EMPTY
+
+              sponding to FILE1 or FILE2
+              also print unpairable lines from file FILENUM, where FILENUM is 1 or 2,  corre
+       -a FILENUM
+
+       When FILE1 or FILE2 (not both) is -, read standard input.
+
+       put.  The default join field is the first, delimited by blanks.
+       For each pair of input lines with identical join fields, write a line to standard out
+DESCRIPTION
+
+       join [OPTION]... FILE1 FILE2
+SYNOPSIS
+
+       join - join lines of two files on a common field
+NAME
+
+JOIN(1)                                 User Commands                                 JOIN(1)
+ Manual page join(1) line 1 (press h for help or q to quit)
