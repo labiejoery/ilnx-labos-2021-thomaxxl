@@ -320581,4 +320581,10 @@ F
 CH
 D
 NL
-[thomas@localhost labo3]$ cat landenkentekens | cut -f 2 -d ' ',
+[thomas@localhost labo3]$ cat landenkentekens | cut -f 2 -d ' ',3
+B België
+F Frankrijk
+CH Zwitserland
+D Duitsland
+NL Nederland
+[thomas@localhost labo3]$ cat landenkentekens | cut -f2,3 -d ' '-
