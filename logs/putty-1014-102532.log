@@ -449786,4 +449786,7 @@ Venus Williams
 Serena Williams
 Martina Hingis
 Kim Clijsters
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep 'Williams' tennis.txt
+Venus Williams
+Serena Williams
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
