@@ -319934,4 +319934,14 @@ spremotetablet  46998/tcp# Capture handwritten signatures11437,1     Bodem0 ^[  
 #
 # service-name  port/protocol  [aliases ...]   [# comment]
 
-tcpmux1/tcp# TCP port service multiplexer1,1Top::
+tcpmux1/tcp# TCP port service multiplexer1,1Top::20tcpmux1/udp# TCP port service multiplexer
+rje5/tcp# Remote Job Entry20,10%~@k   
+rje5/udp# Remote Job Entry21,10%~@k   
+edddddddddddcho7/tcp22,0-10%~@k   
+echo7/udp23,10%~@k   
+discard9/tcpsink null24,10%~@k   
+smtp25/udpmail25,10%~@k   
+smtp25/udpmail26,10%~@k   
+smtp25/udpmail27,10%~@k   
+smtp25/udpmail28,10%~@k   
+smtp25/udpmail29,10%
