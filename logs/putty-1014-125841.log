@@ -237,4 +237,4 @@ SEE ALSO
  Manual page cat(1) line 29 (press h for help or q to quit) ESCESCOOAA       -s, --squeeze-blank
  Manual page cat(1) line 28 (press h for help or q to quit) ESCESCOOAA
  Manual page cat(1) line 27 (press h for help or q to quit) ESCESCOOAA              number all output lines
- Manual page cat(1) line 26 (press h for help or q to quit)[thomas@localhost tmp]$ cut -c 3 
+ Manual page cat(1) line 26 (press h for help or q to quit)[thomas@localhost tmp]$ cut -c 3 /etc/passwd 
