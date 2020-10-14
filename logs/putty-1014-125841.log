@@ -320313,4 +320313,8 @@ tcpmux1/tcp# TCP port service multiplexer-- INSERT --# /etc/services:# /etc/ser
 # The Well Known Ports are those from 0 through 1023.
 # The Registered Ports are those from 1024 through 49151
 # The Dynamic and/or Private Ports are those from 49152 through 65535
-#5 fewer lines; before #6  2 seconds ago
+#5 fewer lines; before #6  2 seconds ago24  19 seconds ago# Each line describes one service, and is of the form:
+#2 fewer lines; before #4  19 seconds ago1 line less; before #3  43 seconds ago
+# service-name  port/protocol  [aliases ...]   [# comment]1 line less; before #3  43 seconds ago
+
+
