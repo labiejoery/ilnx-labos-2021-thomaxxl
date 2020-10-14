@@ -319569,4 +319569,4 @@ tcpmux          1/tcp                           # TCP port service multiplexer
 tcpmux          1/udp                           # TCP port service multiplexer
 rje             5/tcp                           # Remote Job Entry
 rje             5/udp                           # Remote Job Entry
-:[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
