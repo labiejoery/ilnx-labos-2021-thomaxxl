@@ -3083,4 +3083,4 @@ spremotetablet  46998/tcp               # Capture handwritten signatures
 # IANA services version: last updated 2016-07-08
 [thomas@localhost tmp]$ head -5 /etc/services  | tail -1nl /etc/services | 
      5# IANA services version: last updated 2016-07-08
-[thomas@localhost tmp]$ nl /etc/services | head -5   | tail -1 
+[thomas@localhost tmp]$ nl /etc/services | head -5   | tail -1 tr 
