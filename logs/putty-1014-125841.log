@@ -319637,4 +319637,4 @@ Note;it
 port;for
 even;the
 Updated;RFC
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services | awk '{ printf "%s;%s\n", $2, $4 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services | awk '{ printf "%s;%s\n", $2, $4 }'head /etc/services | awk '{ printf "%s;%s\n", $2, $4 }'
