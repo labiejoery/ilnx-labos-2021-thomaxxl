@@ -1864,4 +1864,4 @@ vdmmesh-disc    18668/udp               # Manufacturing Execution Systems Mesh C
 vdmmesh         18668/tcp               # Manufacturing Execution Systems Mesh Comm
 edi_service     34567/udp               # dhanalakshmi.org EDI Service
 spremotetablet  46998/tcp               # Capture handwritten signatures
-[thomas@localhost tmp]$ 
+[thomas@localhost tmp]$ grep -E "s.*h" /etc/services
