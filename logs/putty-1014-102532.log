@@ -107,4 +107,16 @@ Enter file in which to save the key (/home/thomas/.ssh/id_rsa): ^C
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDTY4Nrn3JFP5pzK6KiVGNfQJTjRmYr3KA6jJ2OIxn85JXxeLEDiDqpyQcOgJ2AUq++OQcN+zErWO7L4mKGFb6dSkWDKBU0eIgCZzscAF6iSBnmDS6tKs3BhHr+EYkj7bVJHup/xMeHN3UbLHbvKJ4Rtm40oFZrcYLE7iZPNFBNazTz+XzuGWK4Od2w8PwGDg6tSBu1FiLIwluxCiqN9XMrnhZYuMGccUFLJcZKN8KerbY7scWAktXRvRqSlvwy4eBE0WamFNS/Ye/Jq5QXjIHHBO64/wieL/BwWMKdfenviWI2o4ZpHyWrzc0hBXyVG9/V64HlkUGFVepGUHxItHXok7coW/P5TffmQID7I7UP/qv6w2qx6Yh/LiZwF4MIx0sJxxSFAKPerLRNZjMKowG9N6GhLavYTrNWGl94Fy38ce5Oe9Rkn8hYyp+XOSqD/l0aA18InvAxYEL7ofwQoxdXNfmykUOU19vKirh/uXJ0IZWw+z2C/fZuf4EeUUEDJUE= thomas@localhost.localdomain
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ printf 'Error: %s is not a directory\n' "${dir}" >&2
 Error:  is not a directory
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << _EOF_
+> Usage: ${0} [OPT]... [ARG]..
+> 
+> OPTIONS:
+>   -h, --help  Print this help message
+> 
+> _EOF_
+Usage: -bash [OPT]... [ARG]..
+
+OPTIONS:
+  -h, --help  Print this help message
+
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
