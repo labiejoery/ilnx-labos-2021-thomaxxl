@@ -11,3 +11,6 @@ Last login: Wed Oct 14 10:25:37 2020 from 192.168.193.1
  documents.tar.bz2   file3              Sjablonen
 [thomas@localhost ~]$ cd ilnx-labos-2021-thomaxxl/n
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ git remote -v
+origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (fetch)
+origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (push)
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
