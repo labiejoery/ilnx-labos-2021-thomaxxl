@@ -121499,4 +121499,15 @@ shutdown:x:6:0:shutdown:/sbin:/sbin/shutdowndisk:x:6:
 halt:x:7:0:halt:/sbin:/sbin/haltlp:x:7:
 mail:x:8:12:mail:/vaXqsdfsdfq/spool/mail:/sbin/nologinmem:x:8:
 opeXqsdfsdfqatoXqsdfsdfq:x:11:0:opeXqsdfsdfqatoXqsdfsdfq:/Xqsdfsdfqoot:/sbin/nologinkmem:x:9:
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' oot
+Xqsdfsdfq:x:0:0:Xqsdfsdfq:/Xqsdfsdfq:/bin/bashXqsdfsdfq:x:0:
+bin:x:1:1:bin:/bin:/sbin/nologinbin:x:1:
+daemon:x:2:2:daemon:/sbin:/sbin/nologindaemon:x:2:
+adm:x:3:4:adm:/var/adm:/sbin/nologinsys:x:3:
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologinadm:x:4:
+sync:x:5:0:sync:/sbin:/bin/synctty:x:5:
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdowndisk:x:6:
+halt:x:7:0:halt:/sbin:/sbin/haltlp:x:7:
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologinmem:x:8:
+operator:x:11:0:operator:/Xqsdfsdfq:/sbin/nologinkmem:x:9:
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
