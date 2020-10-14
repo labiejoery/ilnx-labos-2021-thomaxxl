@@ -319698,3 +319698,7 @@ Klaar.
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ sudo dnf install vimtype $(which vim))m)
 /usr/bin/vim is /usr/bin/vim
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ type $(which vim))
+/usr/bin/vi is /usr/bin/vi
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vim 
