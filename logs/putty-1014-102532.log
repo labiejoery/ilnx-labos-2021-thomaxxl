@@ -425793,4 +425793,4 @@ zymed-zpp
 zymed-zpp
 ZYMED-ZPP
 ZYMED-ZPP
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort 
