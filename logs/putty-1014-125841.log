@@ -319624,4 +319624,4 @@ RFC
 #---port
 #---even
 #---Updated
-(END)[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+(END)[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services | awk '{ print $1"---"$2 }' | less
