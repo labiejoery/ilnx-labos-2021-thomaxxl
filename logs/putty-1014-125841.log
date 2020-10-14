@@ -320764,4 +320764,4 @@ DESCRIPTION
 
        -T, --temporary-directory=DIR
               use DIR for temporaries, not $TMPDIR or /tmp; multiple options spec
- Manual page sort(1) line 77/152 61% (press h for help or q to quit)
+ Manual page sort(1) line 77/152 61% (press h for help or q to quit)[thomas@localhost labo3]$ 
