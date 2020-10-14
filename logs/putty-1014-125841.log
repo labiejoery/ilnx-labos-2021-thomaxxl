@@ -562,4 +562,6 @@ The key's randomart image is:
 -rw-------. 1 thomas thomas 2622 14 okt 13:17 /tmp/test
 [thomas@localhost tmp]$ ll /tmp/test.pub 
 -rw-r--r--. 1 thomas thomas 582 14 okt 13:17 /tmp/test.pub
-[thomas@localhost tmp]$ cat 
+[thomas@localhost tmp]$ cat /tmp/test.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDf9FlJnLOWpbhIT/Om3bArwK/Oo7ihqDrImDiyAHg0UD86ZgGsN1rDP9R1IUz0Q6zh2xgVPYL7Rm4+706vNcu8doVOrje0g1BxJV6421C/10Pum786Ij2K7lNNL9KE4NXyy3C5qNRmdsBS4GmKFYCSz/CawoOfyZ2aU076tkyR98QFSsJLC0t3+YinUlDLlYZVc1/CSsmTC2qb1EOYX33Yj+x/GcyOKzUgzv4Znc7TafYR5SIoayQLlmX0ch6SErq5IoZCMpUxoDu3Q1WWg8zhuvpoQGzACl6zzTldmRZeSEHH96DGlQMqj6AhK2qwzP5mBOHPRWorYOA/AIKKLFoSEc5orhiuPJqCdq6AdfkCJJDehGd0bDqKtHcRt6AATZ+FktrLwNVI5WsSIOtffNdYd1aKPrEyigahx49M+lswb2Vz1j6Vf/BTVJL2CP0t4EYDQTUc6Z7DpqiBySaBtgN6AoSaQLGBHFp79JZMVTHMrhZ9XLDdaZrxcWrgf28auzE= thomas@localhost.localdomain
+[thomas@localhost tmp]$ 
