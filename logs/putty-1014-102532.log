@@ -449773,4 +449773,4 @@ ZYMED-ZPP
 63130 /etc/services
 [thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -w /etc/services c
 692241 /etc/services
-[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -c /etc/services 
