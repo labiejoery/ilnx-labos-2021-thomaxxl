@@ -8027,4 +8027,11 @@ repButend
 [thomas@localhost backup]$ join users.txt newpass.txt 
 join: newpass.txt:3: is niet gesorteerd: GantEkCow
 join: invoer is niet gesorteerd
-[thomas@localhost backup]$ join users.txt newpass.txt 
+[thomas@localhost backup]$ join users.txt newpass.txt paste
+robertsklixofalRy
+ryujinfutro
+sparrowGantEkCow
+studenttreolobPav
+teachchawgOd#
+yoshiroNodPybAvFo
+[thomas@localhost backup]$ 
