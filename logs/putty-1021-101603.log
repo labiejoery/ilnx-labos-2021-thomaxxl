@@ -3197,4 +3197,4 @@ interdum faucibus sapien in, ullamcorper semper neque.
     52et fermentum dolor scelerisque. Vestibulum tincidunt
     53tellus quis suscipit condimentum. Nam ipsum felis,
     54interdum faucibus sapien in, ullamcorper semper neque.
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ fmt -g 50 lorem.txt | nl
