@@ -7957,4 +7957,4 @@ Doorgaan met veranderingen? [N/y] y
  * Wachten in wachtrij... 
  * Wachten op authenticatie... Kon pakketten niet installeren: Failed to obtain authentication.
 
-[thomas@localhost backup]$ apg -n AANTALsudo dnf install 
+[thomas@localhost backup]$ apg -n AANTALsudo dnf install apg
