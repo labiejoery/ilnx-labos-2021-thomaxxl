@@ -8057,4 +8057,4 @@ $1
 
 
 
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ cat newusers.txt | awk "{print \"$1\";\"$2\"}"
