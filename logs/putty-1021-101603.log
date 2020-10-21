@@ -8161,3 +8161,51 @@ Voorbeelden:
 gawk '{ som += $1 }; END { print som }' bestand
 gawk -F: '{ print $1 }' /etc/passwd
 [thomas@localhost backup]$ cat newusers.txt | awk -IFS="\t ""{print $1}" 
+Gebruik:  awk [opties] -f programmabestand [--]  bestand...
+     of:  awk [opties] [--] 'programmatekst'  bestand...
+
+POSIX-opties:Equivalente GNU-opties: (standaard)
+-f programmabestand--file=programmabestand
+-F veldscheidingsteken--field-separator=veldscheidingsteken
+-v var=waarde--assign=var=waarde
+
+Korte opties:Equivalente GNU-opties: (uitbreidingen)
+-b--characters-as-bytes
+-c--traditional
+-C--copyright
+-d[bestand]--dump-variables[=bestand]
+-D[bestand]--debug[=bestand]
+-e 'programmatekst'--source='programmatekst'
+-E bestand--exec=bestand
+-g--gen-pot
+-h--help
+-i include-bestand--include=include-bestand
+-l bibliotheek--load=bibliotheek
+-L[fatal|invalid|no-ext]--lint[=fatal|invalid|no-ext]
+-M--bignum
+-N--use-lc-numeric
+-n--non-decimal-data
+-o[bestand]--pretty-print[=bestand]
+-O--optimize
+-p[bestand]--profile[=bestand]
+-P--posix
+-r--re-interval
+-s--no-optimize
+-S--sandbox
+-t--lint-old
+-V--version
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+'gawk' is een patroonherkennings- en bewerkingsprogramma.
+Standaard leest het van standaardinvoer en schrijft naar standaarduitvoer.
+
+Voorbeelden:
+gawk '{ som += $1 }; END { print som }' bestand
+gawk -F: '{ print $1 }' /etc/passwd
+[thomas@localhost backup]$ cat newusers.txt | awk -IFS="\t" "{print $1}"
