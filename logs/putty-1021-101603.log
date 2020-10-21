@@ -8343,4 +8343,4 @@ yoshiro x 1003 1006  /home/yoshiro /bin/bash
 sparrow x 1004 1007  /home/sparrow /bin/bash
 teach x 1005 1008  /home/teach /bin/bash
 roberts x 1006 1009  /home/roberts /bin/bash
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ cat passwd | tr : ' ' | awk '{if($3 > 1000){print $0}}'newusers.txt | awk "{print 'x'}"
