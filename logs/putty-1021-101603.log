@@ -7992,4 +7992,8 @@ Geïnstalleerd:
   apg-2.3.0b-36.fc32.x86_64                                                                                               
 
 Klaar.
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ apg -n 3
+yucegHuk6
+OrHymBadd6
+veejocAc
+[thomas@localhost backup]$ apg -n 3
