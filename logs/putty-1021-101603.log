@@ -8296,3 +8296,10 @@ student treolobPav
 teach chawgOd#
 yoshiro NodPybAvFo
 [thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | cut -f1 
+roberts
+ryu
+sparrow
+student
+teach
+yoshiro
+[thomas@localhost backup]$ cat newusers.txt | cut -f1 tr '\t' ' ' | 
