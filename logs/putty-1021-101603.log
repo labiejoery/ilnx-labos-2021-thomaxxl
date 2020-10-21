@@ -6806,4 +6806,14 @@ SORT(1)                                            User Commands                
  Manual page sort(1) line 54/145 64% (press h for help or q to quit) ESCESCOOBB              with -c, check for strict ordering; without -c, output only the first of an equal run
  Manual page sort(1) line 55/145 66% (press h for help or q to quit) ESCESCOOBB
  Manual page sort(1) line 56/145 66% (press h for help or q to quit) ESCESCOOBB       -z, --zero-terminated
- Manual page sort(1) line 57/145 67% (press h for help or q to quit)
+ Manual page sort(1) line 57/145 67% (press h for help or q to quit) ESCESCOOBB              line delimiter is NUL, not newline
+ Manual page sort(1) line 58/145 68% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 59/145 68% (press h for help or q to quit) ESCESCOOBB       --help display this help and exit
+ Manual page sort(1) line 60/145 69% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 61/145 69% (press h for help or q to quit) ESCESCOOBB       --version
+ Manual page sort(1) line 62/145 69% (press h for help or q to quit) ESCESCOOBB              output version information and exit
+ Manual page sort(1) line 63/145 70% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 64/145 70% (press h for help or q to quit) ESCESCOOBB       KEYDEF  is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is a field number and C a charac
+ Manual page sort(1) line 65/145 72% (press h for help or q to quit) ESCESCOOBB       ter position in the field; both are origin 1, and the stop position defaults to the line's end.  If neither
+ Manual page sort(1) line 66/145 74% (press h for help or q to quit) ESCESCOOBB       -t  nor  -b is in effect, characters in a field are counted from the beginning of the preceding whitespace.
+ Manual page sort(1) line 67/145 76% (press h for help or q to quit)
