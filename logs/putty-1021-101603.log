@@ -2816,4 +2816,13 @@ Vele tekstbestanden zijn gestructureerd als tabellen, bv. CSV (comma-separated v
 Vul hier aan welke interessante informatiebronnen je tegengekomen bent.
 [thomas@localhost labo3]$ 
 [thomas@localhost labo3]$ 
-[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ cd backup/
+[thomas@localhost backup]$ ll
+totaal 24
+-rw-rw-r--. 1 thomas thomas   22 14 okt 14:10 autokentekens
+-rw-rw-r--. 1 thomas thomas   60 14 okt 14:07 landen
+-rw-rw-r--. 1 thomas thomas   72 14 okt 14:24 landenkentekens
+-rw-rw-r--. 1 thomas thomas   81 14 okt 14:27 landenkentekens2
+-rw-rw-r--. 1 thomas thomas 2738 13 okt 16:38 lorem.txt
+-rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
+[thomas@localhost backup]$ 
