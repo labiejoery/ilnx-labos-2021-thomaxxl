@@ -8509,4 +8509,35 @@ DESCRIPTION
 
                    GECOS stands for "General Electric Comprehensive Operating System", which was renamed  to  GCOS
                    when  GE's  large  systems division was sold to Honeywell.  Dennis Ritchie has reported: "Some
- Manual page passwd(5) line 1 (press h for help or q to quit)
+ Manual page passwd(5) line 1 (press h for help or q to quit)                   times we sent printer output or batch jobs to the GCOS machine.  The gcos field in the password
+                   file was a place to stash the information for the $IDENTcard.  Not elegant."
+
+       directory   This is the user's home directory: the initial directory where the user is placed after logging
+                   in.  The value in this field is used to set the HOME environment variable.
+
+       shell       This is the program to run at login (if empty, use /bin/sh).  If  set  to  a  nonexistent  exe
+                   cutable, the user will be unable to login through login(1).  The value in this field is used to
+                   set the SHELL environment variable.
+
+FILES
+       /etc/passwd
+
+NOTES
+       If you want to create user groups, there must be an entry in /etc/group, or no group will exist.
+
+       If the encrypted password is set to an asterisk (*), the user will be unable to login using  login(1),  but
+       may  still  login  using  rlogin(1),  run existing processes and initiate new ones through rsh(1), cron(8),
+       at(1), or mail filters, etc.  Trying to lock an account by simply changing the shell field yields the  same
+       result and additionally allows the use of su(1).
+
+SEE ALSO
+       chfn(1),  chsh(1),  login(1),  passwd(1),  su(1),  crypt(3), getpwent(3), getpwnam(3), group(5), shadow(5),
+       vipw(8)
+
+COLOPHON
+       This page is part of release 5.04 of the Linux man-pages project.  A description of the  project,  informa
+       tion   about   reporting   bugs,   and   the   latest   version   of   this   page,   can   be   found   at
+       https://www.kernel.org/doc/man-pages/.
+
+Linux                                               2018-04-30                                           PASSWD(5)
+ Manual page passwd(5) line 32/82 (END) (press h for help or q to quit)
