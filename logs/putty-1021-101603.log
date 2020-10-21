@@ -8023,4 +8023,4 @@ OjLuetoo
 Vottiphs
 hakHadjac{
 repButend
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ apg -n $(wc -l < users.txt ) 
