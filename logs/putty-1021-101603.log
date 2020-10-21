@@ -7903,4 +7903,4 @@ roberts x 1006 1009  /home/roberts /bin/bash
 [thomas@localhost backup]$ 
 [thomas@localhost backup]$ 
 [thomas@localhost backup]$ 
-[thomas@localhost backup]$ cat passwd | tr : ' ' | awk '{if($3 > 1000)print $0}'
+[thomas@localhost backup]$ cat passwd | tr : ' ' | awk '{if($3 > 1000)print $0}'{
