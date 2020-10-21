@@ -8014,4 +8014,4 @@ yeygnafBi
 6 users.txt
 [thomas@localhost backup]$ wc -l users.txt < 
 6
-[thomas@localhost backup]$ wc -l < users.txt 
+[thomas@localhost backup]$ wc -l < users.txt )
