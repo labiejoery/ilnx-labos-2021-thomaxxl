@@ -3728,4 +3728,4 @@ in,
 ullamcorper
 semper
 neque.
-[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt |
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | sort -u
