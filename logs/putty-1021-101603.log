@@ -3198,3 +3198,62 @@ interdum faucibus sapien in, ullamcorper semper neque.
     53tellus quis suscipit condimentum. Nam ipsum felis,
     54interdum faucibus sapien in, ullamcorper semper neque.
 [thomas@localhost backup]$ fmt -g 50 lorem.txt | nlcat -n
+     1Lorem ipsum dolor sit amet, consectetur adipiscing
+     2elit. Suspendisse eget auctor massa, vitae placerat
+     3nisl. Nunc mi ligula, ultricies sed euismod
+     4nec, porttitor ac tortor. Donec congue lorem vel
+     5risus ullamcorper euismod. Nam interdum eu arcu a
+     6bibendum. Nunc vel risus dolor. Quisque magna libero,
+     7ornare eu luctus sed, auctor et erat. Donec vitae
+     8tincidunt tortor. Integer a rhoncus mi. Ut rutrum
+     9sapien quis odio euismod luctus.  Cras lobortis nisi
+    10non neque faucibus malesuada.
+    11
+    12Aenean commodo nec mi non consectetur. Aenean
+    13imperdiet neque eget lacus pharetra, gravida
+    14accumsan nisl ultrices. Sed volutpat sed lacus eu
+    15semper. Duis commodo lectus fermentum mi commodo,
+    16eget varius eros ultrices. Curabitur tincidunt iaculis
+    17blandit. Vivamus tristique accumsan leo, non accumsan
+    18nisl suscipit in. Nulla viverra convallis orci,
+    19nec molestie est vulputate quis. Aliquam dignissim
+    20eros non auctor varius.  Curabitur quis suscipit ipsum.
+    21
+    22Etiam iaculis, nisi sit amet ultricies faucibus,
+    23tortor tellus pellentesque quam, sed vestibulum
+    24mi nisi id sapien. Morbi vehicula urna vel arcu
+    25imperdiet, sit amet tincidunt felis rutrum. Sed arcu
+    26erat, imperdiet ut quam in, facilisis sollicitudin
+    27ligula. Vivamus lorem nisi, dictum et libero in,
+    28ultricies porta ligula. Duis dapibus consequat
+    29fringilla. Fusce vehicula metus dolor. Vestibulum et
+    30pulvinar nulla. Sed sed justo et felis mattis aliquet
+    31a vitae nulla. Etiam sodales turpis volutpat, congue
+    32ligula sit amet, facilisis purus. Etiam vehicula
+    33nunc id laoreet tincidunt. Curabitur at est sed enim
+    34tempus mollis in dictum quam.
+    35
+    36Nunc posuere ultrices lorem, eget accumsan nibh
+    37sodales nec. Praesent fermentum leo ut sapien tempus,
+    38et interdum sapien accumsan. Etiam et condimentum
+    39urna, sed imperdiet lacus. Nunc malesuada interdum
+    40consectetur. Aenean ac elit tortor. In eget feugiat
+    41velit. Maecenas ac bibendum orci. Nunc pretium et
+    42elit eget mattis. Mauris a lectus id augue scelerisque
+    43vestibulum. Aenean quis lacinia sem. Suspendisse iaculis,
+    44enim vehicula cursus faucibus, tellus odio lobortis
+    45tortor, et mollis nibh magna quis mi. Fusce ac quam
+    46et velit placerat fermentum eu at diam.  Sed quis
+    47mi vulputate, sollicitudin libero non, rutrum turpis.
+    48
+    49Nullam nec blandit nisi. Mauris pretium suscipit dolor
+    50nec tristique.  Class aptent taciti sociosqu ad litora
+    51torquent per conubia nostra, per inceptos himenaeos. Ut
+    52vitae tortor mattis, feugiat ipsum id, consequat
+    53turpis. Etiam dictum egestas dui, quis placerat arcu
+    54tempor eu. Ut dapibus nisl felis, at malesuada turpis
+    55rhoncus eget. Praesent varius enim ac libero porttitor,
+    56et fermentum dolor scelerisque. Vestibulum tincidunt
+    57tellus quis suscipit condimentum. Nam ipsum felis,
+    58interdum faucibus sapien in, ullamcorper semper neque.
+[thomas@localhost backup]$ fmt -g 50 lorem.txt | cat -n
