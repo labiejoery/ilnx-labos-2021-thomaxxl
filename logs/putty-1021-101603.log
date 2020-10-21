@@ -7958,3 +7958,4 @@ Doorgaan met veranderingen? [N/y] y
  * Wachten op authenticatie... Kon pakketten niet installeren: Failed to obtain authentication.
 
 [thomas@localhost backup]$ apg -n AANTALsudo dnf install apg
+[sudo] wachtwoord voor thomas: 
