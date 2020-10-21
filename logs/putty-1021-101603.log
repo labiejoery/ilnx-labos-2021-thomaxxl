@@ -6036,4 +6036,4 @@ vulputate
       1 viverra
       2 volutpat
       2 vulputate
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort | uniq -c | sort -k2  
