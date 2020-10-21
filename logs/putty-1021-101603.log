@@ -6562,4 +6562,143 @@ GNU coreutils 8.32                                  March 2020                  
  Manual page sort(1) line 94/145 97% (press h for help or q to quit) ESCESCOOAA       -t, --field-separator=SEP
  Manual page sort(1) line 93/145 96% (press h for help or q to quit) ESCESCOOAA
  Manual page sort(1) line 92/145 96% (press h for help or q to quit) ESCESCOOAA              use SIZE for main memory buffer
- Manual page sort(1) line 91/145 95% (press h for help or q to quit)
+ Manual page sort(1) line 91/145 95% (press h for help or q to quit) ESCESC[[55~~       -S, --buffer-size=SIZE
+
+              stabilize sort by disabling last-resort comparison
+       -s, --stable
+
+              write result to FILE instead of standard output
+       -o, --output=FILE
+
+              merge already sorted files; do not sort
+       -m, --merge
+
+              sort via a key; KEYDEF gives location and type
+       -k, --key=KEYDEF
+
+              from standard input
+              read input from the files specified by NUL-terminated names in file F; If F is  -  then  read  names
+       --files0-from=F
+
+              annotate the part of the line used to sort, and warn about questionable usage to stderr
+       --debug
+
+              compress temporaries with PROG; decompress them with PROG -d
+       --compress-program=PROG
+
+              like -c, but do not report first bad line
+       -C, --check=quiet, --check=silent
+
+              check for sorted input; do not sort
+       -c, --check, --check=diagnose-first
+
+              merge at most NMERGE inputs at once; for more use temp files
+       --batch-size=NMERGE
+
+       Other options:
+
+              natural sort of (version) numbers within text
+       -V, --version-sort
+
+              sion -V
+              sort  according to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, ver
+       --sort=WORD
+
+              reverse the result of comparisons
+       -r, --reverse
+
+              get random bytes from FILE
+       --random-source=FILE
+
+              shuffle, but group identical keys.  See shuf(1)
+ Manual page sort(1) line 42/145 56% (press h for help or q to quit) ESCESC[[55~~       -R, --random-sort
+
+              compare according to string numerical value
+       -n, --numeric-sort
+
+              compare human readable numbers (e.g., 2K 1G)
+       -h, --human-numeric-sort
+
+              compare (unknown) < 'JAN' < ... < 'DEC'
+       -M, --month-sort
+
+              consider only printable characters
+       -i, --ignore-nonprinting
+
+              compare according to general numerical value
+       -g, --general-numeric-sort
+
+              fold lower case to upper case characters
+       -f, --ignore-case
+
+              consider only blanks and alphanumeric characters
+       -d, --dictionary-order
+
+              ignore leading blanks
+       -b, --ignore-leading-blanks
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Write sorted concatenation of all FILE(s) to standard output.
+DESCRIPTION
+
+       sort [OPTION]... --files0-from=F
+       sort [OPTION]... [FILE]...
+SYNOPSIS
+
+       sort - sort lines of text files
+NAME
+
+SORT(1)                                            User Commands                                           SORT(1)
+ Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESC[[66~~       --sort=WORD
+              sort  according to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, ver
+              sion -V
+
+       -V, --version-sort
+              natural sort of (version) numbers within text
+
+       Other options:
+
+       --batch-size=NMERGE
+              merge at most NMERGE inputs at once; for more use temp files
+
+       -c, --check, --check=diagnose-first
+              check for sorted input; do not sort
+
+       -C, --check=quiet, --check=silent
+              like -c, but do not report first bad line
+
+       --compress-program=PROG
+              compress temporaries with PROG; decompress them with PROG -d
+
+       --debug
+              annotate the part of the line used to sort, and warn about questionable usage to stderr
+
+       --files0-from=F
+              read input from the files specified by NUL-terminated names in file F; If F is  -  then  read  names
+              from standard input
+
+       -k, --key=KEYDEF
+              sort via a key; KEYDEF gives location and type
+
+       -m, --merge
+              merge already sorted files; do not sort
+
+       -o, --output=FILE
+              write result to FILE instead of standard output
+
+       -s, --stable
+              stabilize sort by disabling last-resort comparison
+
+       -S, --buffer-size=SIZE
+              use SIZE for main memory buffer
+
+       -t, --field-separator=SEP
+              use SEP instead of non-blank to blank transition
+
+       -T, --temporary-directory=DIR
+              use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories
+
+ Manual page sort(1) line 50/145 62% (press h for help or q to quit)
