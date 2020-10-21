@@ -8350,4 +8350,11 @@ sparrow
 student
 teach
 yoshiro
-[thomas@localhost backup]$ cat newusers.txt | awk '{print $1}'"
+[thomas@localhost backup]$ cat newusers.txt | awk '{print $1}'""
+robertsklixofalRy
+ryujinfutro
+sparrowGantEkCow
+studenttreolobPav
+teachchawgOd#
+yoshiroNodPybAvFo
+[thomas@localhost backup]$ cat newusers.txt | awk "{print $1}"'{print $1}'
