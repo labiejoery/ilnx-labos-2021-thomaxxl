@@ -8379,4 +8379,4 @@ awk: commandoregel:1:        ^ syntax error
 "$1"
 "$1"
 "$1"
-[thomas@localhost backup]$ cat newusers.txt | awk '{print "\"$1\""}'
+[thomas@localhost backup]$ cat newusers.txt | awk '{print "\"$1\""}'"$1\""}'
