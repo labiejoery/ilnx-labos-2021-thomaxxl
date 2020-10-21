@@ -4821,4 +4821,4 @@ Vivamus
 viverra
 volutpat
 vulputate
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d , | tr -d . |  sort -u 
