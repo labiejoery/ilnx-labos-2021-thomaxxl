@@ -2,4 +2,2506 @@
 login as: thomas
 thomas@192.168.193.128's password: 
 Last login: Wed Oct 21 10:15:33 2020
-[thomas@localhost ~]$ 
+[thomas@localhost ~]$ [thomas@localhost ~]$ cd ilnx-labos-2021-thomaxxl/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls
+cheat-sheet.md         labo-4-intro-scripts.md                  labo8                      services
+labo-1-installatie.md  labo-5-gebruikers-bestandspermissies.md  labo-8-complex-scripts.md  sync.sh
+labo-2-verkenning.md   labo6                                    logs                       tennis.txt
+labo3                  labo-6-scripts.md                        music.txt
+labo-3-tekst.md        labo-7-webserver.md                      README.md
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cd labo3
+[thomas@localhost labo3]$ ls
+autokentekens  landen  landenkentekens  landenkentekens2  lorem.txt  passwd
+[thomas@localhost labo3]$ mkdir backup
+[thomas@localhost labo3]$ mv * backup/
+mv: kan 'backup' niet verplaatsen naar een submap van zichzelf, 'backup/backup'
+[thomas@localhost labo3]$ ll
+totaal 4
+drwxrwxr-x. 2 thomas thomas 4096 21 okt 10:31 backup
+[thomas@localhost labo3]$ vi landen 
+"landen" [Nieuw]  zz           ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         0,0-1Alles^[  ^[  ::q[thomas@localhost labo3]$ vi landen 
+"landen" [Nieuw]  zz           ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         0,0-1Allesi -- INVOEGEN --0,1Alles1 België
+2 Frankrijk3 Zwitserland4 Duitsland5 Nederland5,12^[  5,11Alles::wq!"landen" [Nieuw] 5L, 60B opgeslagen
+[thomas@localhost labo3]$ vi autokentekens 
+"autokentekens" [Nieuw]  zz           ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         ~                                                                                                         0,0-1Alles-- INVOEGEN --0,1Alles1 B
+2 F3 CH4 D5 NL5,4Alles~@k   4,3~@k   3,4~@k   2,3~@k   1~@k   ~@k   ^[  ^[  ::x"autokentekens" [Nieuw] 5L, 22B opgeslagen
+[thomas@localhost labo3]$ vimsduoudo dnf install vmim
+[sudo] wachtwoord voor thomas: 
+Laatste metadata-expiratie-check: 0:08:55 geleden op wo 21 okt 2020 10:23:58.
+Pakket vim-enhanced-2:8.2.1805-1.fc32.x86_64 is al geïnstalleerd.
+Afhankelijkheden opgelost.
+Niets te doen.
+Klaar.
+[thomas@localhost labo3]$ ls ../logs/
+putty-1014-102532.log  putty-1014-125841.log  putty-1021-101603.log
+[thomas@localhost labo3]$ ls ../logs/ -lh
+totaal 6,5M
+-rwxrwxr-x. 1 thomas thomas 4,6M 21 okt 10:28 putty-1014-102532.log
+-rwxrwxr-x. 1 thomas thomas 1,9M 21 okt 10:28 putty-1014-125841.log
+-rwxrwxr-x. 1 thomas thomas  195 21 okt 10:28 putty-1021-101603.log
+[thomas@localhost labo3]$ ls ../logs/ -lh ../logs/g ../logs/r ../logs/e ../logs/p ../logs/ ../logs/' ../logs/] ../logs/' ../logs/ ../logs/putty-1014-102532.log
+[thomas@localhost ~]$ ls
+[thomas@localhost ~]$ find / -type d > all.txt 2>&1
+[thomas@localhost ~]$ less all.txt 7
+all.txt[thomas@localhost ~]$ cd ilnx-labos-2021-thomaxxl/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git remote -v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/ ~/.ssh/c ~/.ssh/a ~/.ssh/t ~/.ssh/id_rsa.pub
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.publs ~/.ssh/ssh-keygengit remote -v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cd /var/tmp/
+[thomas@localhost tmp]$ git clone  git@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git
+[thomas@localhost tmp]$ ls
+[thomas@localhost tmp]$ cd ilnx-labos-2021-thomaxxl
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ll
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.pub .pub
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf 'Error: %s is not a directory\n' "${dir}" >&2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << _EOF_
+> Usage: ${0} [OPT]... [ARG]..
+Usage: -bash [OPT]... [ARG]..
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << TEST
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labo
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labols | grep labols | grep labocat /etc/cservices head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services -100 
+# service-name  port/protocol  [aliases ...]   [# comment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'head -100 /etc/services | awk '{print $2}'cat .~/.ssh/id_rsa.pub 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git add **
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git status
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git commit -a m m "test"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git push oriigingin master
+ ! [rejected]        master -> master (fetch first)
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git compuull
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh)-keygen 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen git pullsh origin mastercommit -am "test"statusadd *cat ~/.ssh/id_rsa.pub head -100 /etc/services | awk '{print $2}'}'N}'F}'
+comment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $NF}'ssh-keygen head -100 /etc/services | awk '{print $NF}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :5
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 5 -d :man cut
+       cut OPTION... [FILE]...
+ Manual page cut(1) line 1 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man cutcat /etc/passwd | cut -f 5 -d :c2 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2 - 5 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2-5 /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5  man cutcat /etc/passwd | cut -f 5 -d :3man fmt
+       fmt [-WIDTH] [OPTION]... [FILE]...
+ Manual page fmt(1) line 1 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man fmtcut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 fmt -w 10
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | fmt -w 10cat /etc/passwd | fmt -w 10/etc/services
+...]   [#
+comment]
+[RFC793]
+[recv]
+[recv]
+send]
+send]
+use]
+[RFC5498]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+RFC 4571]
+3551]
+RFC-ietf-dccp-rtp-07.txt]
+RFC 4571]
+3551]
+RFC-ietf-dccp-rtp-07.txt]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 10passwdman fmtcat /etc/passwd | fmt -w 10man fmt
+       fmt [-WIDTH] [OPTION]... [FILE]...
+       fmt [-WIDTH] [OPTION]... [FILE]...
+       fmt [-WIDTH] [OPTION]... [FILE]...
+ Manual page fmt(1) line 1/61 63% (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man fmtcat /etc/services | fmt -w 10
+...]
+comment]
+[RFC793]
+[recv]
+[recv]
+send]
+send]
+use]
+[RFC5498]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+4571]
+3551]
+RFC-ietf-dccp-rtp-07.txt]
+4571]
+3551]
+RFC-ietf-dccp-rtp-07.txt]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep ssh"ssh-"sshE"ssh "sshh.h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.h"h"*h"
+#>Ports are used in the TCP [RFC793] to name the ends of logical
+newacct         100/tcp                 # [unauthorized use]
+senomix02       8053/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix02       8053/udp                # Senomix Timesheets Client [1 year assignment]
+senomix03       8054/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix03       8054/udp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/udp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/udp                # Senomix Timesheets Server [1 year assignment]
+senomix06       8057/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix06       8057/udp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/udp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/udp                # Senomix Timesheets Client [1 year assignment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s*h".*h"
+#>Ports are used in the TCP [RFC793] to name the ends of logical
+senomix02       8053/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix02       8053/udp                # Senomix Timesheets Client [1 year assignment]
+senomix03       8054/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix03       8054/udp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/udp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/udp                # Senomix Timesheets Server [1 year assignment]
+senomix06       8057/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix06       8057/udp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/udp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/udp                # Senomix Timesheets Client [1 year assignment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.*h"*h".*h"cat /etc/services | grep -E "s.*h"*h".h"grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services head -2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -2 /etc/services 0
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -20 /etc/services tail
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -20 /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -2 /etc/services head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ man jooinhead -2 /etc/services man joinhead -2 /etc/services ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /eman join
+       join [OPTION]... FILE1 FILE2
+       join [OPTION]... FILE1 FILE2
+ Manual page join(1) line 12 (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd /etc/passwdc /etc/passwda /etc/passwdt /etc/passwd /etc/passwd- /etc/passwdn /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat -n /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/gtrro
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/group
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/grouppaste /etc/passwd /etc/grouppaste /etc/passwd /etc/groupcahead -10 /etc/passwd > p1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -10 /etc/passwd > p1group2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p12 p2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2paste p1 p2 | "''sed -e 'rs/r/X/g' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/X/g' qsdfsdfq
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' oot
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/root/Xqsdfsdfq/g' test
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/root/test/g' paste p1 p2 | sed -e 's/root/test/g' Xqsdfsdfqtestcat /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort head -5 /etc/passwd | sort
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :head -5 /etc/passwd | sort -k 3 -d :man sort
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+       KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is a field  number  and  C  a  character
+       more  single-letter  ordering  options [bdfgiMhnRrV], which override global ordering options for that key.  If no
+       sort [OPTION]... --files0-from=F
+ Manual page sort(1) line 8/143 28% (press h for help or q to quit)/ffiieelldd       sort [OPTION]... --files0-from=F
+       sort [OPTION]... --files0-from=F
+       KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is a field  number  and  C  a  character
+       more  single-letter  ordering  options [bdfgiMhnRrV], which override global ordering options for that key.  If no
+ Manual page sort(1) line 92/143 92% (press h for help or q to quit)[thomas@localhost ilnx-labos-2021-thomaxxl]$ man sorthead -5 /etc/passwd | sort -k 3 -d ::::-:t: :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -t :10
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -10 /etc/passwd | sort -k 3 -t :head -10 /etc/passwd | sort -k 3 -t :cat
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -ntr : " "
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr : " "'[a-z]' '[A-Z]'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr '[a-z]' '[A-Z]'paste p/etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txt
+"test.txt" [New File]  ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           -- INSERT --lijn 1
+lijn 55:x"test.txt" [New] 5L, 35C written
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txtcat test.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat test.txt  | uniq
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort 
+...]
+3551]
+3551]
+4571]
+4571]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+assignment]
+comment]
+[recv]
+[recv]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC5498]
+[RFC793]
+RFC-ietf-dccp-rtp-07.txt]
+RFC-ietf-dccp-rtp-07.txt]
+send]
+send]
+use]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort | uniq 
+...]
+3551]
+4571]
+assignment]
+comment]
+[recv]
+[RFC4727]
+[RFC5498]
+[RFC793]
+RFC-ietf-dccp-rtp-07.txt]
+send]
+use]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l| wc -l| wc -lwc /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc /etc/services -l 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -l /etc/services w
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -w /etc/services c
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -c /etc/services wlcat /etc/services | tr " " "\n" | sort | uniq | wc -l
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -llfind . | grep tennis
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat vi tennis.txt
+"tennis.txt" [New File]  ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           ~                                                                                                                           -- INSERT --Justine Henin
+Kim Clijsters:x"tennis.txt" [New] 5L, 74C written
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep 'Williams' tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ sort -k2 tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt | tr 'a-z' 'A-Z'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi music.txt
+"music.txt" [New File]  ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       ~                                                                                       -- INSERT --Queen
+BrelLed ZeppelinAbba:x"music.txt" [New] 4L, 29C written
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt vi music.txtcat music.txt (reverse-i-search)`':s': cat music.txte': cat /etc/services | tr " " "\n" | sort | uniq | wc -ld': paste p1 p2 | sed -e 's/root/test/g' ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 's/root/TEST/'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 's/root/TEST/'g'head -4
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's/root/TEST/g''
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's/root/TEST/'root/TEST/'+root/TEST/'TEST/'+TEST/''+'g'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's+root+TEST+g'cat /etc/services |  less
+# service-name  port/protocol  [aliases ...]   [# comment]
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | lesssed '/^#/d'
+mpm             45/tcp                  # Message Processing Module [recv]
+mpm             45/udp                  # Message Processing Module [recv]
+mpm-snd         46/tcp                  # MPM [default send]
+mpm-snd         46/udp                  # MPM [default send]
+newacct         100/tcp                 # [unauthorized use]
+manet           269/udp                 # MANET Protocols                       [RFC5498]
+exp1            1021/tcp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/udp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/sctp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/dccp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp2            1022/tcp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/udp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/sctp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/dccp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+avt-profile-1   5004/tcp                # RTP media data [RFC 3551, RFC 4571]
+avt-profile-1   5004/udp                # RTP media data [RFC 3551]
+avt-profile-1   5004/dccp               # RTP media data [RFC 3551, RFC-ietf-dccp-rtp-07.txt]
+avt-profile-2   5005/tcp                # RTP control protocol [RFC 3551, RFC 4571]
+avt-profile-2   5005/udp                # RTP control protocol [RFC 3551]
+avt-profile-2   5005/dccp               # RTP control protocol [RFC 3551, RFC-ietf-dccp-rtp-07.txt]
+senomix02       8053/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix02       8053/udp                # Senomix Timesheets Client [1 year assignment]
+senomix03       8054/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix03       8054/udp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/udp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/udp                # Senomix Timesheets Server [1 year assignment]
+senomix06       8057/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix06       8057/udp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/udp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/udp                # Senomix Timesheets Client [1 year assignment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/^#/d' | less
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/^#/d' | less head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/^#/d' | lessheadsed '/^#/d' | lessId/d'
+# service-name  port/protocol  [aliases ...]   [# comment]
+#>Ports are used in the TCP [RFC793] to name the ends of logical
+mpm             45/tcp                  # Message Processing Module [recv]
+mpm             45/udp                  # Message Processing Module [recv]
+mpm-snd         46/tcp                  # MPM [default send]
+mpm-snd         46/udp                  # MPM [default send]
+newacct         100/tcp                 # [unauthorized use]
+manet           269/udp                 # MANET Protocols                       [RFC5498]
+exp1            1021/tcp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/udp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/sctp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/dccp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp2            1022/tcp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/udp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/sctp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/dccp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+avt-profile-1   5004/tcp                # RTP media data [RFC 3551, RFC 4571]
+avt-profile-1   5004/udp                # RTP media data [RFC 3551]
+avt-profile-1   5004/dccp               # RTP media data [RFC 3551, RFC-ietf-dccp-rtp-07.txt]
+avt-profile-2   5005/tcp                # RTP control protocol [RFC 3551, RFC 4571]
+avt-profile-2   5005/udp                # RTP control protocol [RFC 3551]
+avt-profile-2   5005/dccp               # RTP control protocol [RFC 3551, RFC-ietf-dccp-rtp-07.txt]
+senomix02       8053/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix02       8053/udp                # Senomix Timesheets Client [1 year assignment]
+senomix03       8054/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix03       8054/udp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/udp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/udp                # Senomix Timesheets Server [1 year assignment]
+senomix06       8057/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix06       8057/udp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/udp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/udp                # Senomix Timesheets Client [1 year assignment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/Id/d' | headheadsed '/Id/d' | headheadcat /etc/services | headless
+# service-name  port/protocol  [aliases ...]   [# comment]
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | lesssed '/^$/d'
+# service-name  port/protocol  [aliases ...]   [# comment]
+#>Ports are used in the TCP [RFC793] to name the ends of logical
+mpm             45/tcp                  # Message Processing Module [recv]
+mpm             45/udp                  # Message Processing Module [recv]
+mpm-snd         46/tcp                  # MPM [default send]
+mpm-snd         46/udp                  # MPM [default send]
+newacct         100/tcp                 # [unauthorized use]
+manet           269/udp                 # MANET Protocols                       [RFC5498]
+exp1            1021/tcp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/udp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/sctp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp1            1021/dccp                # RFC3692-style Experiment 1 (*)                [RFC4727]
+exp2            1022/tcp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/udp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/sctp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+exp2            1022/dccp                # RFC3692-style Experiment 2 (*)                [RFC4727]
+avt-profile-1   5004/tcp                # RTP media data [RFC 3551, RFC 4571]
+avt-profile-1   5004/udp                # RTP media data [RFC 3551]
+avt-profile-1   5004/dccp               # RTP media data [RFC 3551, RFC-ietf-dccp-rtp-07.txt]
+avt-profile-2   5005/tcp                # RTP control protocol [RFC 3551, RFC 4571]
+avt-profile-2   5005/udp                # RTP control protocol [RFC 3551]
+avt-profile-2   5005/dccp               # RTP control protocol [RFC 3551, RFC-ietf-dccp-rtp-07.txt]
+senomix02       8053/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix02       8053/udp                # Senomix Timesheets Client [1 year assignment]
+senomix03       8054/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix03       8054/udp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix04       8055/udp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/tcp                # Senomix Timesheets Server [1 year assignment]
+senomix05       8056/udp                # Senomix Timesheets Server [1 year assignment]
+senomix06       8057/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix06       8057/udp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix07       8058/udp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/tcp                # Senomix Timesheets Client [1 year assignment]
+senomix08       8059/udp                # Senomix Timesheets Client [1 year assignment]
+[thomas@localhost ilnx-labos-2021-thomaxxl]$  cat /etc/services | sed '/^$/d' |@  less
+# service-name  port/protocol  [aliases ...]   [# comment]
+:[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/^$/d' | lesshead
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ print $4 }'head | 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $4 }'cat /etc/services | head | awk '{ print $4 }' }'2 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2 }'$ }'3 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2$3 }' "" }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print "$2 $3" }' }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2 $3 }'1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $1 $3 }'""
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $1" "$3 }'5
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $5" "$3 }'awk '/^#/ { print $0 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '/^#/ { print $0 }' 
+# service-name  port/protocol  [aliases ...]   [# comment]
+#>Ports are used in the TCP [RFC793] to name the ends of logical
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | awk '/^#/ { print $0 }'prointf "%s" "a bc"
+a bc[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s" "a bc"\n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s\n" "a bc"printf "%s\n" "a bc"[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s" "a bc"cat /etc/services | awk '/^#/ { print $0 }'head awk '{ printf "%s;%s", $2, $4 }' '
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ printf "%s;%s", $2, $4 }' ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ printf "%s;%s", $2, $4 }' |awk '{ printf "%s;%s", $2, $4 }' awk '{ printf "%s;%s", $2, $4 }'
+/etc/services:;$Id:;1.49;Network;InternetIANA;version:;Note;itport;foreven;theUpdated;RFC[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ printf "%s;%s", $2, $4 }'\", $2, $4 }'n", $2, $4 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ printf "%s;%s\n", $2, $4 }'vi pa1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nano p1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ mls laboip a >
+Binair bestand ../logs/putty-1014-102532.log bevat de gezochte tekst.
+[thomas@localhost labo3]$ grep ']'  ../logs/putty-1014-102532.log^[
+grep: Ongeldige reguliere expressie
+[thomas@localhost labo3]$ grep '^['  ../logs/putty-1014-102532.log\
+[thomas@localhost ~]$ ls
+[thomas@localhost ~]$ find / -type d > all.txt 2>&1
+[thomas@localhost ~]$ less all.txt 7
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git remote -v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/ ~/.ssh/c ~/.ssh/a ~/.ssh/t ~/.ssh/id_rsa.pub
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.publs ~/.ssh/ssh-keygengit remote -v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cd /var/tmp/
+[thomas@localhost tmp]$ git clone  git@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git
+[thomas@localhost tmp]$ ls
+[thomas@localhost tmp]$ cd ilnx-labos-2021-thomaxxl
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ll
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.pub .pub
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf 'Error: %s is not a directory\n' "${dir}" >&2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << _EOF_
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << TEST
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labo
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labols | grep labols | grep labocat /etc/cservices head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services -100 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'head -100 /etc/services | awk '{print $2}'cat .~/.ssh/id_rsa.pub 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git add **
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git status
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git commit -a m m "test"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git push oriigingin master
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git compuull
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh)-keygen 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen git pullsh origin mastercommit -am "test"statusadd *cat ~/.ssh/id_rsa.pub head -100 /etc/services | awk '{print $2}'}'N}'F}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $NF}'ssh-keygen head -100 /etc/services | awk '{print $NF}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :5
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 5 -d :man cut
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2 - 5 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2-5 /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5  man cutcat /etc/passwd | cut -f 5 -d :3man fmt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | fmt -w 10cat /etc/passwd | fmt -w 10/etc/services
+[aliases
+[RFC793]
+[recv]
+[recv]
+[default
+[default
+[unauthorized
+[RFC5498]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC
+[RFC
+[RFC
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 10passwdman fmtcat /etc/passwd | fmt -w 10man fmt
+[aliases
+[#
+[RFC793]
+[recv]
+[recv]
+[default
+[default
+[unauthorized
+[RFC5498]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep ssh"ssh-"sshE"ssh "sshh.h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.h"h"*h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s*h".*h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.*h"*h".*h"cat /etc/services | grep -E "s.*h"*h".h"grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services head -2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -2 /etc/services 0
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -20 /etc/services tail
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -20 /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -2 /etc/services head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ man jooinhead -2 /etc/services man joinhead -2 /etc/services ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /eman join
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd /etc/passwdc /etc/passwda /etc/passwdt /etc/passwd /etc/passwd- /etc/passwdn /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat -n /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/gtrro
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/group
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/grouppaste /etc/passwd /etc/grouppaste /etc/passwd /etc/groupcahead -10 /etc/passwd > p1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -10 /etc/passwd > p1group2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p12 p2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2paste p1 p2 | "''sed -e 'rs/r/X/g' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/X/g' qsdfsdfq
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' oot
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/root/Xqsdfsdfq/g' test
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/root/test/g' paste p1 p2 | sed -e 's/root/test/g' Xqsdfsdfqtestcat /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort head -5 /etc/passwd | sort
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :head -5 /etc/passwd | sort -k 3 -d :man sort
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -t :10
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -10 /etc/passwd | sort -k 3 -t :head -10 /etc/passwd | sort -k 3 -t :cat
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -ntr : " "
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr : " "'[a-z]' '[A-Z]'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr '[a-z]' '[A-Z]'paste p/etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txtcat test.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat test.txt  | uniq
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort 
+[#
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[aliases
+[default
+[default
+[recv]
+[recv]
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC5498]
+[RFC793]
+[unauthorized
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort | uniq 
+[#
+[1
+[aliases
+[default
+[recv]
+[RFC
+[RFC4727]
+[RFC5498]
+[RFC793]
+[unauthorized
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l| wc -l| wc -lwc /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc /etc/services -l 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -l /etc/services w
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -w /etc/services c
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -c /etc/services wlcat /etc/services | tr " " "\n" | sort | uniq | wc -l
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -llfind . | grep tennis
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat vi tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep 'Williams' tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ sort -k2 tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt | tr 'a-z' 'A-Z'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi music.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt vi music.txtcat music.txt (reverse-i-search)`':s': cat music.txte': cat /etc/services | tr " " "\n" | sort | uniq | wc -ld': paste p1 p2 | sed -e 's/root/test/g' ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 's/root/TEST/'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 's/root/TEST/'g'head -4
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's/root/TEST/g''
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's/root/TEST/'root/TEST/'+root/TEST/'TEST/'+TEST/''+'g'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's+root+TEST+g'cat /etc/services |  less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/^#/d' | less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/^#/d' | lessheadsed '/^#/d' | lessId/d'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/Id/d' | headheadsed '/Id/d' | headheadcat /etc/services | headless
+[thomas@localhost ilnx-labos-2021-thomaxxl]$  cat /etc/services | sed '/^$/d' |@  less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ print $4 }'head | 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $4 }'cat /etc/services | head | awk '{ print $4 }' }'2 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2 }'$ }'3 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2$3 }' "" }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print "$2 $3" }' }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2 $3 }'1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $1 $3 }'""
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $1" "$3 }'5
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $5" "$3 }'awk '/^#/ { print $0 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '/^#/ { print $0 }' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | awk '/^#/ { print $0 }'prointf "%s" "a bc"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s" "a bc"\n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s\n" "a bc"printf "%s\n" "a bc"[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s" "a bc"cat /etc/services | awk '/^#/ { print $0 }'head awk '{ printf "%s;%s", $2, $4 }' '
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ printf "%s;%s", $2, $4 }' ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ printf "%s;%s", $2, $4 }' |awk '{ printf "%s;%s", $2, $4 }' awk '{ printf "%s;%s", $2, $4 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ printf "%s;%s", $2, $4 }'\", $2, $4 }'n", $2, $4 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ printf "%s;%s\n", $2, $4 }'vi pa1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nano p1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ mls laboip a >
+Binair bestand ../logs/putty-1014-102532.log bevat de gezochte tekst.
+[thomas@localhost labo3]$ grep '^\['  ../logs/putty-1014-102532.loggrep '^\['  ../logs/putty-1014-102532.log-a 
+[thomas@localhost ~]$ ls
+[thomas@localhost ~]$ find / -type d > all.txt 2>&1
+[thomas@localhost ~]$ less all.txt 7
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git remote -v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/ ~/.ssh/c ~/.ssh/a ~/.ssh/t ~/.ssh/id_rsa.pub
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.publs ~/.ssh/ssh-keygengit remote -v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cd /var/tmp/
+[thomas@localhost tmp]$ git clone  git@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git
+[thomas@localhost tmp]$ ls
+[thomas@localhost tmp]$ cd ilnx-labos-2021-thomaxxl
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ll
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.pub .pub
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf 'Error: %s is not a directory\n' "${dir}" >&2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << _EOF_
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << TEST
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labo
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labols | grep labols | grep labocat /etc/cservices head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services -100 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'head -100 /etc/services | awk '{print $2}'cat .~/.ssh/id_rsa.pub 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git add **
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git status
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git commit -a m m "test"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git push oriigingin master
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git compuull
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh)-keygen 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen git pullsh origin mastercommit -am "test"statusadd *cat ~/.ssh/id_rsa.pub head -100 /etc/services | awk '{print $2}'}'N}'F}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $NF}'ssh-keygen head -100 /etc/services | awk '{print $NF}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :5
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 5 -d :man cut
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2 - 5 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2-5 /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5  man cutcat /etc/passwd | cut -f 5 -d :3man fmt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | fmt -w 10cat /etc/passwd | fmt -w 10/etc/services
+[aliases
+[RFC793]
+[recv]
+[recv]
+[default
+[default
+[unauthorized
+[RFC5498]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC
+[RFC
+[RFC
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 10passwdman fmtcat /etc/passwd | fmt -w 10man fmt
+[aliases
+[#
+[RFC793]
+[recv]
+[recv]
+[default
+[default
+[unauthorized
+[RFC5498]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep ssh"ssh-"sshE"ssh "sshh.h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.h"h"*h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s*h".*h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.*h"*h".*h"cat /etc/services | grep -E "s.*h"*h".h"grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services head -2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -2 /etc/services 0
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -20 /etc/services tail
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -20 /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -2 /etc/services head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ man jooinhead -2 /etc/services man joinhead -2 /etc/services ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /eman join
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd /etc/passwdc /etc/passwda /etc/passwdt /etc/passwd /etc/passwd- /etc/passwdn /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat -n /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/gtrro
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/group
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/grouppaste /etc/passwd /etc/grouppaste /etc/passwd /etc/groupcahead -10 /etc/passwd > p1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -10 /etc/passwd > p1group2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p12 p2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2paste p1 p2 | "''sed -e 'rs/r/X/g' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/X/g' qsdfsdfq
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' oot
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/root/Xqsdfsdfq/g' test
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/root/test/g' paste p1 p2 | sed -e 's/root/test/g' Xqsdfsdfqtestcat /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort head -5 /etc/passwd | sort
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :head -5 /etc/passwd | sort -k 3 -d :man sort
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -t :10
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -10 /etc/passwd | sort -k 3 -t :head -10 /etc/passwd | sort -k 3 -t :cat
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -ntr : " "
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr : " "'[a-z]' '[A-Z]'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr '[a-z]' '[A-Z]'paste p/etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txtcat test.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat test.txt  | uniq
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort 
+[#
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[aliases
+[default
+[default
+[recv]
+[recv]
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC5498]
+[RFC793]
+[unauthorized
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort | uniq 
+[#
+[1
+[aliases
+[default
+[recv]
+[RFC
+[RFC4727]
+[RFC5498]
+[RFC793]
+[unauthorized
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l| wc -l| wc -lwc /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc /etc/services -l 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -l /etc/services w
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -w /etc/services c
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -c /etc/services wlcat /etc/services | tr " " "\n" | sort | uniq | wc -l
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -llfind . | grep tennis
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat vi tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep 'Williams' tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ sort -k2 tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt | tr 'a-z' 'A-Z'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi music.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt vi music.txtcat music.txt (reverse-i-search)`':s': cat music.txte': cat /etc/services | tr " " "\n" | sort | uniq | wc -ld': paste p1 p2 | sed -e 's/root/test/g' ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 's/root/TEST/'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 's/root/TEST/'g'head -4
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's/root/TEST/g''
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's/root/TEST/'root/TEST/'+root/TEST/'TEST/'+TEST/''+'g'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's+root+TEST+g'cat /etc/services |  less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/^#/d' | less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/^#/d' | lessheadsed '/^#/d' | lessId/d'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/Id/d' | headheadsed '/Id/d' | headheadcat /etc/services | headless
+[thomas@localhost ilnx-labos-2021-thomaxxl]$  cat /etc/services | sed '/^$/d' |@  less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ print $4 }'head | 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $4 }'cat /etc/services | head | awk '{ print $4 }' }'2 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2 }'$ }'3 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2$3 }' "" }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print "$2 $3" }' }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2 $3 }'1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $1 $3 }'""
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $1" "$3 }'5
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $5" "$3 }'awk '/^#/ { print $0 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '/^#/ { print $0 }' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | awk '/^#/ { print $0 }'prointf "%s" "a bc"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s" "a bc"\n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s\n" "a bc"printf "%s\n" "a bc"[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s" "a bc"cat /etc/services | awk '/^#/ { print $0 }'head awk '{ printf "%s;%s", $2, $4 }' '
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ printf "%s;%s", $2, $4 }' ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ printf "%s;%s", $2, $4 }' |awk '{ printf "%s;%s", $2, $4 }' awk '{ printf "%s;%s", $2, $4 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ printf "%s;%s", $2, $4 }'\", $2, $4 }'n", $2, $4 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ printf "%s;%s\n", $2, $4 }'vi pa1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nano p1
+[ Lezen... ][ 14 regels gelezen ]  GNU nano 4.9.1                                                   p1                                                               ^G Hulp^O Opslaan^W Zoeken^K Knippen^J Uitvullen    ^C PositieM-U TerugdraaienM-A Markeren^X Afsluiten    ^R Inlezen^\ Vervangen    ^U Plakken^T Spelling     ^_ Naar regel   M-E Herdoen     M-6 Kopireniiroot:x:0:0:root:/root:/bin/bashroot:x:0:0:root:/root:/bin/bashroot:x:0:0:root:/root:/bin/bashroot:x:0:0:root:/root:/bin/bashbin:x:1:1:bin:/bin:/sbin/nologindaemon:x:2:2:daemon:/sbin:/sbin/nologinadm:x:3:4:adm:/var/adm:/sbin/nologinlp:x:4:7:lp:/var/spool/lpd:/sbin/nologinsync:x:5:0:sync:/sbin:/bin/syncshutdown:x:6:0:shutdown:/sbin:/sbin/shutdownhalt:x:7:0:halt:/sbin:/sbin/haltmail:x:8:12:mail:/var/spool/mail:/sbin/nologinoperator:x:11:0:operator:/root:/sbin/nologin[thomas@localhost ilnx-labos-2021-thomaxxl]$ nano p1viip a
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ mls laboip a >
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ grep -a '^\['  ../logs/putty-1014-102532.log
+[thomas@localhost ~]$ ls
+[thomas@localhost ~]$ find / -type d > all.txt 2>&1
+[thomas@localhost ~]$ less all.txt 7
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git remote -v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls ~/.ssh/ ~/.ssh/c ~/.ssh/a ~/.ssh/t ~/.ssh/id_rsa.pub
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.publs ~/.ssh/ssh-keygengit remote -v
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cd /var/tmp/
+[thomas@localhost tmp]$ git clone  git@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git
+[thomas@localhost tmp]$ ls
+[thomas@localhost tmp]$ cd ilnx-labos-2021-thomaxxl
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ll
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat ~/.ssh/id_rsa.pub .pub
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf 'Error: %s is not a directory\n' "${dir}" >&2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << _EOF_
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat << TEST
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labo
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ ls | grep labols | grep labols | grep labocat /etc/cservices head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head /etc/services -100 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $2}'head -100 /etc/services | awk '{print $2}'cat .~/.ssh/id_rsa.pub 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git add **
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git status
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git commit -a m m "test"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git push oriigingin master
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ git compuull
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh)-keygen 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ssh-keygen git pullsh origin mastercommit -am "test"statusadd *cat ~/.ssh/id_rsa.pub head -100 /etc/services | awk '{print $2}'}'N}'F}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -100 /etc/services | awk '{print $NF}'ssh-keygen head -100 /etc/services | awk '{print $NF}'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 3 -d :5
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -f 5 -d :man cut
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2 - 5 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | cut -c2-5 /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5 ut -c2-5 /etc/passwdat /etc/passwd | cut -c2-5  man cutcat /etc/passwd | cut -f 5 -d :3man fmt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | fmt -w 10cat /etc/passwd | fmt -w 10/etc/services
+[aliases
+[RFC793]
+[recv]
+[recv]
+[default
+[default
+[unauthorized
+[RFC5498]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC
+[RFC
+[RFC
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[1 year
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 10passwdman fmtcat /etc/passwd | fmt -w 10man fmt
+[aliases
+[#
+[RFC793]
+[recv]
+[recv]
+[default
+[default
+[unauthorized
+[RFC5498]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1cat /etc/services | fmt -w 1grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep ssh"ssh-"sshE"ssh "sshh.h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.h"h"*h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s*h".*h"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | grep -E "s.*h"*h".*h"cat /etc/services | grep -E "s.*h"*h".h"grep ssh
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services cat /etc/services | grep -E "s.*h"grep ssh /etc/services head -2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -2 /etc/services 0
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -20 /etc/services tail
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -20 /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ tail -2 /etc/services head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ man jooinhead -2 /etc/services man joinhead -2 /etc/services ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /eman join
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nl /etc/passwd /etc/passwdc /etc/passwda /etc/passwdt /etc/passwd /etc/passwd- /etc/passwdn /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat -n /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/gtrro
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/group
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/grouppaste /etc/passwd /etc/grouppaste /etc/passwd /etc/groupcahead -10 /etc/passwd > p1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -10 /etc/passwd > p1group2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p12 p2
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2paste p1 p2 | "''sed -e 'rs/r/X/g' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/X/g' qsdfsdfq
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' paste p1 p2 | sed -e 's/r/Xqsdfsdfq/g' oot
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/root/Xqsdfsdfq/g' test
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste p1 p2 | sed -e 's/root/test/g' paste p1 p2 | sed -e 's/root/test/g' Xqsdfsdfqtestcat /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort head -5 /etc/passwd | sort
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -d :head -5 /etc/passwd | sort -k 3 -d :man sort
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -5 /etc/passwd | sort -k 3 -t :10
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -10 /etc/passwd | sort -k 3 -t :head -10 /etc/passwd | sort -k 3 -t :cat
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sort -k 3 -t : -ntr : " "
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr : " "'[a-z]' '[A-Z]'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | tr '[a-z]' '[A-Z]'paste p/etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr paste /etc/passwd /etc/passwd | tr ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi test.txtcat test.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat test.txt  | uniq
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort 
+[#
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[1
+[aliases
+[default
+[default
+[recv]
+[recv]
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC4727]
+[RFC5498]
+[RFC793]
+[unauthorized
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort cat /etc/services | tr " " "\n" | sort | uniq 
+[#
+[1
+[aliases
+[default
+[recv]
+[RFC
+[RFC4727]
+[RFC5498]
+[RFC793]
+[unauthorized
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -l| wc -l| wc -lwc /etc/services 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc /etc/services -l 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -l /etc/services w
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -w /etc/services c
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ wc -c /etc/services wlcat /etc/services | tr " " "\n" | sort | uniq | wc -l
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | tr " " "\n" | sort | uniq | wc -llfind . | grep tennis
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat vi tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ grep 'Williams' tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ sort -k2 tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat tennis.txt | tr 'a-z' 'A-Z'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi music.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat music.txt vi music.txtcat music.txt (reverse-i-search)`':s': cat music.txte': cat /etc/services | tr " " "\n" | sort | uniq | wc -ld': paste p1 p2 | sed -e 's/root/test/g' ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 's/root/TEST/'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/passwd | sed 's/root/TEST/'g'head -4
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's/root/TEST/g''
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's/root/TEST/'root/TEST/'+root/TEST/'TEST/'+TEST/''+'g'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ head -4 /etc/passwd | sed 's+root+TEST+g'cat /etc/services |  less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/^#/d' | less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/^#/d' | lessheadsed '/^#/d' | lessId/d'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | sed '/Id/d' | head
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | headsed '/Id/d' | headheadsed '/Id/d' | headheadcat /etc/services | headless
+[thomas@localhost ilnx-labos-2021-thomaxxl]$  cat /etc/services | sed '/^$/d' |@  less
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ print $4 }'head | 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $4 }'cat /etc/services | head | awk '{ print $4 }' }'2 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2 }'$ }'3 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2$3 }' "" }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print "$2 $3" }' }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $2 $3 }'1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $1 $3 }'""
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $1" "$3 }'5
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ print $5" "$3 }'awk '/^#/ { print $0 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '/^#/ { print $0 }' 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | awk '/^#/ { print $0 }'prointf "%s" "a bc"
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s" "a bc"\n
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s\n" "a bc"printf "%s\n" "a bc"[thomas@localhost ilnx-labos-2021-thomaxxl]$ printf "%s" "a bc"cat /etc/services | awk '/^#/ { print $0 }'head awk '{ printf "%s;%s", $2, $4 }' '
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ printf "%s;%s", $2, $4 }' ^C
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head awk '{ printf "%s;%s", $2, $4 }' |awk '{ printf "%s;%s", $2, $4 }' awk '{ printf "%s;%s", $2, $4 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ 
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ printf "%s;%s", $2, $4 }'\", $2, $4 }'n", $2, $4 }'
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ [thomas@localhost ilnx-labos-2021-thomaxxl]$ cat /etc/services | head | awk '{ printf "%s;%s\n", $2, $4 }'vi pa1
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ nano p1
+[ Lezen... ][ 14 regels gelezen ]  GNU nano 4.9.1                                                   p1                                                               ^G Hulp^O Opslaan^W Zoeken^K Knippen^J Uitvullen    ^C PositieM-U TerugdraaienM-A Markeren^X Afsluiten    ^R Inlezen^\ Vervangen    ^U Plakken^T Spelling     ^_ Naar regel   M-E Herdoen     M-6 Kopireniiroot:x:0:0:root:/root:/bin/bashroot:x:0:0:root:/root:/bin/bashroot:x:0:0:root:/root:/bin/bashroot:x:0:0:root:/root:/bin/bashbin:x:1:1:bin:/bin:/sbin/nologindaemon:x:2:2:daemon:/sbin:/sbin/nologinadm:x:3:4:adm:/var/adm:/sbin/nologinlp:x:4:7:lp:/var/spool/lpd:/sbin/nologinsync:x:5:0:sync:/sbin:/bin/syncshutdown:x:6:0:shutdown:/sbin:/sbin/shutdownhalt:x:7:0:halt:/sbin:/sbin/haltmail:x:8:12:mail:/var/spool/mail:/sbin/nologinoperator:x:11:0:operator:/root:/sbin/nologin[thomas@localhost ilnx-labos-2021-thomaxxl]$ nano p1viip a
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ mls laboip a >
+[thomas@localhost labo3]$ [thomas@localhost labo3]$ vi landen 
+"landen" 5L, 60B  zz           1 België
+2 Frankrijk3 Zwitserland4 Duitsland
+5 Nederland
+~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    ~                                                                                                                                    5,11Alles1 België
+2 Frankrijk
+3 Zwitserland
+4 Duitsland
+5 Nederland
+~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      ~                                                                                                      5,11Alles~@k   4~@k   3~@k   2~@k   1,8 ^[  ^[  ~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2~@k   3a -- INVOEGEN --1,4Alleszelgië5zelgië6elgië5elgië4^[  1,3Alles::x"landen" 5L, 60B opgeslagen
+[thomas@localhost labo3]$ git remote )v-v
+origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (fetch)
+origingit@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git (push)
+[thomas@localhost labo3]$ git clone git@github.com:hogenttin/ilnx-labos-2021-thomaxxl.git^C
+[thomas@localhost labo3]$ cd
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ git pull
+Already up to date.
+[thomas@localhost labo3]$ cd vll
+totaal 12
+-rw-rw-r--. 1 thomas thomas   22 21 okt 10:32 autokentekens
+drwxrwxr-x. 2 thomas thomas 4096 21 okt 10:31 backup
+-rw-rw-r--. 1 thomas thomas   60 21 okt 10:36 landen
+[thomas@localhost labo3]$ cd ..
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ ll
+totaal 780
+-rw-rw-r--. 1 thomas thomas    888 13 okt 16:38 cheat-sheet.md
+-rw-rw-r--. 1 thomas thomas   3704 13 okt 16:38 labo-1-installatie.md
+-rw-rw-r--. 1 thomas thomas  11353 13 okt 16:38 labo-2-verkenning.md
+drwxrwxr-x. 3 thomas thomas   4096 21 okt 10:36 labo3
+-rw-rw-r--. 1 thomas thomas   9610 14 okt 14:19 labo-3-tekst.md
+-rw-rw-r--. 1 thomas thomas   1994 13 okt 16:38 labo-4-intro-scripts.md
+-rw-rw-r--. 1 thomas thomas  13301 13 okt 16:38 labo-5-gebruikers-bestandspermissies.md
+drwxrwxr-x. 3 thomas thomas   4096 13 okt 16:38 labo6
+-rw-rw-r--. 1 thomas thomas   6242 13 okt 16:38 labo-6-scripts.md
+-rw-rw-r--. 1 thomas thomas   5967 13 okt 16:38 labo-7-webserver.md
+drwxrwxr-x. 3 thomas thomas   4096 13 okt 16:38 labo8
+-rw-rw-r--. 1 thomas thomas   3913 13 okt 16:38 labo-8-complex-scripts.md
+drwxrwxr-x. 2 thomas thomas   4096 21 okt 10:28 logs
+-rw-rw-r--. 1 thomas thomas     43 14 okt 13:41 music.txt
+-rw-rw-r--. 1 thomas thomas   3369 13 okt 16:38 README.md
+-rw-r--r--. 1 thomas thomas 691913 14 okt 14:03 services
+-rw-rw-r--. 1 thomas thomas    106 21 okt 10:28 sync.sh
+-rw-rw-r--. 1 thomas thomas    100 14 okt 13:39 tennis.txt
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ vi labo-3-tekst.md
+"labo-3-tekst.md" 279L, 9610B  zz           # Werken met tekstAls je gebruik maakt van andere bronnen (bv. blog-artikel of HOWTO die je op het Internet vond), voeg ddie dan toe aan het einde van dit document. Zo kan je het later terug vinden.
+
+Maak ter voorbereiding zeker de oefeningen in Linux Fundamentals van Paul Cobbaut over dit onderwerp (ppp. 114-134).
+
+Bekijk ook eens de [presentatie over Vim en tmux](https://www.openminds.be/nl/blog/detail/verslag-techttak-vim-en-tmux) gegeven in 2015 bij Openminds (een Gents webhostingbedrijf).
+
+## De Vim editor
+
+Gebruik de Vi-editor om een bestand aan te maken met de naam `landen`. De inhoud is de volgende (incl.  de cijfers):
+
+```
+1 België
+2 Frankrijk
+3 Zwitserland
+4 Duitsland
+5 Nederland
+```
+
+Maak ook een bestand aan met de naam `autokentekens` met deze inhoud:
+
+```
+1 B
+2 F
+3 CH
+4 D
+5 NL
+```
+
+1. Hoe start je Vi op om deze bestanden aan te maken?
+
+    ```
+    $ COMMANDO
+    UITVOER
+    ```
+
+2. Hoe ga je van *normal mode* naar *insert mode*? Geef verschillende manieren:| Invoegen vanaf| Commando |
+    | :---| :---     |
+    | op de huidige cursorpositie     | `X`      |1,1Top~@k   2,0-1~@k   3,1  ~@k   4,0-1~@k   5,1  ~@k   6,0-1~@k   7,1  ~@k   8,0-1~@k   9,1  ~@k   10,0-1~@k   1,1  ~@k   2,0-1~@k   3,1  ~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   20,0-1~@k   1,1  ~@k   2,0-1~@k   3,1  ~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   30,0-1~@k   1,1  ~@k   2,0-1~@k   3,1  ~@k   4~@k   5~@k   6~@k   7,0-1~@k   
+| rechts van de cursor| `X`      |38,10%~@k   
+| begin van huidige regel| `X`      |39,0-10%~@k   | einde van huidige regel| `X`      |
+    | regel toevoegen onder deze      | `X`      |40,11%~@k   1~@k   
+| regel toevoegen op huidige lijn | `X`      |42,11%~@k   3. Hoe kopieer je vanuit *normal mode*?43,12%~@k   4~@k   
+45,12%~@k   | Te kopiëren| Commando |
+    | :---| :---     |46,12%~@k   7~@k   
+| Huidige regel| `X`      |48,0-13%~@k   
+| Huidige regel en die eronder| `X`      |49,13%~@k   
+| Het huidige woord| `X`      |50,0-14%~@k   | Het huidige en de twee volgende woorden  | 3yw      |
+    | Van de cursor tot het einde van de regel | y$      |51,14%~@k   2~@k   
+| Tot het einde van de *zin*| `X`      |53,15%~@k   2~@k   1~@k   0,0-1~@k   49,1  ~@k   8,0-1~@k   7,1  ~@k   6~@k   5~@k   4~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   3~@k   2$ 50~@k   49~@k   8~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2ri  i~@k   3ra  a~@k   4rI  I~@k   5rA  A~@k   6^[  ^[  o -- INVOEGEN --47,15%47,15%^[  47,0-15%u1 regel minder; voor #5  4 seconds ago
+| Tot het einde van de *zin*| `X`      |46,425%1 regel minder; voor #5  4 seconds ago46,425%O -- INVOEGEN --46,15%46,15%^[  46,0-15%u1 regel minder; voor #6  2 seconds ago
+| Tot het einde van de *zin*| `X`      |46,425%1 regel minder; voor #6  2 seconds ago46,425%ro  o~@k   7rO  O~@k   8,0-1~@k   9,39 ~@k   50,0-1~@k   1,43-42~@k   2,42   ~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   50~@k   3~@k   
+| Tot het einde van de *paragraaf*|  y}     |54,505%~@k   
+| Alle tekst tussen haakjes `(...)`| `X`      |55,506%~@k   
+56,506%~@k   5~@k   4~@k   3~@k   1~@k   4~@k   3~@k   0~@k   1~@k   4~@k   3i -- INVOEGEN --53,516%yX`      |2yX`      |34`      |342`      |12`      |2y`      |3y`      |4532`      |1y`      |2w`      |3623432101
+4. Hoe knip je tekst vanuit *normal* mode?57,516%
+58,517%7601760i3yw      |1`3yw      |21`3yw      |01234`      |57  |4  |3  |2`   |3210`y$`   |1236728127812`      |1049876543210398767894012345678950498765432103987654321029876543210198765432109 87^[  58,67%yis10 lines yanked51,57%~@k   0,0-1~@k   49,5  ~@k   4^[  ^[  yis   P ?Hoe kopieer je vanuit *normal mode*?39u wijziging; voor #19  2 seconds ago49,47%49,47%~@k   50,0-1~@k   1,4  ~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8$ 58~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2~@k   1i -- INVOEGEN --58,517%y`      |2i`      |3s`      |4
+| Te knippen| Commando |59,547%3     |2     |1    |0`     |1y     |2i     |3p     |4`     |5
+| :---| :---     |60,558%432`      |1y`      |2%`      |321049876543210(...)398(...)76(...)54^[  (...)60,338%~@k   (...)4% 8% 4% 8% 4% 8% 4% 8% 4% 80 (...)1 ~@k   20 1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   10~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   20~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   30~@k   1~@k   2~@k   3~@k   (...)4~@k   (...)5~@k   (...)4y%  P (...)`        | `y%`      |8u1 wijziging; voor #23  2 seconds ago`        | `y%`      |60,348%60,348%~@k   (...)5~@k   6~@k   7~@k   (...)8~@k   (...)9~@k   40~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   50~@k   1~@k   2~@k   
+| Huidige regel| dd      |61,0-18%~@k   
+| Huidige regel en die eronder| 2dd      |62,429%~@k   
+| Het huidige woord| dw      |63,0-19%~@k   
+| Het huidige en de twee volgende woorden     | 3dw      |64,529%~@k   
+| Het letterteken op de positie van de cursor | x      |65,5210%~@k   
+| Van de cursor tot het einde van de regel    | d$      |66,5210%~@k   
+| Tot het einde van de *zin*| `X`      |67,5211%~@k   6~@k   5~@k   4~@k   3,0-1~@k   2,42 ~@k   1,0-1~@k   0,52 ~@k   3~@k   1,0-1~@k   2,42 ~@k   3,0-1~@k   4,53 ~@k   5~@k   6~@k   7~@k   6i -- INVOEGEN --66,5311%`dd      |456`      |77    |6543`2dd     |4567`     |8
+| Tot het einde van de *paragraaf*| d}      |68,5811%765437483`dw      |456`      |7
+| Alle tekst tussen haakjes `(...)`| `X`      |69,5712%6543`3dw      |4567`      |8
+70,5812%7654321049xr | x      |50^[  70,4912%u1 wijziging; voor #33  2 seconds agor | x      |70,4912%70,4912%x dl   | x      |p r| x      |50p r| x      |1p r| x      |2p r| x      |3p r| x      |4p r| x      |5p r| x      |6p r| x      |7p r| x      |8u43  5r| x      |70,5712%70,5712%u2  6r| x      |70,5612%70,5612%u1r| x      |70,5512%70,5512%u0  7r| x      |70,5412%70,5412%u39r| x      |70,5312%70,5312%u8  8r| x      |70,5212%70,5212%u7r| x      |70,5112%70,5112%u6r| x      |70,5012%70,5012%u5 | x      |70,4912%70,4912%u4  11 seconds agor | x      |70,4912%70,4912%~@k   50~@k   1~@k   2~@k   3~@k   4~@k   3i -- INVOEGEN --70,5312%`x      |45`      |6
+6. Hoe kan je gekopieerde/geknipte tekst plakken?71,5612%543`d$      |456`      |7
+72,5713%676545`      |4d`      |5i`      |6s`      |765431069876543,1 2,4321 ^[  62,113%dis    Hoe knip je tekst vanuit *normal* mode?u1 wijziging; voor #49  2 seconds ago4. Hoe knip je tekst vanuit *normal* mode?62,113%62,113%~@k   2~@k   3~@k   4dis   4.3u50  1 ago4. Hoe knip je tekst vanuit *normal* mode?62,413%62,413%~@k   3,0-1~@k   4,4  ~@k   5~@k   6~@k   7~@k   8~@k   9~@k   70~@k   1~@k   2~@k   
+73,413%~@k   5~@k   6~@K   1~@k   0~@k   59~@k   8~@k   7~@k   6~@k   5~@k   4~@k   3x dl  }      |x dl        |i -- INVOEGEN --73,5313%`      |4d      |5i      |6p      |7`      |8
+| Tekst plakken| Commando |74,5814%765`      |4d`      |5%`      |6
+| :---| :---     |75,114%
+| Rechts/onder de cursur | p      |76,5015%
+| Op de cursur| P      |77,115%
+78,115%De bedoeling van voorgaande oefening is om een idee te geven van hoe veelzijdig Vi is. Er zijn *veel* ccommando's, maar er zit een duidelijke logica in. Een voorbeeld is `ci{`: dit staat voor *Change inside  braces*. Vim zal links en rechts van de cursor zoeken naar accolades, alle tekst ertussen verwijderen een naar insert mode gaan. Je kan in het commando de `{` vervangen door een ander teken zoals bv. `(`, `""`, `'`, `[`, `<`.79,4217%8079103987654801321012322123,1 Eens je meer commando's leert kennen kan je zo heel productief zijn in Vim. En dan hebben we het nog niiet eens gehad over de vele mogelijke instellingen en plugins. Het uitlijnen van de vertikale lijnen in  de tabellen hierboven werd bijvoorbeeld gedaan met een Vim plugin, [vimwiki](https://github.com/vimwikii/vimwiki).84,3219%
+85,120%## Streams, pipes, redirects
+
+In onderstaande vragen is het telkens de bedoeling één commando te geven om de taak uit te voeren. Probbeer altijd eerst om de uitvoer op de console te tonen voordat je wegschrijft naar het gevraagde bestandd. Zo zie je sneller eventuele fouten.86,3221%7,1 
+88,2922%1. Voeg het bestand `landen` en `autokentekens` samen met het commando `join` (zoek de werking ervan opp met het man-commando). Het resultaat wordt opgeslagen in het bestand `landenkentekens`.89,123%8,299,1     ```90,3223%
+$ COMMANDO91,124%UITVOER
+    ```92,3225%
+93,125%
+2. Bekijk de inhoud van `landenkentekens` en controleer of het overeenkomt met de uitvoer hieronder.94,825%
+95,1526%
+    ```96,1226%
+$ COMMANDO97,827%
+1 België B98,127%
+2 Frankrijk F99,3227%
+3 Zwitserland CH100,128%
+4 Duitsland D101,828%
+5 Nederland NL102,1529%
+    ```103,16-15     29%
+104,1830%^[  104,1730%::x"labo-3-tekst.md" 279L, 9637B opgeslagen
+[thomas@localhost ilnx-labos-2021-thomaxxl]$ cacd -
+/home/thomas/ilnx-labos-2021-thomaxxl/labo3
+[thomas@localhost labo3]$ ll
+totaal 12
+-rw-rw-r--. 1 thomas thomas   22 21 okt 10:32 autokentekens
+drwxrwxr-x. 2 thomas thomas 4096 21 okt 10:31 backup
+-rw-rw-r--. 1 thomas thomas   60 21 okt 10:36 landen
+[thomas@localhost labo3]$ joiman join
+JOIN(1)                                     User Commands                                    JOIN(1)
+
+NAME
+       join - join lines of two files on a common field
+
+SYNOPSIS
+       join [OPTION]... FILE1 FILE2
+
+DESCRIPTION
+       For  each  pair  of  input lines with identical join fields, write a line to standard output.
+       The default join field is the first, delimited by blanks.
+
+       When FILE1 or FILE2 (not both) is -, read standard input.
+
+       -a FILENUM
+              also print unpairable lines from file FILENUM, where FILENUM is 1 or 2,  corresponding
+              to FILE1 or FILE2
+
+       -e EMPTY
+              replace missing input fields with EMPTY
+
+       -i, --ignore-case
+              ignore differences in case when comparing fields
+
+       -j FIELD
+              equivalent to '-1 FIELD -2 FIELD'
+
+       -o FORMAT
+              obey FORMAT while constructing output line
+
+       -t CHAR
+              use CHAR as input and output field separator
+
+       -v FILENUM
+              like -a FILENUM, but suppress joined output lines
+
+       -1 FIELD
+              join on this FIELD of file 1
+
+       -2 FIELD
+              join on this FIELD of file 2
+
+       --check-order
+              check that the input is correctly sorted, even if all input lines are pairable
+
+       --nocheck-order
+ Manual page join(1) line 1 (press h for help or q to quit) ESCESCOOBB              do not check that the input is correctly sorted
+ Manual page join(1) line 2 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 3 (press h for help or q to quit) ESCESCOOAA
+ Manual page join(1) line 2 (press h for help or q to quit) ESCESCOOBB
+ Manual page join(1) line 3 (press h for help or q to quit) ESCESCOOBB       --header
+ Manual page join(1) line 4 (press h for help or q to quit)[thomas@localhost labo3]$ cat autokentekens landen 
+1 B
+2 F
+3 CH
+4 D
+5 NL
+1 België
+2 Frankrijk
+3 Zwitserland
+4 Duitsland
+5 Nederland
+[thomas@localhost labo3]$ join -j 1 autokentekens landen 
+1 B België
+2 F Frankrijk
+3 CH Zwitserland
+4 D Duitsland
+5 NL Nederland
+[thomas@localhost labo3]$ [thomas@localhost labo3]$ [thomas@localhost labo3]$ [thomas@localhost labo3]$ join -j 1 autokentekens landen landen 
+1 België B
+2 Frankrijk F
+3 Zwitserland CH
+4 Duitsland D
+5 Nederland NL
+[thomas@localhost labo3]$ join -j 1 landen autokentekens  > landenkentekens
+[thomas@localhost labo3]$ cat landenkentekens 
+1 België B
+2 Frankrijk F
+3 Zwitserland CH
+4 Duitsland D
+5 Nederland NL
+[thomas@localhost labo3]$ cat landenkentekens | cut -f 2,3 -d" "
+België B
+Frankrijk F
+Zwitserland CH
+Duitsland D
+Nederland NL
+[thomas@localhost labo3]$ cat landenkentekens | cut -f 2,3 -d" "clan landentkentekens 
+België B
+Frankrijk F
+Zwitserland CH
+Duitsland D
+Nederland NL
+[thomas@localhost labo3]$ cut -f 2,3 -d" " landenkentekens > landenkentekens2
+[thomas@localhost labo3]$ cat landenkentekens2
+België B
+Frankrijk F
+Zwitserland CH
+Duitsland D
+Nederland NL
+[thomas@localhost labo3]$ echo "Italië I
+> ^C
+[thomas@localhost labo3]$ echo "Italië I" ><> landenkentekens2
+[thomas@localhost labo3]$ ececho "Spanje E
+> " ^C
+[thomas@localhost labo3]$ echo "Spanje E" >> landenkentekens2
+[thomas@localhost labo3]$ cat !$7
+cat landenkentekens2
+België B
+Frankrijk F
+Zwitserland CH
+Duitsland D
+Nederland NL
+Italië I
+Spanje E
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ 
+[thomas@localhost labo3]$ sort landenkentekens2
+België B
+Duitsland D
+Frankrijk F
+Italië I
+Nederland NL
+Spanje E
+Zwitserland CH
+[thomas@localhost labo3]$ sort landenkentekens2man sort
+SORT(1)                                            User Commands                                            SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+              shuffle, but group identical keys.  See shuf(1)
+
+       --random-source=FILE
+              get random bytes from FILE
+
+       -r, --reverse
+              reverse the result of comparisons
+
+ Manual page sort(1) line 1 (press h for help or q to quit) ESCESCOOBB       --sort=WORD
+ Manual page sort(1) line 2 (press h for help or q to quit) ESCESCOOBB              sort  according  to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, ver
+ Manual page sort(1) line 3 (press h for help or q to quit) ESCESCOOBB              sion -V
+ Manual page sort(1) line 4 (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 5 (press h for help or q to quit) ESCESCOOBB       -V, --version-sort
+ Manual page sort(1) line 6 (press h for help or q to quit) ESCESCOOBB              natural sort of (version) numbers within text
+ Manual page sort(1) line 7 (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 8 (press h for help or q to quit) ESCESCOOBB       Other options:
+ Manual page sort(1) line 9 (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 10 (press h for help or q to quit) ESCESCOOBB       --batch-size=NMERGE
+ Manual page sort(1) line 11 (press h for help or q to quit) ESCESCOOBB              merge at most NMERGE inputs at once; for more use temp files
+ Manual page sort(1) line 12 (press h for help or q to quit)/--kk
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+              shuffle, but group identical keys.  See shuf(1)
+
+       --random-source=FILE
+              get random bytes from FILE
+
+       -r, --reverse
+              reverse the result of comparisons
+
+       --sort=WORD
+              sort  according  to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, ver
+              sion -V
+
+       -V, --version-sort
+              natural sort of (version) numbers within text
+
+       Other options:
+
+       --batch-size=NMERGE
+              merge at most NMERGE inputs at once; for more use temp files
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+              shuffle, but group identical keys.  See shuf(1)
+
+       --random-source=FILE
+              get random bytes from FILE
+
+       -r, --reverse
+              reverse the result of comparisons
+
+       --sort=WORD
+              sort  according  to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, ver
+              sion -V
+
+       -V, --version-sort
+              natural sort of (version) numbers within text
+
+       Other options:
+
+       --batch-size=NMERGE
+              merge at most NMERGE inputs at once; for more use temp files
+...skipping...
+       -k, --key=KEYDEF
+              sort via a key; KEYDEF gives location and type
+
+       -m, --merge
+              merge already sorted files; do not sort
+
+       -o, --output=FILE
+              write result to FILE instead of standard output
+
+       -s, --stable
+              stabilize sort by disabling last-resort comparison
+
+       -S, --buffer-size=SIZE
+              use SIZE for main memory buffer
+
+       -t, --field-separator=SEP
+              use SEP instead of non-blank to blank transition
+
+       -T, --temporary-directory=DIR
+              use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories
+
+       --parallel=N
+              change the number of sorts run concurrently to N
+
+       -u, --unique
+              with -c, check for strict ordering; without -c, output only the first of an equal run
+
+       -z, --zero-terminated
+              line delimiter is NUL, not newline
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+       KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is a field number and C a character
+       position in the field; both are origin 1, and the stop position defaults to the line's end.  If  neither  -t
+       nor -b is in effect, characters in a field are counted from the beginning of the preceding whitespace.  OPTS
+       is one or more single-letter ordering options [bdfgiMhnRrV], which override global ordering options for that
+       key.  If no key is given, use the entire line as the key.  Use --debug to diagnose incorrect key usage.
+
+       SIZE may be followed by the following multiplicative suffixes: % 1% of memory, b 1, K 1024 (default), and so
+       on for M, G, T, P, E, Z, Y.
+
+       *** WARNING *** The locale specified by the environment affects sort order.  Set LC_ALL=C to get the  tradi
+       tional sort order that uses native byte values.
+
+AUTHOR
+       Written by Mike Haertel and Paul Eggert.
+ Manual page sort(1) line 78/144 87% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 77/144 86% (press h for help or q to quit) ESCESCOOAA              standard input
+ Manual page sort(1) line 76/144 86% (press h for help or q to quit) ESCESCOOAA              read input from the files specified by NUL-terminated names in file F; If F is - then read names from
+ Manual page sort(1) line 75/144 86% (press h for help or q to quit) ESCESCOOAA       --files0-from=F
+ Manual page sort(1) line 74/144 85% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 73/144 83% (press h for help or q to quit) ESCESCOOAA              annotate the part of the line used to sort, and warn about questionable usage to stderr
+ Manual page sort(1) line 72/144 83% (press h for help or q to quit) ESCESCOOAA       --debug
+ Manual page sort(1) line 71/144 82% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 70/144 80% (press h for help or q to quit) ESCESCOOAA              compress temporaries with PROG; decompress them with PROG -d
+ Manual page sort(1) line 69/144 80% (press h for help or q to quit)/
+       SIZE may be followed by the following multiplicative suffixes: % 1% of memory, b 1, K 1024 (default), and so
+       on for M, G, T, P, E, Z, Y.
+
+       *** WARNING *** The locale specified by the environment affects sort order.  Set LC_ALL=C to get the  tradi
+       tional sort order that uses native byte values.
+
+AUTHOR
+       Written by Mike Haertel and Paul Eggert.
+ Manual page sort(1) line 78/144 87% (press h for help or q to quit)/Pattern not found  (press RETURN) ESCESCOOAA
+ Manual page sort(1) line 77/144 86% (press h for help or q to quit) ESCESCOOAA              standard input
+ Manual page sort(1) line 76/144 86% (press h for help or q to quit) ESCESCOOAA              read input from the files specified by NUL-terminated names in file F; If F is - then read names from
+ Manual page sort(1) line 75/144 86% (press h for help or q to quit) ESCESCOOAA       --files0-from=F
+ Manual page sort(1) line 74/144 85% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 73/144 83% (press h for help or q to quit) ESCESCOOAA              annotate the part of the line used to sort, and warn about questionable usage to stderr
+ Manual page sort(1) line 72/144 83% (press h for help or q to quit) ESCESCOOAA       --debug
+ Manual page sort(1) line 71/144 82% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 70/144 80% (press h for help or q to quit) ESCESCOOAA              compress temporaries with PROG; decompress them with PROG -d
+ Manual page sort(1) line 69/144 80% (press h for help or q to quit) ESCESCOOAA       --compress-program=PROG
+ Manual page sort(1) line 68/144 78% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 67/144 76% (press h for help or q to quit) ESCESCOOAA              like -c, but do not report first bad line
+ Manual page sort(1) line 66/144 74% (press h for help or q to quit) ESCESCOOAA       -C, --check=quiet, --check=silent
+ Manual page sort(1) line 65/144 72% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 64/144 70% (press h for help or q to quit) ESCESCOOAA              check for sorted input; do not sort
+ Manual page sort(1) line 63/144 70% (press h for help or q to quit) ESCESCOOAA       -c, --check, --check=diagnose-first
+ Manual page sort(1) line 62/144 69% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 61/144 69% (press h for help or q to quit) ESCESCOOAA              merge at most NMERGE inputs at once; for more use temp files
+ Manual page sort(1) line 60/144 69% (press h for help or q to quit) ESCESCOOAA       --batch-size=NMERGE
+ Manual page sort(1) line 59/144 68% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 58/144 68% (press h for help or q to quit) ESCESCOOAA       Other options:
+ Manual page sort(1) line 57/144 67% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 56/144 66% (press h for help or q to quit) ESCESCOOAA              natural sort of (version) numbers within text
+ Manual page sort(1) line 55/144 66% (press h for help or q to quit) ESCESCOOAA       -V, --version-sort
+ Manual page sort(1) line 54/144 64% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 53/144 64% (press h for help or q to quit) ESCESCOOAA              sion -V
+ Manual page sort(1) line 52/144 64% (press h for help or q to quit) ESCESCOOAA              sort  according  to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, ver
+ Manual page sort(1) line 51/144 63% (press h for help or q to quit) ESCESC[[55~~       --sort=WORD
+
+              reverse the result of comparisons
+       -r, --reverse
+
+              get random bytes from FILE
+       --random-source=FILE
+
+              shuffle, but group identical keys.  See shuf(1)
+       -R, --random-sort
+
+              compare according to string numerical value
+       -n, --numeric-sort
+
+              compare human readable numbers (e.g., 2K 1G)
+       -h, --human-numeric-sort
+
+              compare (unknown) < 'JAN' < ... < 'DEC'
+       -M, --month-sort
+
+              consider only printable characters
+       -i, --ignore-nonprinting
+
+              compare according to general numerical value
+       -g, --general-numeric-sort
+
+              fold lower case to upper case characters
+       -f, --ignore-case
+
+              consider only blanks and alphanumeric characters
+       -d, --dictionary-order
+
+              ignore leading blanks
+       -b, --ignore-leading-blanks
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Write sorted concatenation of all FILE(s) to standard output.
+DESCRIPTION
+
+       sort [OPTION]... --files0-from=F
+       sort [OPTION]... [FILE]...
+SYNOPSIS
+
+       sort - sort lines of text files
+NAME
+
+ Manual page sort(1) line 2/144 28% (press h for help or q to quit) ESCESC[[55~~SORT(1)                                            User Commands                                            SORT(1)
+ Manual page sort(1) line 1/144 28% (press h for help or q to quit) ESCESC[[66~~       --sort=WORD
+              sort  according  to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, ver
+              sion -V
+
+       -V, --version-sort
+              natural sort of (version) numbers within text
+
+       Other options:
+
+       --batch-size=NMERGE
+              merge at most NMERGE inputs at once; for more use temp files
+
+       -c, --check, --check=diagnose-first
+              check for sorted input; do not sort
+
+       -C, --check=quiet, --check=silent
+              like -c, but do not report first bad line
+
+       --compress-program=PROG
+              compress temporaries with PROG; decompress them with PROG -d
+
+       --debug
+              annotate the part of the line used to sort, and warn about questionable usage to stderr
+
+       --files0-from=F
+              read input from the files specified by NUL-terminated names in file F; If F is - then read names from
+              standard input
+
+       -k, --key=KEYDEF
+              sort via a key; KEYDEF gives location and type
+
+       -m, --merge
+              merge already sorted files; do not sort
+
+       -o, --output=FILE
+              write result to FILE instead of standard output
+
+       -s, --stable
+              stabilize sort by disabling last-resort comparison
+
+       -S, --buffer-size=SIZE
+              use SIZE for main memory buffer
+
+       -t, --field-separator=SEP
+              use SEP instead of non-blank to blank transition
+
+       -T, --temporary-directory=DIR
+              use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories
+
+ Manual page sort(1) line 50/144 62% (press h for help or q to quit)[thomas@localhost labo3]$ man sortsort landenkentekens2-landenkentekens2klandenkentekens2 landenkentekens2landenkentekens22landenkentekens2 landenkentekens2
+België B
+Zwitserland CH
+Duitsland D
+Spanje E
+Frankrijk F
+Italië I
+Nederland NL
+[thomas@localhost labo3]$ sort -k2 landenkentekens2-landenkentekens2tlandenkentekens2'landenkentekens2 landenkentekens2'landenkentekens2 landenkentekens2
+België B
+Zwitserland CH
+Duitsland D
+Spanje E
+Frankrijk F
+Italië I
+Nederland NL
+[thomas@localhost labo3]$ !ma
+man sort
+SORT(1)                                            User Commands                                            SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+              shuffle, but group identical keys.  See shuf(1)
+
+       --random-source=FILE
+              get random bytes from FILE
+
+       -r, --reverse
+              reverse the result of comparisons
+
+ Manual page sort(1) line 1 (press h for help or q to quit)/--ttSORT(1)                                            User Commands                                            SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+              shuffle, but group identical keys.  See shuf(1)
+
+       --random-source=FILE
+              get random bytes from FILE
+
+       -r, --reverse
+              reverse the result of comparisons
+
+SORT(1)                                            User Commands                                            SORT(1)
+
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       sort [OPTION]... [FILE]...
+       sort [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Write sorted concatenation of all FILE(s) to standard output.
+
+       With no FILE, or when FILE is -, read standard input.
+
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+
+       -b, --ignore-leading-blanks
+              ignore leading blanks
+
+       -d, --dictionary-order
+              consider only blanks and alphanumeric characters
+
+       -f, --ignore-case
+              fold lower case to upper case characters
+
+       -g, --general-numeric-sort
+              compare according to general numerical value
+
+       -i, --ignore-nonprinting
+              consider only printable characters
+
+       -M, --month-sort
+              compare (unknown) < 'JAN' < ... < 'DEC'
+
+       -h, --human-numeric-sort
+              compare human readable numbers (e.g., 2K 1G)
+
+       -n, --numeric-sort
+              compare according to string numerical value
+
+       -R, --random-sort
+              shuffle, but group identical keys.  See shuf(1)
+
+       --random-source=FILE
+              get random bytes from FILE
+
+       -r, --reverse
+              reverse the result of comparisons
+
+...skipping...
+              read input from the files specified by NUL-terminated names in file F; If F is - then read names from
+              standard input
+
+       -k, --key=KEYDEF
+              sort via a key; KEYDEF gives location and type
+
+       -m, --merge
+              merge already sorted files; do not sort
+
+       -o, --output=FILE
+              write result to FILE instead of standard output
+
+       -s, --stable
+              stabilize sort by disabling last-resort comparison
+
+       -S, --buffer-size=SIZE
+              use SIZE for main memory buffer
+
+       -t, --field-separator=SEP
+              use SEP instead of non-blank to blank transition
+
+       -T, --temporary-directory=DIR
+              use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories
+
+       --parallel=N
+              change the number of sorts run concurrently to N
+
+       -u, --unique
+              with -c, check for strict ordering; without -c, output only the first of an equal run
+
+       -z, --zero-terminated
+              line delimiter is NUL, not newline
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+       KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is a field number and C a character
+       position in the field; both are origin 1, and the stop position defaults to the line's end.  If  neither  -t
+       nor -b is in effect, characters in a field are counted from the beginning of the preceding whitespace.  OPTS
+       is one or more single-letter ordering options [bdfgiMhnRrV], which override global ordering options for that
+       key.  If no key is given, use the entire line as the key.  Use --debug to diagnose incorrect key usage.
+
+       SIZE may be followed by the following multiplicative suffixes: % 1% of memory, b 1, K 1024 (default), and so
+       on for M, G, T, P, E, Z, Y.
+
+       *** WARNING *** The locale specified by the environment affects sort order.  Set LC_ALL=C to get the  tradi
+       tional sort order that uses native byte values.
+ Manual page sort(1) line 75/144 86% (press h for help or q to quit)[thomas@localhost labo3]$ man sortsort -k2 -t' ' landenkentekens2man sortman sortsort -k2 -t' ' landenkentekens2man sortcut -f2 landenkentekens2
+België B
+Frankrijk F
+Zwitserland CH
+Duitsland D
+Nederland NL
+Italië I
+Spanje E
+[thomas@localhost labo3]$ cut -f2 landenkentekens2 -d ' '
+B
+F
+CH
+D
+NL
+I
+E
+[thomas@localhost labo3]$ cut -f2 landenkentekens2 -d ' 'cat landenkentekens2 | awk 'print {$2}'
+B
+F
+CH
+D
+NL
+I
+E
+[thomas@localhost labo3]$ cat landenkentekens2 | awk '{print $2}'}'1}'
+België
+Frankrijk
+Zwitserland
+Duitsland
+Nederland
+Italië
+Spanje
+[thomas@localhost labo3]$ cat landenkentekens2 | awk '{print $1}'2}'ut -f2 landenkentekens2 -d ' 'man sortsort -k2 -t' ' landenkentekens2 > gesorteerdeautokentekens
+[thomas@localhost labo3]$ cat !$
+cat gesorteerdeautokentekens
+België B
+Zwitserland CH
+Duitsland D
+Spanje E
+Frankrijk F
+Italië I
+Nederland NL
+[thomas@localhost labo3]$ [thomas@localhost labo3]$ ll
+totaal 24
+-rw-rw-r--. 1 thomas thomas   22 21 okt 10:32 autokentekens
+drwxrwxr-x. 2 thomas thomas 4096 21 okt 10:31 backup
+-rw-rw-r--. 1 thomas thomas   81 21 okt 10:55 gesorteerdeautokentekens
+-rw-rw-r--. 1 thomas thomas   60 21 okt 10:36 landen
+-rw-rw-r--. 1 thomas thomas   72 21 okt 10:48 landenkentekens
+-rw-rw-r--. 1 thomas thomas   81 21 okt 10:51 landenkentekens2
+[thomas@localhost labo3]$ cd backup/
+[thomas@localhost backup]$ ll
+totaal 24
+-rw-rw-r--. 1 thomas thomas   22 14 okt 14:10 autokentekens
+-rw-rw-r--. 1 thomas thomas   60 14 okt 14:07 landen
+-rw-rw-r--. 1 thomas thomas   72 14 okt 14:24 landenkentekens
+-rw-rw-r--. 1 thomas thomas   81 14 okt 14:27 landenkentekens2
+-rw-rw-r--. 1 thomas thomas 2738 13 okt 16:38 lorem.txt
+-rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
+[thomas@localhost backup]$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:b9:24:fe brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.193.128/24 brd 192.168.193.255 scope global dynamic noprefixroute ens33
+       valid_lft 5442432sec preferred_lft 5442432sec
+    inet6 fe80::1735:4f67:2b6f:c784/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[thomas@localhost backup]$ ip address
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:b9:24:fe brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.193.128/24 brd 192.168.193.255 scope global dynamic noprefixroute ens33
+       valid_lft 5442421sec preferred_lft 5442421sec
+    inet6 fe80::1735:4f67:2b6f:c784/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+[thomas@localhost backup]$ 
+[thomas@localhost backup]$ 
+[thomas@localhost backup]$ ip address | grep -E '[inet
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host 
+    inet 192.168.193.128/24 brd 192.168.193.255 scope global dynamic noprefixroute ens33
+    inet6 fe80::1735:4f67:2b6f:c784/64 scope link noprefixroute 
+[thomas@localhost backup]$ ip address | grep -E inet | awk '{print $4}'
+host
+host
+192.168.193.255
+link
+[thomas@localhost backup]$ ip address | grep -E inet | awk '{print $4}'}'2}'
+127.0.0.1/8
+::1/128
+192.168.193.128/24
+fe80::1735:4f67:2b6f:c784/64
+[thomas@localhost backup]$ ip address | grep -E inet | awk '{print $2}' |" "
+127.0.0.1/8
+192.168.193.128/24
+[thomas@localhost backup]$ ip address | grep -E "inet " | awk '{print $2}' cut -f3-6 -d ' '
+  inet 127.0.0.1/8
+  inet 192.168.193.128/24
+[thomas@localhost backup]$ ip address | grep -E "inet " | cut -f3-6 -d ' '4
+ inet 127.0.0.1/8
+ inet 192.168.193.128/24
+[thomas@localhost backup]$ ip address | grep -E "inet " | cut -f4-6 -d ' '68
+127.0.0.1/8 scope host
+192.168.193.128/24 brd 192.168.193.255
+[thomas@localhost backup]$ ip address | grep -E "inet " | cut -f6-8 -d ' '
+127.0.0.1/8
+192.168.193.128/24
+[thomas@localhost backup]$ ip address | grep -E "inet " | cut -f6 -d ' 'sed -e 's/^.*inet //g' -e 
+127.0.0.1/8 scope host lo
+192.168.193.128/24 brd 192.168.193.255 scope global dynamic noprefixroute ens33
+[thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet //g'''d'
+sed: expressie #1, teken 12: onafgemaakte 's'-opdracht
+[thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet /d'/g'
+127.0.0.1/8 scope host lo
+192.168.193.128/24 brd 192.168.193.255 scope global dynamic noprefixroute ens33
+[thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet //g' | cut -f1 -d' 
+> ^C
+[thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet //g' | cut -f1 -d' '
+127.0.0.1/8
+192.168.193.128/24
+[thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet //g' | cut -f1 -d' '-de 's/ .*$//g'
+127.0.0.1/8
+192.168.193.128/24
+[thomas@localhost backup]$ 
+[thomas@localhost backup]$ 
+[thomas@localhost backup]$ 
+[thomas@localhost backup]$ 
+[thomas@localhost backup]$ 
+[thomas@localhost backup]$ 
+[thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet //g' -e 's/ .*$//g'
