@@ -3138,4 +3138,63 @@ rhoncus eget. Praesent varius enim ac libero porttitor,
 et fermentum dolor scelerisque. Vestibulum tincidunt
 tellus quis suscipit condimentum. Nam ipsum felis,
 interdum faucibus sapien in, ullamcorper semper neque.
-[thomas@localhost backup]$ fmt -g 50 lorem.txt | n
+[thomas@localhost backup]$ fmt -g 50 lorem.txt | nl
+     1Lorem ipsum dolor sit amet, consectetur adipiscing
+     2elit. Suspendisse eget auctor massa, vitae placerat
+     3nisl. Nunc mi ligula, ultricies sed euismod
+     4nec, porttitor ac tortor. Donec congue lorem vel
+     5risus ullamcorper euismod. Nam interdum eu arcu a
+     6bibendum. Nunc vel risus dolor. Quisque magna libero,
+     7ornare eu luctus sed, auctor et erat. Donec vitae
+     8tincidunt tortor. Integer a rhoncus mi. Ut rutrum
+     9sapien quis odio euismod luctus.  Cras lobortis nisi
+    10non neque faucibus malesuada.
+       
+    11Aenean commodo nec mi non consectetur. Aenean
+    12imperdiet neque eget lacus pharetra, gravida
+    13accumsan nisl ultrices. Sed volutpat sed lacus eu
+    14semper. Duis commodo lectus fermentum mi commodo,
+    15eget varius eros ultrices. Curabitur tincidunt iaculis
+    16blandit. Vivamus tristique accumsan leo, non accumsan
+    17nisl suscipit in. Nulla viverra convallis orci,
+    18nec molestie est vulputate quis. Aliquam dignissim
+    19eros non auctor varius.  Curabitur quis suscipit ipsum.
+       
+    20Etiam iaculis, nisi sit amet ultricies faucibus,
+    21tortor tellus pellentesque quam, sed vestibulum
+    22mi nisi id sapien. Morbi vehicula urna vel arcu
+    23imperdiet, sit amet tincidunt felis rutrum. Sed arcu
+    24erat, imperdiet ut quam in, facilisis sollicitudin
+    25ligula. Vivamus lorem nisi, dictum et libero in,
+    26ultricies porta ligula. Duis dapibus consequat
+    27fringilla. Fusce vehicula metus dolor. Vestibulum et
+    28pulvinar nulla. Sed sed justo et felis mattis aliquet
+    29a vitae nulla. Etiam sodales turpis volutpat, congue
+    30ligula sit amet, facilisis purus. Etiam vehicula
+    31nunc id laoreet tincidunt. Curabitur at est sed enim
+    32tempus mollis in dictum quam.
+       
+    33Nunc posuere ultrices lorem, eget accumsan nibh
+    34sodales nec. Praesent fermentum leo ut sapien tempus,
+    35et interdum sapien accumsan. Etiam et condimentum
+    36urna, sed imperdiet lacus. Nunc malesuada interdum
+    37consectetur. Aenean ac elit tortor. In eget feugiat
+    38velit. Maecenas ac bibendum orci. Nunc pretium et
+    39elit eget mattis. Mauris a lectus id augue scelerisque
+    40vestibulum. Aenean quis lacinia sem. Suspendisse iaculis,
+    41enim vehicula cursus faucibus, tellus odio lobortis
+    42tortor, et mollis nibh magna quis mi. Fusce ac quam
+    43et velit placerat fermentum eu at diam.  Sed quis
+    44mi vulputate, sollicitudin libero non, rutrum turpis.
+       
+    45Nullam nec blandit nisi. Mauris pretium suscipit dolor
+    46nec tristique.  Class aptent taciti sociosqu ad litora
+    47torquent per conubia nostra, per inceptos himenaeos. Ut
+    48vitae tortor mattis, feugiat ipsum id, consequat
+    49turpis. Etiam dictum egestas dui, quis placerat arcu
+    50tempor eu. Ut dapibus nisl felis, at malesuada turpis
+    51rhoncus eget. Praesent varius enim ac libero porttitor,
+    52et fermentum dolor scelerisque. Vestibulum tincidunt
+    53tellus quis suscipit condimentum. Nam ipsum felis,
+    54interdum faucibus sapien in, ullamcorper semper neque.
+[thomas@localhost backup]$ 
