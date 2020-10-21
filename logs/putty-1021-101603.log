@@ -8540,4 +8540,13 @@ COLOPHON
        https://www.kernel.org/doc/man-pages/.
 
 Linux                                               2018-04-30                                           PASSWD(5)
- Manual page passwd(5) line 32/82 (END) (press h for help or q to quit)[thomas@localhost backup]$ man 5 passwdman 5 passwdcat passwd newusers.txt | sed -e 's/^/\"/' -e 's/\t/";"/g' -e 's/$/"/g'passwd man 5 passwdgrep /bin/bash$
+ Manual page passwd(5) line 32/82 (END) (press h for help or q to quit)[thomas@localhost backup]$ man 5 passwdman 5 passwdcat passwd newusers.txt | sed -e 's/^/\"/' -e 's/\t/";"/g' -e 's/$/"/g'passwd man 5 passwdgrep /bin/bash$ passwd 
+root:x:0:0:root:/root:/bin/bash
+vagrant:x:1000:1000::/home/vagrant:/bin/bash
+student:x:1001:1002:student,,,:/home/student:/bin/bash
+ryu:x:1002:1005::/home/ryu:/bin/bash
+yoshiro:x:1003:1006::/home/yoshiro:/bin/bash
+sparrow:x:1004:1007::/home/sparrow:/bin/bash
+teach:x:1005:1008::/home/teach:/bin/bash
+roberts:x:1006:1009::/home/roberts:/bin/bash
+[thomas@localhost backup]$ grep /bin/bash$ passwd 
