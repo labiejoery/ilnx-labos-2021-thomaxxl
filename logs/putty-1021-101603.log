@@ -2534,4 +2534,4 @@ drwxrwxr-x. 2 thomas thomas   4096 21 okt 10:28 logs
 -rw-r--r--. 1 thomas thomas 691913 14 okt 14:03 services
 -rw-rw-r--. 1 thomas thomas    106 21 okt 10:28 sync.sh
 -rw-rw-r--. 1 thomas thomas    100 14 okt 13:39 tennis.txt
-[thomas@localhost labo3]$ cat 
+[thomas@localhost labo3]$ cat ../labo-3-tekst.md
