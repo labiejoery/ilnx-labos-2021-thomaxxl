@@ -7919,4 +7919,4 @@ sparrow
 teach
 roberts
 [thomas@localhost backup]$ 
-[thomas@localhost backup]$ cat passwd | tr : ' ' | awk '{if($3 > 1000){print $1}}'
+[thomas@localhost backup]$ cat passwd | tr : ' ' | awk '{if($3 > 1000){print $1}}'cat passwd | tr : ' ' | awk '{if($3 > 1000){print $1}}'
