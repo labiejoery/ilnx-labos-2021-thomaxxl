@@ -7996,4 +7996,6 @@ Klaar.
 yucegHuk6
 OrHymBadd6
 veejocAc
-[thomas@localhost backup]$ apg -n 3
+[thomas@localhost backup]$ apg -n 3ANAANTAL
+checkopt: wrong option format
+[thomas@localhost backup]$ 
