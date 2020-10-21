@@ -8016,4 +8016,4 @@ yeygnafBi
 6
 [thomas@localhost backup]$ wc -l < users.txt )$(echo 
 6
-[thomas@localhost backup]$ echo $(wc -l < users.txt )
+[thomas@localhost backup]$ echo $(wc -l < users.txt )apg -n
