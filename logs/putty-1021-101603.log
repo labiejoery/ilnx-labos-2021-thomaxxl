@@ -8006,4 +8006,6 @@ jolf<Ogeu
 Jeijkocil3
 SneegsUct
 yeygnafBi
-[thomas@localhost backup]$ cat users.txt | apg -n3cat users.txt | apg -n3ww
+[thomas@localhost backup]$ cat users.txt | apg -n3cat users.txt | apg -n3wwc -l users.txt 
+6 users.txt
+[thomas@localhost backup]$ wc -l users.txt 
