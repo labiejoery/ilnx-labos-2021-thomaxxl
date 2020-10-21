@@ -8216,3 +8216,10 @@ studenttreolobPav
 teachchawgOd#
 yoshiroNodPybAvFo
 [thomas@localhost backup]$ cat newusers.txt | IFS="\t" awk "{print $1}"
+robertsklixofalRy
+ryujinfutro
+sparrowGantEkCow
+studenttreolobPav
+teachchawgOd#
+yoshiroNodPybAvFo
+[thomas@localhost backup]$ cat newusers.txt | awk "{print $1}"
