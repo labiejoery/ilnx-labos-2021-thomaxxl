@@ -8426,4 +8426,4 @@ awk: commandoregel:1:                   ^ syntax error
 "student";"treolobPav"
 "teach";"chawgOd#"
 "yoshiro";"NodPybAvFo"
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ cat newusers.txt | sed -e 's/^/\"/' -e 's/\t/";"/g' -e 's/$/"/g'
