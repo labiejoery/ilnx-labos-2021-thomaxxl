@@ -8246,4 +8246,4 @@ sparrowGantEkCow
 studenttreolobPav
 teachchawgOd#
 yoshiroNodPybAvFo
-[thomas@localhost backup]$ cat newusers.txt | awk "{print $2}"
+[thomas@localhost backup]$ cat newusers.txt | awk "{print $2}"1}"
