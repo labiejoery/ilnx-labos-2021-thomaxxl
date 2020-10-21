@@ -2506,4 +2506,12 @@ sed: expressie #1, teken 12: onafgemaakte 's'-opdracht
 [thomas@localhost backup]$ 
 [thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet //g' -e 's/ .*$//g'^C
 [thomas@localhost backup]$ cd ..
-[thomas@localhost labo3]$ git cd -cd -
+[thomas@localhost labo3]$ git cd -cd -ll
+totaal 24
+-rw-rw-r--. 1 thomas thomas   22 21 okt 10:32 autokentekens
+drwxrwxr-x. 2 thomas thomas 4096 21 okt 10:31 backup
+-rw-rw-r--. 1 thomas thomas   81 21 okt 10:55 gesorteerdeautokentekens
+-rw-rw-r--. 1 thomas thomas   60 21 okt 10:36 landen
+-rw-rw-r--. 1 thomas thomas   72 21 okt 10:48 landenkentekens
+-rw-rw-r--. 1 thomas thomas   81 21 okt 10:51 landenkentekens2
+[thomas@localhost labo3]$ 
