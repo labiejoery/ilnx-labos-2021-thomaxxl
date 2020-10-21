@@ -8050,4 +8050,4 @@ $1
 $1
 $1
 $1
-[thomas@localhost backup]$ cat newusers.txt | awk '{print "$1";"$2"}'
+[thomas@localhost backup]$ cat newusers.txt | awk '{print "$1";"$2"}'""
