@@ -8034,4 +8034,5 @@ sparrowGantEkCow
 studenttreolobPav
 teachchawgOd#
 yoshiroNodPybAvFo
-[thomas@localhost backup]$ paste users.txt newpass.txt > 
+[thomas@localhost backup]$ paste users.txt newpass.txt > newusers.txt
+[thomas@localhost backup]$ cat 
