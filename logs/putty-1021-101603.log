@@ -8043,4 +8043,4 @@ sparrowGantEkCow
 studenttreolobPav
 teachchawgOd#
 yoshiroNodPybAvFo
-[thomas@localhost backup]$ cat newusers.txt | awk '{
+[thomas@localhost backup]$ cat newusers.txt | awk '{print 
