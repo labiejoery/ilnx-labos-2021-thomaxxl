@@ -8044,3 +8044,10 @@ studenttreolobPav
 teachchawgOd#
 yoshiroNodPybAvFo
 [thomas@localhost backup]$ cat newusers.txt | awk '{print "\#\"$1"$1";"$2"}'
+$1
+$1
+$1
+$1
+$1
+$1
+[thomas@localhost backup]$ cat newusers.txt | awk '{print "$1";"$2"}'
