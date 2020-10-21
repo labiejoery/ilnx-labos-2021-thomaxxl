@@ -8309,4 +8309,4 @@ sparrowGantEkCow
 studenttreolobPav
 teachchawgOd#
 yoshiroNodPybAvFo
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ cat newusers.txt | awk "{print $NF}"}"}"
