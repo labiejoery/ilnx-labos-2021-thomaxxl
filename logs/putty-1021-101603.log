@@ -7959,3 +7959,4 @@ Doorgaan met veranderingen? [N/y] y
 
 [thomas@localhost backup]$ apg -n AANTALsudo dnf install apg
 [sudo] wachtwoord voor thomas: 
+Laatste metadata-expiratie-check: 1:00:56 geleden op wo 21 okt 2020 10:23:58.
