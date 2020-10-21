@@ -7937,4 +7937,4 @@ yoshiro
 [thomas@localhost backup]$ 
 [thomas@localhost backup]$ wc -l users.txt 
  6  6 42 users.txt
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ wc users.txt 
