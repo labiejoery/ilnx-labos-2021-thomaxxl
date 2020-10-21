@@ -6723,4 +6723,5 @@ SORT(1)                                            User Commands                
  Manual page sort(1) line 31/145 50% (press h for help or q to quit) ESCESCOOAA              consider only printable characters
  Manual page sort(1) line 30/145 49% (press h for help or q to quit) ESCESCOOAA       -i, --ignore-nonprinting
  Manual page sort(1) line 29/145 48% (press h for help or q to quit) ESCESCOOAA
- Manual page sort(1) line 28/145 48% (press h for help or q to quit)
+ Manual page sort(1) line 28/145 48% (press h for help or q to quit) ESCESCOOAA              compare according to general numerical value
+ Manual page sort(1) line 27/145 47% (press h for help or q to quit)
