@@ -8394,3 +8394,8 @@ awk: commandoregel:1:        ^ syntax error
 "teach"
 "yoshiro"
 [thomas@localhost backup]$ cat newusers.txt | awk '{print "\""$1"\"";"\""$2"\""}'";"\""$2"\""}';"\""$2"\""}';"\""$2"\""}'
+awk: commandoregel:1: {print "\""$1"\";"\""$2"\""}
+awk: commandoregel:1:                   ^ backslash is niet het laatste teken op de regel
+awk: commandoregel:1: {print "\""$1"\";"\""$2"\""}
+awk: commandoregel:1:                   ^ syntax error
+[thomas@localhost backup]$ cat newusers.txt | awk '{print "\""$1"\";"\""$2"\""}'
