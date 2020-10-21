@@ -4660,4 +4660,4 @@ vulputate
       1 viverra
       1 volutpat
       1 vulputate
-[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d , | tr -d . |  sort -u | uniq -c 
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d , | tr -d . |  sort -u | uniq -c |
