@@ -8413,3 +8413,10 @@ awk: commandoregel:1:                   ^ syntax error
 "teachchawgOd#
 "yoshiroNodPybAvFo
 [thomas@localhost backup]$ cat newusers.txt | sed -e 's/^/\"/'cat newusers.txt | sed -e 's/^/\"/' -e s's/\t/";"/g'
+"roberts";"klixofalRy
+"ryu";"jinfutro
+"sparrow";"GantEkCow
+"student";"treolobPav
+"teach";"chawgOd#
+"yoshiro";"NodPybAvFo
+[thomas@localhost backup]$ 
