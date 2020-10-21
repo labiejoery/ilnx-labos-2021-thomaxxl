@@ -8024,4 +8024,7 @@ Vottiphs
 hakHadjac{
 repButend
 [thomas@localhost backup]$ apg -n $(wc -l < users.txt ) > newpass.txt 
-[thomas@localhost backup]$ join
+[thomas@localhost backup]$ join users.txt newpass.txt 
+join: newpass.txt:3: is niet gesorteerd: GantEkCow
+join: invoer is niet gesorteerd
+[thomas@localhost backup]$ 
