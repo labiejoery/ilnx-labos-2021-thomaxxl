@@ -5875,4 +5875,4 @@ vulputate
       7 mi
       7 sed
       8 quis
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort | uniq -c | sort  
