@@ -5553,4 +5553,4 @@ volutpat
 vulputate
 vulputate
 [thomas@localhost backup]$ 
-[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort 
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort | 
