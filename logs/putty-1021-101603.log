@@ -8222,4 +8222,7 @@ sparrowGantEkCow
 studenttreolobPav
 teachchawgOd#
 yoshiroNodPybAvFo
-[thomas@localhost backup]$ cat newusers.txt | awk "{print $1}"tr '\n
+[thomas@localhost backup]$ cat newusers.txt | awk "{print $1}"tr '\nt' ' ' 
+tr: overtollig argument: awk
+Typ 'tr --help' voor meer informatie.
+[thomas@localhost backup]$ 
