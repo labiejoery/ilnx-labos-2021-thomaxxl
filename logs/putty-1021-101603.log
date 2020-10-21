@@ -6756,4 +6756,41 @@ SORT(1)                                            User Commands                
  Manual page sort(1) line 4/145 32% (press h for help or q to quit) ESCESCOOBB
  Manual page sort(1) line 5/145 32% (press h for help or q to quit) ESCESCOOBB       -V, --version-sort
  Manual page sort(1) line 6/145 32% (press h for help or q to quit) ESCESCOOBB              natural sort of (version) numbers within text
- Manual page sort(1) line 7/145 33% (press h for help or q to quit)
+ Manual page sort(1) line 7/145 33% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 8/145 33% (press h for help or q to quit) ESCESCOOBB       Other options:
+ Manual page sort(1) line 9/145 34% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 10/145 34% (press h for help or q to quit) ESCESCOOBB       --batch-size=NMERGE
+ Manual page sort(1) line 11/145 34% (press h for help or q to quit) ESCESCOOBB              merge at most NMERGE inputs at once; for more use temp files
+ Manual page sort(1) line 12/145 36% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 13/145 36% (press h for help or q to quit) ESCESCOOBB       -c, --check, --check=diagnose-first
+ Manual page sort(1) line 14/145 37% (press h for help or q to quit) ESCESCOOBB              check for sorted input; do not sort
+ Manual page sort(1) line 15/145 38% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 16/145 38% (press h for help or q to quit) ESCESCOOBB       -C, --check=quiet, --check=silent
+ Manual page sort(1) line 17/145 39% (press h for help or q to quit) ESCESCOOBB              like -c, but do not report first bad line
+ Manual page sort(1) line 18/145 40% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 19/145 40% (press h for help or q to quit) ESCESCOOBB       --compress-program=PROG
+ Manual page sort(1) line 20/145 41% (press h for help or q to quit) ESCESCOOBB              compress temporaries with PROG; decompress them with PROG -d
+ Manual page sort(1) line 21/145 43% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 22/145 43% (press h for help or q to quit) ESCESCOOBB       --debug
+ Manual page sort(1) line 23/145 43% (press h for help or q to quit) ESCESCOOBB              annotate the part of the line used to sort, and warn about questionable usage to stderr
+ Manual page sort(1) line 24/145 45% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 25/145 45% (press h for help or q to quit) ESCESCOOBB       --files0-from=F
+ Manual page sort(1) line 26/145 45% (press h for help or q to quit) ESCESCOOBB              read input from the files specified by NUL-terminated names in file F; If F is  -  then  read  names
+ Manual page sort(1) line 27/145 47% (press h for help or q to quit) ESCESCOOBB              from standard input
+ Manual page sort(1) line 28/145 48% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 29/145 48% (press h for help or q to quit) ESCESCOOBB       -k, --key=KEYDEF
+ Manual page sort(1) line 30/145 49% (press h for help or q to quit) ESCESCOOBB              sort via a key; KEYDEF gives location and type
+ Manual page sort(1) line 31/145 50% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 32/145 50% (press h for help or q to quit) ESCESCOOBB       -m, --merge
+ Manual page sort(1) line 33/145 50% (press h for help or q to quit) ESCESCOOBB              merge already sorted files; do not sort
+ Manual page sort(1) line 34/145 51% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 35/145 51% (press h for help or q to quit) ESCESCOOBB       -o, --output=FILE
+ Manual page sort(1) line 36/145 52% (press h for help or q to quit) ESCESCOOBB              write result to FILE instead of standard output
+ Manual page sort(1) line 37/145 53% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 38/145 53% (press h for help or q to quit) ESCESCOOBB       -s, --stable
+ Manual page sort(1) line 39/145 54% (press h for help or q to quit) ESCESCOOBB              stabilize sort by disabling last-resort comparison
+ Manual page sort(1) line 40/145 55% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 41/145 55% (press h for help or q to quit) ESCESCOOBB       -S, --buffer-size=SIZE
+ Manual page sort(1) line 42/145 56% (press h for help or q to quit) ESCESCOOBB              use SIZE for main memory buffer
+ Manual page sort(1) line 43/145 57% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 44/145 57% (press h for help or q to quit)
