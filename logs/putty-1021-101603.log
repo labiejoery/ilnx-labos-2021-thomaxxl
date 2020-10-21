@@ -7936,3 +7936,5 @@ yoshiro
 [thomas@localhost backup]$ cat usesrssort passwd | tr : ' ' | awk '{if($3 > 1000){print $1}}'  > users.txt
 [thomas@localhost backup]$ 
 [thomas@localhost backup]$ wc -l users.txt 
+ 6  6 42 users.txt
+[thomas@localhost backup]$ 
