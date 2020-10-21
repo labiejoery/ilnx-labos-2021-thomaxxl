@@ -6701,4 +6701,26 @@ SORT(1)                                            User Commands                
        -T, --temporary-directory=DIR
               use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories
 
- Manual page sort(1) line 50/145 62% (press h for help or q to quit)
+ Manual page sort(1) line 50/145 62% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 49/145 62% (press h for help or q to quit) ESCESCOOAA              reverse the result of comparisons
+ Manual page sort(1) line 48/145 60% (press h for help or q to quit) ESCESCOOAA       -r, --reverse
+ Manual page sort(1) line 47/145 59% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 46/145 59% (press h for help or q to quit) ESCESCOOAA              get random bytes from FILE
+ Manual page sort(1) line 45/145 58% (press h for help or q to quit) ESCESCOOAA       --random-source=FILE
+ Manual page sort(1) line 44/145 57% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 43/145 57% (press h for help or q to quit) ESCESCOOAA              shuffle, but group identical keys.  See shuf(1)
+ Manual page sort(1) line 42/145 56% (press h for help or q to quit) ESCESCOOAA       -R, --random-sort
+ Manual page sort(1) line 41/145 55% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 40/145 55% (press h for help or q to quit) ESCESCOOAA              compare according to string numerical value
+ Manual page sort(1) line 39/145 54% (press h for help or q to quit) ESCESCOOAA       -n, --numeric-sort
+ Manual page sort(1) line 38/145 53% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 37/145 53% (press h for help or q to quit) ESCESCOOAA              compare human readable numbers (e.g., 2K 1G)
+ Manual page sort(1) line 36/145 52% (press h for help or q to quit) ESCESCOOAA       -h, --human-numeric-sort
+ Manual page sort(1) line 35/145 51% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 34/145 51% (press h for help or q to quit) ESCESCOOAA              compare (unknown) < 'JAN' < ... < 'DEC'
+ Manual page sort(1) line 33/145 50% (press h for help or q to quit) ESCESCOOAA       -M, --month-sort
+ Manual page sort(1) line 32/145 50% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 31/145 50% (press h for help or q to quit) ESCESCOOAA              consider only printable characters
+ Manual page sort(1) line 30/145 49% (press h for help or q to quit) ESCESCOOAA       -i, --ignore-nonprinting
+ Manual page sort(1) line 29/145 48% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 28/145 48% (press h for help or q to quit)
