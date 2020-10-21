@@ -8024,4 +8024,4 @@ Vottiphs
 hakHadjac{
 repButend
 [thomas@localhost backup]$ apg -n $(wc -l < users.txt ) > newpass.txt 
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ join
