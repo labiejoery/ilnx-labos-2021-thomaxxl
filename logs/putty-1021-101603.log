@@ -7622,4 +7622,4 @@ SORT(1)                                            User Commands                
 5 ac
 4 a
 4 
-[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort | uniq -c | sed -e 's/^ *//g'  | sort -k2 -r -t' '
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort | uniq -c | sed -e 's/^ *//g'  | sort -k2 -r -t' '[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort | uniq -c | sed -e 's/^ *//g'  | sort -k2 -r -t' '
