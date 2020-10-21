@@ -4336,3 +4336,6 @@ viverra
 volutpat
 vulputate
 [thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d , | tr -d . |  sort -u | uniq
+tr: overtollig argument: -d
+Typ 'tr --help' voor meer informatie.
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d , -d . |  sort -u | uniq| tr 
