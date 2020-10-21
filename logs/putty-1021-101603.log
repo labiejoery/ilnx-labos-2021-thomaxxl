@@ -8160,4 +8160,4 @@ Standaard leest het van standaardinvoer en schrijft naar standaarduitvoer.
 Voorbeelden:
 gawk '{ som += $1 }; END { print som }' bestand
 gawk -F: '{ print $1 }' /etc/passwd
-[thomas@localhost backup]$ cat newusers.txt | awk -IFS="\t ""{print $1}"
+[thomas@localhost backup]$ cat newusers.txt | awk -IFS="\t ""{print $1}" 
