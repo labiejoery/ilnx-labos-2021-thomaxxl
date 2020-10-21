@@ -8267,4 +8267,4 @@ sparrow GantEkCow
 student treolobPav
 teach chawgOd#
 yoshiro NodPybAvFo
-[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $3}"
+[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $3}""
