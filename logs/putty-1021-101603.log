@@ -6750,4 +6750,10 @@ SORT(1)                                            User Commands                
  Manual page sort(1) line 4/145 32% (press h for help or q to quit) ESCESCOOAANAME
  Manual page sort(1) line 3/145 31% (press h for help or q to quit) ESCESCOOAA
  Manual page sort(1) line 2/145 28% (press h for help or q to quit) ESCESCOOAASORT(1)                                            User Commands                                           SORT(1)
- Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit)
+ Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOBB       --sort=WORD
+ Manual page sort(1) line 2/145 28% (press h for help or q to quit) ESCESCOOBB              sort  according to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, ver
+ Manual page sort(1) line 3/145 31% (press h for help or q to quit) ESCESCOOBB              sion -V
+ Manual page sort(1) line 4/145 32% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 5/145 32% (press h for help or q to quit) ESCESCOOBB       -V, --version-sort
+ Manual page sort(1) line 6/145 32% (press h for help or q to quit) ESCESCOOBB              natural sort of (version) numbers within text
+ Manual page sort(1) line 7/145 33% (press h for help or q to quit)
