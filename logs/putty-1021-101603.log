@@ -2975,4 +2975,4 @@ REPORTING BUGS
        GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
        Report any translation bugs to <https://translationproject.org/team/>
 
-Pattern not found  (press RETURN)[thomas@localhost backup]$ 
+Pattern not found  (press RETURN)[thomas@localhost backup]$ fmt -g 
