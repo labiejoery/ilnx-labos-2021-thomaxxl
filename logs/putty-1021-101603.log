@@ -8222,4 +8222,4 @@ sparrowGantEkCow
 studenttreolobPav
 teachchawgOd#
 yoshiroNodPybAvFo
-[thomas@localhost backup]$ cat newusers.txt | awk "{print $1}"
+[thomas@localhost backup]$ cat newusers.txt | awk "{print $1}"tr '\n
