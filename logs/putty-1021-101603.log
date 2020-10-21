@@ -6817,4 +6817,4 @@ SORT(1)                                            User Commands                
  Manual page sort(1) line 65/145 72% (press h for help or q to quit) ESCESCOOBB       ter position in the field; both are origin 1, and the stop position defaults to the line's end.  If neither
  Manual page sort(1) line 66/145 74% (press h for help or q to quit) ESCESCOOBB       -t  nor  -b is in effect, characters in a field are counted from the beginning of the preceding whitespace.
  Manual page sort(1) line 67/145 76% (press h for help or q to quit) ESCESCOOBB       OPTS is one or more single-letter ordering options [bdfgiMhnRrV], which override  global  ordering  options
- Manual page sort(1) line 68/145 78% (press h for help or q to quit)[thomas@localhost backup]$ 
+ Manual page sort(1) line 68/145 78% (press h for help or q to quit)[thomas@localhost backup]$ man sorttr ' ' '\n' < lorem.txt | tr -d ',.' | sort | uniq -c | sort -k 1,2
