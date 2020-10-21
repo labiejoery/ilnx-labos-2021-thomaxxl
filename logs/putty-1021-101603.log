@@ -2504,4 +2504,5 @@ sed: expressie #1, teken 12: onafgemaakte 's'-opdracht
 [thomas@localhost backup]$ 
 [thomas@localhost backup]$ 
 [thomas@localhost backup]$ 
-[thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet //g' -e 's/ .*$//g'
+[thomas@localhost backup]$ ip address | grep -E "inet " | sed -e 's/^.*inet //g' -e 's/ .*$//g'^C
+[thomas@localhost backup]$ 
