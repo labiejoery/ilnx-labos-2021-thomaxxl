@@ -7944,3 +7944,4 @@ yoshiro
 ^C
 [thomas@localhost backup]$ apg -n AANTALapg -n AANTAL
 bash: apg: commando niet gevonden...
+Pakket 'apg' installeren om commando 'apg' te bieden? [N/y] 
