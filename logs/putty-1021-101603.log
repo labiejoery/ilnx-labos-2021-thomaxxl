@@ -7940,3 +7940,7 @@ yoshiro
 [thomas@localhost backup]$ wc users.txt  -l
 6 users.txt
 [thomas@localhost backup]$ apg -n AANTAL
+7bash: apg: commando niet gevonden...
+^C
+[thomas@localhost backup]$ apg -n AANTALapg -n AANTAL
+bash: apg: commando niet gevonden...
