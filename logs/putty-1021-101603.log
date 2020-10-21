@@ -8232,4 +8232,11 @@ sparrow GantEkCow
 student treolobPav
 teach chawgOd#
 yoshiro NodPybAvFo
-[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $1}"
+[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $1}"IFS="\t" 
+robertsklixofalRy
+ryujinfutro
+sparrowGantEkCow
+studenttreolobPav
+teachchawgOd#
+yoshiroNodPybAvFo
+[thomas@localhost backup]$ cat newusers.txt | awk "{print $1}"
