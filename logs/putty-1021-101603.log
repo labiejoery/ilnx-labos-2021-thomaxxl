@@ -7300,4 +7300,4 @@ SORT(1)                                            User Commands                
       5 ac
       4 a
       4 
-[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort | uniq -c | sort -k2 -rsed -e 's^
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | tr -d ',.' | sort | uniq -c | sort -k2 -rsed -e 's^/ *
