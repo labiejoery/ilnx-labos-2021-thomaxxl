@@ -8302,4 +8302,11 @@ sparrow
 student
 teach
 yoshiro
-[thomas@localhost backup]$ cat newusers.txt | cut -f1 tr '\t' ' ' | awk "{print $3}"'{print $3}'"{print $3}"2}"1}"awk "{print $2}"
+[thomas@localhost backup]$ cat newusers.txt | cut -f1 tr '\t' ' ' | awk "{print $3}"'{print $3}'"{print $3}"2}"1}"awk "{print $2}"}"N}"F}"
+robertsklixofalRy
+ryujinfutro
+sparrowGantEkCow
+studenttreolobPav
+teachchawgOd#
+yoshiroNodPybAvFo
+[thomas@localhost backup]$ 
