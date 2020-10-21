@@ -8002,4 +8002,4 @@ checkopt: wrong option format
 megdolkub
 huokGunt2
 jolf<Ogeu
-[thomas@localhost backup]$ apg -n 3
+[thomas@localhost backup]$ apg -n 3cat users.txt | 
