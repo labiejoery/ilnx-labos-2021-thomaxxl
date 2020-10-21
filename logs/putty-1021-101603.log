@@ -8057,4 +8057,11 @@ $1
 
 
 
-[thomas@localhost backup]$ cat newusers.txt | awk "{print \"$1\";\"$2\"}"}"
+[thomas@localhost backup]$ cat newusers.txt | awk "{print \"$1\";\"$2\"}"}"$}"1}"
+robertsklixofalRy
+ryujinfutro
+sparrowGantEkCow
+studenttreolobPav
+teachchawgOd#
+yoshiroNodPybAvFo
+[thomas@localhost backup]$ cat newusers.txt | awk "{print $1}"
