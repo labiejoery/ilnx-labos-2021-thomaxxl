@@ -6724,4 +6724,15 @@ SORT(1)                                            User Commands                
  Manual page sort(1) line 30/145 49% (press h for help or q to quit) ESCESCOOAA       -i, --ignore-nonprinting
  Manual page sort(1) line 29/145 48% (press h for help or q to quit) ESCESCOOAA
  Manual page sort(1) line 28/145 48% (press h for help or q to quit) ESCESCOOAA              compare according to general numerical value
- Manual page sort(1) line 27/145 47% (press h for help or q to quit)
+ Manual page sort(1) line 27/145 47% (press h for help or q to quit) ESCESCOOAA       -g, --general-numeric-sort
+ Manual page sort(1) line 26/145 45% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 25/145 45% (press h for help or q to quit) ESCESCOOAA              fold lower case to upper case characters
+ Manual page sort(1) line 24/145 45% (press h for help or q to quit) ESCESCOOAA       -f, --ignore-case
+ Manual page sort(1) line 23/145 43% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 22/145 43% (press h for help or q to quit) ESCESCOOAA              consider only blanks and alphanumeric characters
+ Manual page sort(1) line 21/145 43% (press h for help or q to quit) ESCESCOOAA       -d, --dictionary-order
+ Manual page sort(1) line 20/145 41% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 19/145 40% (press h for help or q to quit) ESCESCOOAA              ignore leading blanks
+ Manual page sort(1) line 18/145 40% (press h for help or q to quit) ESCESCOOAA       -b, --ignore-leading-blanks
+ Manual page sort(1) line 17/145 39% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 16/145 38% (press h for help or q to quit)
