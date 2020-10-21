@@ -3138,4 +3138,4 @@ rhoncus eget. Praesent varius enim ac libero porttitor,
 et fermentum dolor scelerisque. Vestibulum tincidunt
 tellus quis suscipit condimentum. Nam ipsum felis,
 interdum faucibus sapien in, ullamcorper semper neque.
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ fmt -g 50 lorem.txt 
