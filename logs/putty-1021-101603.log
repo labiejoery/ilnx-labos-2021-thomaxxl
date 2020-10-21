@@ -7960,3 +7960,17 @@ Doorgaan met veranderingen? [N/y] y
 [thomas@localhost backup]$ apg -n AANTALsudo dnf install apg
 [sudo] wachtwoord voor thomas: 
 Laatste metadata-expiratie-check: 1:00:56 geleden op wo 21 okt 2020 10:23:58.
+Afhankelijkheden opgelost.
+==========================================================================================================================
+ Pakket                  Architectuur               Versie                               Repo                       Grootte
+==========================================================================================================================
+Installeren:
+ apg                     x86_64                     2.3.0b-36.fc32                       fedora                      91 k
+
+Transactie-overzicht
+==========================================================================================================================
+Installeren  1 Pakket
+
+Totale downloadgrootte: 91 k
+Installatiegrootte    : 271 k
+Is dit goed [y/N]: y
