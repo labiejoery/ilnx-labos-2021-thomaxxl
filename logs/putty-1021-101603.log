@@ -6735,4 +6735,19 @@ SORT(1)                                            User Commands                
  Manual page sort(1) line 19/145 40% (press h for help or q to quit) ESCESCOOAA              ignore leading blanks
  Manual page sort(1) line 18/145 40% (press h for help or q to quit) ESCESCOOAA       -b, --ignore-leading-blanks
  Manual page sort(1) line 17/145 39% (press h for help or q to quit) ESCESCOOAA
- Manual page sort(1) line 16/145 38% (press h for help or q to quit)
+ Manual page sort(1) line 16/145 38% (press h for help or q to quit) ESCESCOOAA       Mandatory arguments to long options are mandatory for short options too.  Ordering options:
+ Manual page sort(1) line 15/145 38% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 14/145 37% (press h for help or q to quit) ESCESCOOAA       With no FILE, or when FILE is -, read standard input.
+ Manual page sort(1) line 13/145 36% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 12/145 36% (press h for help or q to quit) ESCESCOOAA       Write sorted concatenation of all FILE(s) to standard output.
+ Manual page sort(1) line 11/145 34% (press h for help or q to quit) ESCESCOOAADESCRIPTION
+ Manual page sort(1) line 10/145 34% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 9/145 34% (press h for help or q to quit) ESCESCOOAA       sort [OPTION]... --files0-from=F
+ Manual page sort(1) line 8/145 33% (press h for help or q to quit) ESCESCOOAA       sort [OPTION]... [FILE]...
+ Manual page sort(1) line 7/145 33% (press h for help or q to quit) ESCESCOOAASYNOPSIS
+ Manual page sort(1) line 6/145 32% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 5/145 32% (press h for help or q to quit) ESCESCOOAA       sort - sort lines of text files
+ Manual page sort(1) line 4/145 32% (press h for help or q to quit) ESCESCOOAANAME
+ Manual page sort(1) line 3/145 31% (press h for help or q to quit) ESCESCOOAA
+ Manual page sort(1) line 2/145 28% (press h for help or q to quit) ESCESCOOAASORT(1)                                            User Commands                                           SORT(1)
+ Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit) ESCESCOOAA Manual page sort(1) line 1/145 28% (press h for help or q to quit)
