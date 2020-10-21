@@ -2827,4 +2827,4 @@ totaal 24
 -rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
 [thomas@localhost backup]$ wc lorem.txt 
   45  404 2738 lorem.txt
-[thomas@localhost backup]$ 
+[thomas@localhost backup]$ man fmt
