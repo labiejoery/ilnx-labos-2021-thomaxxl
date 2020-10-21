@@ -8288,4 +8288,11 @@ sparrow GantEkCow
 student treolobPav
 teach chawgOd#
 yoshiro NodPybAvFo
-[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $3}"}"1}"cut -
+[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $3}"}"1}"cut -f1 
+roberts klixofalRy
+ryu jinfutro
+sparrow GantEkCow
+student treolobPav
+teach chawgOd#
+yoshiro NodPybAvFo
+[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | cut -f1 
