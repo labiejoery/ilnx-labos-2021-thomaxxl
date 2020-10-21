@@ -2825,4 +2825,4 @@ totaal 24
 -rw-rw-r--. 1 thomas thomas   81 14 okt 14:27 landenkentekens2
 -rw-rw-r--. 1 thomas thomas 2738 13 okt 16:38 lorem.txt
 -rw-rw-r--. 1 thomas thomas 1437 13 okt 16:38 passwd
-[thomas@localhost backup]$ wc 
+[thomas@localhost backup]$ wc l
