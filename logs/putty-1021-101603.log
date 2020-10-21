@@ -7951,4 +7951,10 @@ Pakket 'apg' installeren om commando 'apg' te bieden? [N/y] y
  * Lijst van pakketten laden.... 
 De volgende pakketten moeten worden geïnstalleerd:
  apg-2.3.0b-36.fc32.x86_64Automated Password Generator for random password generation
-Doorgaan met veranderingen? [N/y] 
+Doorgaan met veranderingen? [N/y] y
+
+
+ * Wachten in wachtrij... 
+ * Wachten op authenticatie... Kon pakketten niet installeren: Failed to obtain authentication.
+
+[thomas@localhost backup]$ 
