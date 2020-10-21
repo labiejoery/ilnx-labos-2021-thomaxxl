@@ -6793,4 +6793,17 @@ SORT(1)                                            User Commands                
  Manual page sort(1) line 41/145 55% (press h for help or q to quit) ESCESCOOBB       -S, --buffer-size=SIZE
  Manual page sort(1) line 42/145 56% (press h for help or q to quit) ESCESCOOBB              use SIZE for main memory buffer
  Manual page sort(1) line 43/145 57% (press h for help or q to quit) ESCESCOOBB
- Manual page sort(1) line 44/145 57% (press h for help or q to quit)
+ Manual page sort(1) line 44/145 57% (press h for help or q to quit) ESCESCOOBB       -t, --field-separator=SEP
+ Manual page sort(1) line 45/145 58% (press h for help or q to quit) ESCESCOOBB              use SEP instead of non-blank to blank transition
+ Manual page sort(1) line 46/145 59% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 47/145 59% (press h for help or q to quit) ESCESCOOBB       -T, --temporary-directory=DIR
+ Manual page sort(1) line 48/145 60% (press h for help or q to quit) ESCESCOOBB              use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories
+ Manual page sort(1) line 49/145 62% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 50/145 62% (press h for help or q to quit) ESCESCOOBB       --parallel=N
+ Manual page sort(1) line 51/145 62% (press h for help or q to quit) ESCESCOOBB              change the number of sorts run concurrently to N
+ Manual page sort(1) line 52/145 63% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 53/145 63% (press h for help or q to quit) ESCESCOOBB       -u, --unique
+ Manual page sort(1) line 54/145 64% (press h for help or q to quit) ESCESCOOBB              with -c, check for strict ordering; without -c, output only the first of an equal run
+ Manual page sort(1) line 55/145 66% (press h for help or q to quit) ESCESCOOBB
+ Manual page sort(1) line 56/145 66% (press h for help or q to quit) ESCESCOOBB       -z, --zero-terminated
+ Manual page sort(1) line 57/145 67% (press h for help or q to quit)
