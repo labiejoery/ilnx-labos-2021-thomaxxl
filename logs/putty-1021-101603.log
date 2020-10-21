@@ -4174,4 +4174,4 @@ volutpat
 volutpat,
 vulputate
 vulputate,
-[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | sort -u | uniq 
+[thomas@localhost backup]$ tr ' ' '\n' < lorem.txt | sort -u | uniq |
