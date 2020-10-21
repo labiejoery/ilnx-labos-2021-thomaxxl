@@ -8386,4 +8386,11 @@ awk: commandoregel:1:        ^ syntax error
 "student"
 "teach"
 "yoshiro"
-[thomas@localhost backup]$ cat newusers.txt | awk '{print "\""$1"\""}';}'\}'"}'"}'"\""}'$}'2}'\}'}'"}'\}'"}'
+[thomas@localhost backup]$ cat newusers.txt | awk '{print "\""$1"\""}';}'\}'"}'"}'"\""}'$}'2}'\}'}'"}'\}'"}'"}'
+"roberts"
+"ryu"
+"sparrow"
+"student"
+"teach"
+"yoshiro"
+[thomas@localhost backup]$ cat newusers.txt | awk '{print "\""$1"\"";"\""$2"\""}'
