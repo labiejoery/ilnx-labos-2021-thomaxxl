@@ -8253,4 +8253,18 @@ sparrow GantEkCow
 student treolobPav
 teach chawgOd#
 yoshiro NodPybAvFo
-[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $1}"
+[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $1}"}"2}"
+roberts klixofalRy
+ryu jinfutro
+sparrow GantEkCow
+student treolobPav
+teach chawgOd#
+yoshiro NodPybAvFo
+[thomas@localhost backup]$ cat newusers.txt | tr '\t' ' ' | awk "{print $2}"}"3}"
+roberts klixofalRy
+ryu jinfutro
+sparrow GantEkCow
+student treolobPav
+teach chawgOd#
+yoshiro NodPybAvFo
+[thomas@localhost backup]$ 
