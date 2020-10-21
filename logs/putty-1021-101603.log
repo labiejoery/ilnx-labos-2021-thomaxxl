@@ -8010,4 +8010,6 @@ yeygnafBi
 6 users.txt
 [thomas@localhost backup]$ wc -l users.txt cat users.txt | apg -n3wc -l users.txt apg -n 6 > apg -n AANTALnewpass.txt
 [thomas@localhost backup]$ apg -n 6 > newpass.txtwc -l users.txt cat users.txt | apg -n3apg -n 3AANTAL3cat users.txt | apg -n3apg -n 3cat users.txt | apg -n3wc -l users.txt apg -n 6 > newpass.txtwc -l users.txt ^C
-[thomas@localhost backup]$ wc -l use
+[thomas@localhost backup]$ wc -l users.txt 
+6 users.txt
+[thomas@localhost backup]$ wc -l users.txt 
