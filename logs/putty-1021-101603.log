@@ -8008,4 +8008,4 @@ SneegsUct
 yeygnafBi
 [thomas@localhost backup]$ cat users.txt | apg -n3cat users.txt | apg -n3wwc -l users.txt 
 6 users.txt
-[thomas@localhost backup]$ wc -l users.txt cat users.txt | apg -n3wc -l users.txt apg -n 6 > apg -n AANTAL
+[thomas@localhost backup]$ wc -l users.txt cat users.txt | apg -n3wc -l users.txt apg -n 6 > apg -n AANTALnewpass.txt
