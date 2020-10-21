@@ -7974,3 +7974,22 @@ Installeren  1 Pakket
 Totale downloadgrootte: 91 k
 Installatiegrootte    : 271 k
 Is dit goed [y/N]: y
+Downloaden pakketten:
+                                              [===                                      ] ---  B/s |   0  B     --:-- ETA                                              [===                                      ] ---  B/s |   0  B     --:-- ETA                                              [   ===                                   ] ---  B/s |   0  B     --:-- ETAapg-2.3.0b-36.fc32.x86_64.rpm              0% [                                         ] ---  B/s |   0  B     --:-- ETAapg-2.3.0b-36.fc32.x86_64.rpm             70% [============================-            ] 211 kB/s |  64 kB     00:00 ETAapg-2.3.0b-36.fc32.x86_64.rpm                                                             297 kB/s |  91 kB     00:00    
+--------------------------------------------------------------------------------------------------------------------------
+Totaal                                                                                     82 kB/s |  91 kB     00:01     
+Uitvoeren transactiecontrole
+Transactiecontrole ok.
+Uitvoeren transactietest
+Transactietest ok.
+Uitvoeren transactie
+  Voorbereiden           :                                                                                            1/1 
+  Installeren            : apg-2.3.0b-36.fc32.x86_64 [                                                              ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [======                                                        ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [==============                                                ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [================                                              ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [=======================                                       ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [========================                                      ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [===============================                               ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [=======================================                       ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [========================================                      ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [=========================================                     ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [==========================================                    ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [===========================================                   ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [==================================================            ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [==========================================================    ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [============================================================  ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64 [============================================================= ] 1/1  Installeren            : apg-2.3.0b-36.fc32.x86_64                                                                  1/1 
+  Uitvoeren van scriptlet: apg-2.3.0b-36.fc32.x86_64                                                                  1/1 
+  Verifiëren             : apg-2.3.0b-36.fc32.x86_64                                                                  1/1 
+
+Geïnstalleerd:
+  apg-2.3.0b-36.fc32.x86_64                                                                                               
+
+Klaar.
+[thomas@localhost backup]$ 
